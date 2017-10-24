@@ -1,71 +1,68 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Garant</title>
     <meta charset="utf-8" />
-</head>
-<body>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100%;background-color:#5394ff;">
-        <tbody>
-            <tr>
-                <td style="padding:18.75pt;">
-                    <div style="margin:0;">
-                        <font face="Times New Roman,serif" size="3">
-                            <span style="font-size:12pt;">
-                                <font face="Calibri,sans-serif" size="5">
-                                    <span style="font-size:24px; color: #fff;">
-                                        <b>Upload has been reported</b>
-                                    </span>
-                                </font>
-                                <font face="Calibri,sans-serif" size="5">
-                                    <span style="font-size:18pt;"></span>
-                                </font>
-                            </span>
-                        </font>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <!--<b> Upload has been reported</b>-->
-    <div style="margin-top:14pt;margin-bottom:14pt;">
-        <font face="Calibri,sans-serif" size="3">
-            <span style="font-size:11.5pt;">
-                <span style="font-family:Calibri,sans-serif;font-size:16px;">
-                    Beste {usersurname},
-                    <br />
-                </span>
-            </span>
-        </font>
-    </div>
-   <p> <b style="color:deepskyblue">Notification</b></p> 
-    Recently, you have added an ultrasound to your portfolio that contains information that does not meet our privacy rules.
-
-   <p><b style="color:deepskyblue">Delete files</b></p> 
-    We give it the highest priority to keep our database free of personal details and other unwanted contents. For this reason, we ask you to delete the files from upload <b>{UploadDate}</b><b>{UploadTime}</b>, containing any of these.
-
-    <p>If you are not able to delete these files within the next 7 days, unfortunately, we have to delete the entire upload from our servers.</p>
-
- <p><b style="color:deepskyblue">  Future uploads</b></p> 
-    Naturally, we hope that you will consider our <a href="{Url}" style="text-decoration: underline;">privacy rules</a>  in the future.
-
-    <p>If you have any questions regarding this email, please feel free to contact us through the contact form on our website.</p>
-
-
-    <br />
-    <br />
-
-    Best regards,
-
-    <br />
-
-
-    </p>
-
-    <br />
-
- 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="icon" href="images/favicon.ico">
     
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/grant.css" rel="stylesheet" />
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/angular-touch.min.js"></script>
+    <script src="Scripts/ui-bootstrap-tpls.min.js"></script>
+   
+    <link href="styles/styles.css" rel="stylesheet" />
+    <!--<script src="app/scripts.js"></script>-->
+   
+    <script src="app/app.js"></script>
+    <!--<base href="/index.html">-->
+</head>
+<body ng-app="app">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-inverse navbar-custom" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="#" title="Garant"><img src="images/logo.png" class="logo-brand"/></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a ui-sref="home">Про нас</a></li>
+            <!--<li><a ui-sref="about">About</a></li>-->
+            <li><a ui-sref="products">Продукція</a></li>
+            <li><a ui-sref="contact">Контакти</a></li>
+        </ul>
+    </nav>
+    <div class="container-fluid" >
+        <section class="row mainSection">
+            <div class="container">
+                <div class="row head">
+                    <div ui-view></div>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="hidden-xs col-sm-2 col-md-4 col-lg-4"></div>
+                    <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                        <p>
+                            <a href="http://www.facebook.com" target="_blanc"><img src="images/footer-fb.png" alt="Facebook"></a>
+                            <a href="http://www.linkedin.com" target="_blanc"><img src="images/footer-dribble.png" alt="Dribble"></a>
+                            <a href="https://twitter.com/" target="_blanc"><img src="images/footer-twitter.png" alt="Twitter"></a>
+                            <a href="http://plus.google.com" target="_blanc"><img src="images/footer-gplus.png" alt="Google+"></a>
+                        </p>
+                    </div>
+                    <div class="hidden-xs col-sm-2 col-md-4 col-lg-4"></div>
+                </div>
+            </div>
+        </footer>
+       
+    </div>
 
 
 </body>

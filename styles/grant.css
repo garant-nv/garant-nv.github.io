@@ -1,0 +1,11 @@
+﻿.navbar-custom {
+    border-radius: 0px;
+    height:70px;
+    /*background-color:#341ae0;*/
+}
+.logo-brand {
+    height:40px;
+}
+.p-left {
+    text-align:left
+}
