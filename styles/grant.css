@@ -21,7 +21,7 @@
     color: white;
 
 }
-.footer-custom, .navbar-custom  {
+.footer-custom, .navbar-custom, .lang-wrap {
 background: #4285F4;
     background: -webkit-gradient(linear, left top, left bottom, from(#4285F4), to(#0d47a1));
     background: -webkit-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
@@ -43,3 +43,11 @@ a:hover {
 /*.navbar-inverse .navbar-nav > li > a {
 
 }*/
+
+.lang-ua-icon  {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(images/flag/flag_ua.png);
+    width: 32px;
+    height: 32px;
+}
