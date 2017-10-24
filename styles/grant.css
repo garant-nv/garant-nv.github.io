@@ -2,6 +2,14 @@
     border-radius: 0px;
     height:70px;
     /*background-color:#341ae0;*/
+      position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+    
 }
 .logo-brand {
     height:40px;
@@ -9,3 +17,29 @@
 .p-left {
     text-align:left
 }
+.footer-info {
+    color: white;
+
+}
+.footer-custom, .navbar-custom  {
+background: #4285F4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4285F4), to(#0d47a1));
+    background: -webkit-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
+    background: -moz-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
+    background: -o-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
+    background: linear-gradient(to bottom, #4285F4 0%, #0d47a1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4285F4', endColorstr='#0d47a1', GradientType=0);
+    -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: white !important;
+}
+a:hover {
+    color: red !important;
+}
+/*.navbar-inverse .navbar-nav > li > a {
+
+}*/
