@@ -39,6 +39,10 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 });
 
 app.controller('homeController', function ($scope ) {
+    
+});
+
+app.controller('aboutController', function ($scope) {
     $scope.slides = [];
     $scope.myInterval = 1500;
     $scope.noWrapSlides = false;
@@ -46,20 +50,14 @@ app.controller('homeController', function ($scope ) {
     init();
 
     function init() {
-        for (var i = 0; i < 5; i++)
-        {
+        for (var i = 0; i < 5; i++) {
             $scope.slides.push({
-                image: '/images/main/'+(i+1)+'.jpg',
+                image: '/images/main/' + (i + 1) + '.jpg',
                 //text: ['Nice image', 'Awesome photograph', 'That is so cool', 'I love that'][slides.length % 4],
                 id: i
             });
         }
     }
-    console.log('home');
-});
-
-app.controller('aboutController', function ($scope) {
-
     console.log('about');
 });
 
