@@ -9,14 +9,19 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
        // HOME STATES AND NESTED VIEWS ========================================
        .state('home', {
            url: '/home',
-           templateUrl: 'app/home.html',
-           controller: 'homeController'
+           views: {
+               '': {
+                   templateUrl: '/app/home.html',
+                   controller: 'homeController'
+               },
+               'shortmenu@home': {templateUrl: '/app/shortmenu.html'}
+           }
        })
 
         
        .state('about', {
            url: '/about',
-           templateUrl: 'app/about.html', 
+           templateUrl: '/app/about.html', 
            controller: 'aboutController' 
              
            
@@ -24,15 +29,67 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
        })
        .state('products', {
            url: '/products',
-           
-           templateUrl: 'app/products.html',
-           controller: 'productsController' 
+           views:{
+               '': {
+                   templateUrl: '/app/products.html',
+                   controller: 'productsController'
+               },
+               'shortmenu@products': { templateUrl: '/app/shortmenu.html' },
+               //'details@products': {
+               //    templateUrl: '/app/details.html',
+               //    controller: 'detailsController',
+               //}
+           }
 
-           
        })
+        .state('products.details', {
+            name:"details",
+            parent: "products",
+            url: '/details/{type}',
+            templateUrl: '/app/details.html',
+            controller: 'detailsController',
+            params: {
+                category: null,
+                type: null
+            }
+            
+        })
+        // шафи
+        .state('products.cabinets', {
+            name:"cabinets",
+            parent: "products",
+            url: '/cabinets',
+            views:{
+                '': {
+                    templateUrl: '/app/cabinets.html',
+                    controller: 'cabinetsController'
+                },
+                'cabinetsmenu@cabinets':{templateUrl: '/app/cabinetsmenu.html'}
+            }
+               
+               
+               
+            
+        })
+      
+        // кухны
+        .state('products.kitchens', {
+            parent: "products",
+            url: '/kitchens',
+            templateUrl: '/app/kitchens.html',
+            controller: 'kitchensController'
+        })
+        //меблы
+        .state('products.furnitures', {
+            parent: "products",
+            url: '/furnitures',
+            templateUrl: '/app/furnitures.html',
+            controller: 'furnituresController'
+        })
+
        .state('contact', {
            url: '/contact',
-           templateUrl: 'app/contact.html',
+           templateUrl: '/app/contact.html',
            controller: 'contactController'
            
        });
@@ -68,3 +125,21 @@ app.controller('productsController', function ($scope) {
 app.controller('contactController', function ($scope) {
     console.log('contact');
 });
+app.controller('cabinetsController', function ($scope) {
+    console.log('cabinetsController');
+
+});
+app.controller('kitchensController', function ($scope) {
+    console.log('kitchensController');
+
+});
+app.controller('furnituresController', function ($scope) {
+    console.log('furnituresController');
+
+});
+
+
+app.controller('detailsController', function ($scope, $state, $stateParams) {
+    $scope.type = $stateParams.type;
+    $scope.category = $stateParams.category;
+})
