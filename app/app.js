@@ -142,4 +142,5 @@ app.controller('furnituresController', function ($scope) {
 app.controller('detailsController', function ($scope, $state, $stateParams) {
     $scope.type = $stateParams.type;
     $scope.category = $stateParams.category;
-})
+});
+
