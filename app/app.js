@@ -137,9 +137,15 @@ app.controller('furnituresController', function ($scope) {
     console.log('furnituresController');
 
 });
-
-
-app.controller('detailsController', function ($scope, $state, $stateParams) {
+app.controller('detailsController', function ($scope, $state, $stateParams, dataService, $sce) {
+    console.log(dataService);
+    active();
+    function active() {
+          dataService.getCabinets().then(function (res) {
+              $scope.imageContent = res;
+            console.log($scope.imageContent);
+        });
+    }
     $scope.type = $stateParams.type;
     $scope.category = $stateParams.category;
 });
