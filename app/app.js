@@ -138,15 +138,77 @@ app.controller('furnituresController', function ($scope) {
 
 });
 app.controller('detailsController', function ($scope, $state, $stateParams, dataService, $sce) {
+    $scope.slides = [];
+    $scope.myInterval = 1500;
+    $scope.noWrapSlides = false;
+    $scope.type = $stateParams.type;
+    $scope.category = $stateParams.category;
+
+
     console.log(dataService);
     active();
     function active() {
-          dataService.getCabinets().then(function (res) {
-              $scope.imageContent = res;
-            console.log($scope.imageContent);
-        });
+        
+        if ($scope.category == 'cabinets') {
+            loadCabinetsCommon();
+            loadCabinets();
+        } else if ($scope.category == 'kitchens') {
+
+        } else if ($scope.category == 'furnitures') {
+            loadFurnitures();
+        }
+
+        console.log($scope.imageContent);
+     
+      
     }
-    $scope.type = $stateParams.type;
-    $scope.category = $stateParams.category;
+    //function loadSlides(category, type, dataFrom) {
+    //    $scope.currentContent = dataFrom
+    //}
+
+
+    function loadKitcens() {
+
+    }
+
+    function loadFurnitures() {
+        $scope.active = 0;
+        $scope.slides = $scope.imageContent = dataService.getFurnitures();
+         
+    }
+
+    function loadCabinets() {
+       dataService.getCabinets($scope.type)
+         .then(function (res) {
+             $scope.imageContent = res;
+             var index = 0;
+             $scope.active = index;
+
+             angular.forEach($scope.imageContent, function (v, k) {
+                 $scope.slides.push({
+                     image: v.url,
+                     id: index
+                 })
+                 index++;
+             })
+
+         });
+    }
+
+    function loadCabinetsCommon() {
+        $scope.mirrors = dataService.mirrors;
+        $scope.commonCabinetTexs = dataService.commonCabinetTexs;
+        $scope.systemColors = dataService.systemColors;
+        $scope.combis = dataService.combiTypes;
+        $scope.vsTypes = dataService.vsTypes;
+        $scope.hullColors = dataService.hullColors;
+    }
+
+    function loadKitchenFacades() {
+
+    }
+    console.log($scope.type);
+    console.log($scope.category);
+
 });
 

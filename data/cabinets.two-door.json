@@ -1,0 +1,215 @@
+﻿[
+  {
+    "id": 1000,
+
+
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "facadematerial": null,
+    "facadedesc": null,
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1000/1000-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1000/100_220_45_2_dim-min.png",
+      "/images/common/cabinets/1000/100_220_60_2_dim-min.png",
+      "/images/common/cabinets/1000/100_240_45_2_dim-min.png",
+      "/images/common/cabinets/1000/100_240_60_2_dim-min.png"
+
+    ]
+  },
+
+  {
+    "id": 1100,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1100/1100-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1100/110_220_45_2_dim-min.png",
+      "/images/common/cabinets/1100/110_220_60_2_dim-min.png",
+      "/images/common/cabinets/1100/110_240_45_2_dim-min.png",
+      "/images/common/cabinets/1100/110_240_60_2_dim-min.png"
+
+    ]
+  },
+
+  {
+    "id": 1200,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1200/1200-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1200/120_220_45_2_dim-min.png",
+      "/images/common/cabinets/1200/120_220_60_2_dim-min.png",
+      "/images/common/cabinets/1200/120_240_45_2_dim-min.png",
+      "/images/common/cabinets/1200/120_240_60_2_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 1300,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1300/1300-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1300/130_220_45_2_dim-min.png",
+      "/images/common/cabinets/1300/130_220_60_2_dim-min.png",
+      "/images/common/cabinets/1300/130_240_45_2_dim-min.png",
+      "/images/common/cabinets/1300/130_240_60_2_dim-min.png"
+
+    ]
+  },
+
+  {
+    "id": 1400,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1400/1400-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1400/140_220_45_2_dim-min.png",
+      "/images/common/cabinets/1400/140_220_60_2_dim-min.png",
+      "/images/common/cabinets/1400/140_240_45_2_dim-min.png",
+      "/images/common/cabinets/1400/140_240_60_2_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 1500,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1500/1500-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1500/150_220_45_2_dim-min.png",
+      "/images/common/cabinets/1500/150_220_60_2_dim-min.png",
+      "/images/common/cabinets/1500/150_240_45_2_dim-min.png",
+      "/images/common/cabinets/1500/150_240_60_2_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 1600,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1600/1600-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1600/160_220_45_2_dim-min.png",
+      "/images/common/cabinets/1600/160_220_60_2_dim-min.png",
+      "/images/common/cabinets/1600/160_240_45_2_dim-min.png",
+      "/images/common/cabinets/1600/160_240_60_2_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 1700,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1700/1700-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1700/170_220_45_2_dim-min.png",
+      "/images/common/cabinets/1700/170_220_60_2_dim-min.png",
+      "/images/common/cabinets/1700/170_240_45_2_dim-min.png",
+      "/images/common/cabinets/1700/170_240_60_2_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 1800,
+    
+    
+    "material": "dsp",
+    "hullcolor": "color_cs8",
+    "system": "champagne",
+    "facade": "mirror",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1800/1800-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1800/180_220_45_2_dim-min.png",
+      "/images/common/cabinets/1800/180_220_60_2_dim-min.png",
+      "/images/common/cabinets/1800/180_240_45_2_dim-min.png",
+      "/images/common/cabinets/1800/180_240_60_2_dim-min.png"
+
+    ]
+  }
+
+]

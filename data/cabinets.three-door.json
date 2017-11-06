@@ -1,0 +1,26 @@
+﻿[
+  
+  {
+    "id": 1900,
+    
+   
+    "material": "dsp",
+    "hull": "ДСП дуб сантана",
+    "system": "шампань",
+    "facade": "дзеркало",
+    "photoprint": 2761,
+    "sizes": {
+      "w": [ 1000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "url": "/images/common/cabinets/1900/1900-min.jpg",
+    "datails": [
+      "/images/common/cabinets/1900/190_220_45_3_dim-min.png",
+      "/images/common/cabinets/1900/190_220_60_3_dim-min.png",
+      "/images/common/cabinets/1900/190_240_45_3_dim-min.png",
+      "/images/common/cabinets/1900/190_240_60_3_dim-min.png"
+
+    ]
+  }
+]

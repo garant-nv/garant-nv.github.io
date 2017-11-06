@@ -26,7 +26,7 @@
     line-height: 35px;
     font-weight: 700;
      background: #4285F4;
-    background: -webkit-gradient(linear, left top, left bottom, from(#4285F4), to(#0d47a1));
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#4285F4), to(#0d47a1));
     background: -webkit-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
     background: -moz-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
     background: -o-linear-gradient(top, #4285F4 0%, #0d47a1 100%);
@@ -34,11 +34,11 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4285F4', endColorstr='#0d47a1', GradientType=0);
     -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);*/
 }
 
 #main-menu {
-padding-left:25%;
+/*padding-left:25%;*/
 }
 
 /*a {
@@ -193,4 +193,106 @@ nav ul li:hover {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+
+/*cabinet*/
+.cabinet-texs {
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width:auto;
+    padding: 15px;
+}
+
+.cabinet-texs-wrap {
+
+}
+/*hulls*/
+.cabinet-hull-img {
+     height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width:auto;
+    padding: 15px;
+}
+.cabinet-hull-img-wrap {
+
+}
+.cabinet-hull-name {
+
+}
+.cabinet-hull {
+
+}
+
+/*systems*/
+.cabinet-system-img {
+     height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width:auto;
+    padding: 15px;
+}
+.cabinet-system-img-wrap {
+
+}
+.cabinet-system-name {
+
+}
+.cabinet-system {
+
+}
+
+/*combi*/
+.cabinet-combi-img {
+     height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width:auto;
+    padding: 15px;
+}
+.cabinet-combi-img-wrap {
+
+}
+.cabinet-combi-name {
+
+}
+.cabinet-combi {
+
+}
+
+/*vs-type*/
+.cabinet-vstype-img {
+     height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width:auto;
+    padding: 15px;
+}
+.cabinet-vstype-img-wrap {
+
+}
+.cabinet-vstype-name {
+
+}
+.cabinet-vstype {
+
+}
+/*mirror*/
+.cabinet-mirror-img {
+     height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    width:auto;
+    padding: 15px;
+}
+.cabinet-mirror-img-wrap {
+
+}
+.cabinet-mirror-name {
+
+}
+.cabinet-mirror {
+
 }

@@ -1,17 +1,142 @@
-﻿<div>
-    Тут будуть дeталі продукції
+﻿<div >
+  
+    <div ng-if="category=='cabinets'">
+        <div class="row" >
+            <div class="col-md-9">
 
-    {{category}} -
-    {{type}}
+                <div class="col-md-12">
+                    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                        <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" data-index="{{$dataIndex = $index}}">
+                            <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;">
+                            <!--<div class="carousel-caption">
+                    <h4>Slide {{item.id}}</h4>
+                    <p>{{item.type}}</p>
+                </div>-->
+                        </div>
 
 
-    <!--<div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-        <div uib-slide ng-repeat="item in dataService.getCabinets() track by item.id" index="item.id">
-            <img src="/images/common/cabinets/1800/1800-min.jpg" style="margin:auto;">
-            <div class="carousel-caption">
-                <h4>Slide {{item.id}}</h4>
-                <p>{{item.type}}</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-3 cabinet-texs-wrap" ng-repeat="tex in commonCabinetTexs">
+                        <img ng-src="{{tex}}" class="cabinet-texs"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label>Розміри</label>
+                    <div>
+                        <p>Ширина: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                        <p>Глибина: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                        <p>Висота: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label>Деталі продукції</label>
+                    <div>
+                        <p>Корпус: <span>{{imageContent[active].material}}</span><span> {{imageContent[active].hullcolor}}</span></p>
+                        <p>Система: <span>{{imageContent[active].system}}</span></p>
+                        <p>Фасад: <span>{{imageContent[active].facade}}</span></p>
+                        <p>Фотодрук: <span>{{imageContent[active].photoprint}}</span></p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>-->
+
+
+        <hr/>
+        <div class="row">
+            Кольори корпусів
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 cabinet-hull" ng-repeat="c in hullColors">
+
+                <label class="cabinet-hull-name">{{c.name}}</label>
+                <div class="cabinet-hull-img-wrap">
+                    <img ng-src="{{c.url}}" class="cabinet-hull-img"/>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+        <div class="row">
+            Кольори систем
+        </div>
+        <div class="row">
+            <div class="col-md-2 cabinet-system" ng-repeat="c in systemColors">
+
+                <label class="cabinet-system-name">{{c.name}}</label>
+                <div class="cabinet-system-img-wrap">
+                    <img ng-src="{{c.url}}" class="cabinet-system-img" />
+                </div>
+            </div>
+        </div>
+
+
+        <hr />
+        <div class="row">
+            Комбі
+        </div>
+        <div class="row">
+            <div class="col-md-2 cabinet-combi" ng-repeat="c in combis">
+
+                <label class="cabinet-combi-name">{{c.name}}</label>
+                <div class="cabinet-combi-img-wrap">
+                    <img ng-src="{{c.url}}" class="cabinet-combi-img" />
+                </div>
+            </div>
+        </div>
+
+        <hr />
+        <div class="row">
+            Зразки ВС
+        </div>
+        <div class="row">
+            
+            <div class="col-md-2 cabinet-vstype" ng-repeat="c in vsTypes">
+
+                <label class="cabinet-vstype-name">{{c.name}}</label>
+                <div class="cabinet-vstype-img-wrap">
+                    <img ng-src="{{c.url}}" class="cabinet-vstype-img" />
+                </div>
+            </div>
+        </div>
+
+
+        <hr />
+        <div class="row">
+            Зразки дзеркал
+        </div>
+        <div class="row">
+
+            <div class="col-md-2 cabinet-mirror" ng-repeat="c in mirrors">
+
+                <label class="cabinet-mirror-name">{{c.name}}</label>
+                <div class="cabinet-mirror-img-wrap">
+                    <img ng-src="{{c.url}}" class="cabinet-mirror-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-if="category=='kitchens'">
+
+    </div>
+    <div ng-if="category=='furnitures'" style="margin-bottom:80px;margin-top:80px;">
+        <div class="col-md-12">
+            <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" data-index="{{$dataIndex = $index}}">
+                    <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;opacity: 0.4;">
+                    <div class="carousel-caption">
+                
+                        <p style="color:yellow">Дана продукція знахоться в процесі розробки</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
 </div>
