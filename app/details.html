@@ -17,9 +17,23 @@
 
                     </div>
                 </div>
-                <div class="col-md-12">
+                <!--<div class="col-md-12">
                     <div class="col-md-3 cabinet-texs-wrap" ng-repeat="tex in commonCabinetTexs">
                         <img ng-src="{{tex}}" class="cabinet-texs"/>
+                    </div>
+                </div>-->
+                <div class="row">
+                    <div class="x-commons-wrap">
+                        <div class="cabinet-texs-wrap"  ng-repeat="c in commonCabinetTexs">
+
+                            <!--<label class="kitchen-commons-name">{{c}}</label>-->
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c);">
+                                <img ng-src="{{c}}"  class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -46,83 +60,179 @@
         </div>
 
 
-        <hr/>
-        <div class="row">
+        <div class="row general-common-titles">
             Кольори корпусів
         </div>
+        <hr/>
 
         <div class="row">
-            <div class="col-md-2 cabinet-hull" ng-repeat="c in hullColors">
+            <!--<div class="col-md-2 cabinet-hull" ng-repeat="c in hullColors">
 
                 <label class="cabinet-hull-name">{{c.name}}</label>
                 <div class="cabinet-hull-img-wrap">
                     <img ng-src="{{c.url}}" class="cabinet-hull-img"/>
                 </div>
+            </div>-->
+            <div class="x-commons-wrap">
+                <div class="x-commons" ng-repeat="c in hullColors" title="{{c.name}}">
+
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <hr />
-        <div class="row">
+        <div class="row general-common-titles">
             Кольори систем
         </div>
+        <hr />
         <div class="row">
-            <div class="col-md-2 cabinet-system" ng-repeat="c in systemColors">
+            <!--<div class="col-md-2 cabinet-system" ng-repeat="c in systemColors">
 
                 <label class="cabinet-system-name">{{c.name}}</label>
                 <div class="cabinet-system-img-wrap">
                     <img ng-src="{{c.url}}" class="cabinet-system-img" />
                 </div>
+            </div>-->
+            <div class="x-commons-wrap">
+                <div class="x-commons" ng-repeat="c in systemColors">
+
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
 
 
-        <hr />
-        <div class="row">
+        <div class="row general-common-titles">
             Комбі
         </div>
+        <hr />
         <div class="row">
-            <div class="col-md-2 cabinet-combi" ng-repeat="c in combis">
+            <!--<div class="col-md-2 cabinet-combi" ng-repeat="c in combis">
 
                 <label class="cabinet-combi-name">{{c.name}}</label>
                 <div class="cabinet-combi-img-wrap">
                     <img ng-src="{{c.url}}" class="cabinet-combi-img" />
                 </div>
+            </div>-->
+
+            <div class="x-commons-wrap">
+                <div class="x-commons" ng-repeat="c in combis">
+
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <hr />
-        <div class="row">
+        <div class="row general-common-titles">
             Зразки ВС
         </div>
+        <hr />
         <div class="row">
             
-            <div class="col-md-2 cabinet-vstype" ng-repeat="c in vsTypes">
+            <!--<div class="col-md-2 cabinet-vstype" ng-repeat="c in vsTypes">
 
                 <label class="cabinet-vstype-name">{{c.name}}</label>
                 <div class="cabinet-vstype-img-wrap">
                     <img ng-src="{{c.url}}" class="cabinet-vstype-img" />
                 </div>
+            </div>-->
+            <div class="x-commons-wrap">
+                <div class="x-commons" ng-repeat="c in vsTypes">
+
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
 
 
-        <hr />
-        <div class="row">
+        <div class="row general-common-titles">
             Зразки дзеркал
         </div>
+        <hr />
         <div class="row">
+            <div class="x-commons-wrap">
+                <div class="x-commons" ng-repeat="c in mirrors">
 
-            <div class="col-md-2 cabinet-mirror" ng-repeat="c in mirrors">
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-md-2 cabinet-mirror" ng-repeat="c in mirrors">
 
                 <label class="cabinet-mirror-name">{{c.name}}</label>
                 <div class="cabinet-mirror-img-wrap">
                     <img ng-src="{{c.url}}" class="cabinet-mirror-img" />
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
     <div ng-if="category=='kitchens'">
+        <div class="row general-common-titles">
+            Зразки фасадів
+        </div>
+        <hr />
+        <div class="row">
+            <div class="x-commons-wrap">
+                <div class="x-commons" ng-repeat="c in facades">
 
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row general-common-titles">
+            Зразки модулів
+        </div>
+        <hr />
+        <div class="row">
+            <div class="x-commons-wrap" >
+                <div class="x-commons" ng-repeat="c in kitchenCommons">
+
+                    <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
+                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                        <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                        <span class="x-commons-img-zoom">
+                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
     <div ng-if="category=='furnitures'" style="margin-bottom:80px;margin-top:80px;">
         <div class="col-md-12">

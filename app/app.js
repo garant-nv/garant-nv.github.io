@@ -45,7 +45,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         .state('products.details', {
             name:"details",
             parent: "products",
-            url: '/details/{type}',
+            url: '/details/{category}/{type}',
             templateUrl: '/app/details.html',
             controller: 'detailsController',
             params: {
@@ -137,7 +137,17 @@ app.controller('furnituresController', function ($scope) {
     console.log('furnituresController');
 
 });
-app.controller('detailsController', function ($scope, $state, $stateParams, dataService, $sce) {
+app.controller('modalController', function ($scope, $uibModalInstance, inputdata) {
+
+    
+    $scope.bigurl = inputdata;
+    
+
+    $scope.close = function () {
+        $uibModalInstance.close();
+    };
+})
+app.controller('detailsController', function ($scope, $state, $stateParams, dataService, $uibModal, $sce) {
     $scope.slides = [];
     $scope.myInterval = 1500;
     $scope.noWrapSlides = false;
@@ -153,7 +163,7 @@ app.controller('detailsController', function ($scope, $state, $stateParams, data
             loadCabinetsCommon();
             loadCabinets();
         } else if ($scope.category == 'kitchens') {
-
+            loadKitchenCommons();
         } else if ($scope.category == 'furnitures') {
             loadFurnitures();
         }
@@ -162,15 +172,39 @@ app.controller('detailsController', function ($scope, $state, $stateParams, data
      
       
     }
-    //function loadSlides(category, type, dataFrom) {
-    //    $scope.currentContent = dataFrom
-    //}
+   
 
+    $scope.zoomImage = function(url)
+    {
+        var modalInstance = $uibModal.open({
+            templateUrl: '/app/modal.html',
+            controller: 'modalController',
+           
+            resolve: {
+                inputdata: function () {
+                    return url;
+                }
+            }
+        });
+        modalInstance.result.then(function () {
+            // Success	
+        }, function () {
+            // Cancel
+        });
 
+        
+    }
     function loadKitcens() {
 
     }
+    function loadKitchenCommons() {
 
+        $scope.kitchenCommons = dataService.kitchenCommons;
+        $scope.facades = dataService.kitchenfacades[$scope.type];
+      
+        console.log($scope.facades);
+        console.log($scope.kitchenCommons);
+    }
     function loadFurnitures() {
         $scope.active = 0;
         $scope.slides = $scope.imageContent = dataService.getFurnitures();
