@@ -6,7 +6,7 @@
 
                 <div class="col-md-12">
                     <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-                        <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" data-index="{{$dataIndex = $index}}">
+                        <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" >
                             <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;">
                             <!--<div class="carousel-caption">
                     <h4>Slide {{item.id}}</h4>
@@ -196,8 +196,25 @@
         </div>
     </div>
     <div ng-if="category=='kitchens'">
+        <div class="row">
+            <div>
+                <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                    <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" >
+                        <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;">
+                        <!--<div class="carousel-caption">
+                <h4>Slide {{item.id}}</h4>
+                <p>{{item.type}}</p>
+            </div>-->
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
         <div class="row general-common-titles">
             Зразки фасадів
+
+            kitchens
         </div>
         <hr />
         <div class="row">
@@ -237,11 +254,11 @@
     <div ng-if="category=='furnitures'" style="margin-bottom:80px;margin-top:80px;">
         <div class="col-md-12">
             <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-                <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" data-index="{{$dataIndex = $index}}">
+                <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
                     <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;opacity: 0.4;">
                     <div class="carousel-caption">
                 
-                        <p style="color:yellow">Дана продукція знахоться в процесі розробки</p>
+                        <p  class="furnitures-text" >Продукція в розробці</p>
                     </div>
                 </div>
 

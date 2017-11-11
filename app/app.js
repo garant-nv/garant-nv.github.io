@@ -163,6 +163,7 @@ app.controller('detailsController', function ($scope, $state, $stateParams, data
             loadCabinetsCommon();
             loadCabinets();
         } else if ($scope.category == 'kitchens') {
+            loadKitchens()
             loadKitchenCommons();
         } else if ($scope.category == 'furnitures') {
             loadFurnitures();
@@ -194,8 +195,20 @@ app.controller('detailsController', function ($scope, $state, $stateParams, data
 
         
     }
-    function loadKitcens() {
-
+    function loadKitchens() {
+        var index = 0;
+        $scope.active = index;
+        $scope.imageContent = dataService.getKitchens($scope.type);
+        console.log($scope.imageContent)
+        $scope.slides = [];
+       
+        angular.forEach($scope.imageContent, function (v, k) {
+            $scope.slides.push({
+                image: v.url,
+                id: index
+            })
+            index++;
+        })
     }
     function loadKitchenCommons() {
 

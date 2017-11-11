@@ -126,6 +126,229 @@
             "/images/common/cabinets/4-min.png",
         ]
 
+        this.kitchens = {
+            "platinum": {
+                "0":{
+                    name: "Біла структура в сріблі",
+                    url: "/images/common/kitchens/platinum/1.jpg"
+                },
+                "1":{
+                    name: "Ваніль супермат",
+                    url: "/images/common/kitchens/platinum/2.jpg"
+                },
+                "2":{
+                    name: "Вишня форема",
+                    url: "/images/common/kitchens/platinum/3.jpg"
+                },
+                "3":{
+                    name: "Горіх Пасифік",
+                    url: "/images/common/kitchens/platinum/4.jpg"
+                },
+                "4":{
+                    name: "Дуб білений",
+                    url: "/images/common/kitchens/platinum/5.jpg"
+                },
+                "5":{
+                    name: "Кедр Люкс",
+                    url: "/images/common/kitchens/platinum/6.jpg"
+                },
+                "6":{
+                    name: "Патина 38 радіал",
+                    url: "/images/common/kitchens/platinum/7.jpg"
+                },
+                "7":{
+                    name: "Рельєф пастель",
+                    url: "/images/common/kitchens/platinum/8.jpg"
+                },
+                "8":{
+                    name: "Сомона темна",
+                    url: "/images/common/kitchens/platinum/9.jpg"
+                },
+                "9":{
+                    name: "Ялина карпатська",
+                    url: "/images/common/kitchens/platinum/10.jpg"
+                },
+                "10":{
+                    name: "Ясен беж",
+                    url: "/images/common/kitchens/platinum/11.jpg"
+                },
+                "11":{
+                    name: "Ясен Голд",
+                    url: "/images/common/kitchens/platinum/12.jpg"
+                },
+            },
+            "quadris": {
+                "0":{
+                    name: "Біле дерево, Кедр люкс",
+                    url: "/images/common/kitchens/quadris/1.jpg"
+                },
+                "1":{
+                    name: "Дуб португальський",
+                    url: "/images/common/kitchens/quadris/2.jpg"
+                },
+                "2":{
+                    name: "Сонома світла та горіх темний",
+                    url: "/images/common/kitchens/quadris/3.jpg"
+                },
+                "3":{
+                    name: "Ясен жемчужний та ваніль супермат",
+                    url: "/images/common/kitchens/quadris/4.jpg"
+                },
+            },
+            "sunrise": {
+                "0":{
+                    name: "Клен світлий, Венге Темний",
+                    url: "/images/common/kitchens/sunrise/1.jpg"
+                },
+                "1":{
+                    name: "Слива луїза",
+                    url: "/images/common/kitchens/sunrise/2.jpg"
+                },
+                "2":{
+                    name: "Сонома темна",
+                    url: "/images/common/kitchens/sunrise/3.jpg"
+                },
+                "3":{
+                    name: "Яблуня світла, Яблуня темна тиснена",
+                    url: "/images/common/kitchens/sunrise/4.jpg"
+                },
+            },
+            "elite": {
+                "0":{
+                    name: "Айфорі та шоколад Еліт",
+                    url: "/images/common/kitchens/elite/1.jpg"
+                },
+                "1":{
+                    name: "Антарктика супермат",
+                    url: "/images/common/kitchens/elite/2.jpg"
+                },
+                "2":{
+                    name: "Блакитний та рожевий металік Еліт",
+                    url: "/images/common/kitchens/elite/3.jpg"
+                },
+                "3":{
+                    name: "Мурена супермат Еліт",
+                    url: "/images/common/kitchens/elite/4.jpg"
+                },
+                "4":{
+                    name: "Оранж та Олива супермат Еліт",
+                    url: "/images/common/kitchens/elite/5.jpg"
+                },
+                "5":{
+                    name: "Північне сяйво глянець та марс глянець",
+                    url: "/images/common/kitchens/elite/6.jpg"
+                },
+                "6":{
+                    name: "Титан Еліт",
+                    url: "/images/common/kitchens/elite/7.jpg"
+                },
+                "7":{
+                    name: "Чорний глянець перламутр Еліт",
+                    url: "/images/common/kitchens/elite/8.jpg"
+                },
+            },
+            "frame": {
+                "0":{
+                    name: "Бордо",
+                    url: "/images/common/kitchens/frame/1.jpg"
+                },
+                "1":{
+                    name: "Оранж та зелений лайм",
+                    url: "/images/common/kitchens/frame/2.jpg"
+                },
+                "2":{
+                    name: "Слонова кістка",
+                    url: "/images/common/kitchens/frame/3.jpg"
+                },
+                "3":{
+                    name: "Чорний",
+                    url: "/images/common/kitchens/frame/4.jpg"
+                },
+            },
+            "glamor": {
+                "0":{
+                    name: "Аквамарин металік та сакура металік",
+                    url: "/images/common/kitchens/glamor/1.jpg"
+                },
+                "1":{
+                    name: "Білий металік, бордо 140",
+                    url: "/images/common/kitchens/glamor/2.jpg"
+                },
+                "2":{
+                    name: "Глянець шоколад",
+                    url: "/images/common/kitchens/glamor/3.jpg"
+                },
+                "3":{
+                    name: "Лайм металік",
+                    url: "/images/common/kitchens/glamor/4.jpg"
+                },
+                "4":{
+                    name: "Ліловий та білий металік",
+                    url: "/images/common/kitchens/glamor/5.jpg"
+                },
+                "5":{
+                    name: "Оранж металік",
+                    url: "/images/common/kitchens/glamor/6.jpg"
+                },
+                "6":{
+                    name: "Слонова кістка глянець",
+                    url: "/images/common/kitchens/glamor/7.jpg"
+                },
+                "7":{
+                    name: "Червоний глянець",
+                    url: "/images/common/kitchens/glamor/8.jpg"
+                },
+                "8":{
+                    name: "Білий глянець, Чорний глянець",
+                    url: "/images/common/kitchens/glamor/9.jpg"
+                },
+            },
+            "contour": {
+                "0":{
+                    name: "Венге темний, Дуб молочний",
+                    url: "/images/common/kitchens/contour/1.jpg"
+                },
+                "1":{
+                    name: "Вільха гірська темна",
+                    url: "/images/common/kitchens/contour/2.jpg"
+                },
+                "2":{
+                    name: "Горіх Болонья Темний",
+                    url: "/images/common/kitchens/contour/3.jpg"
+                },
+                "3":{
+                    name: "Дуб молочний, Горіх Болонья Темний",
+                    url: "/images/common/kitchens/contour/4.jpg"
+                },
+                "4":{
+                    name: "Дуб молочний",
+                    url: "/images/common/kitchens/contour/5.jpg"
+                },
+                "5":{
+                    name: "Яблуня локарно темна, Дуб молочний",
+                    url: "/images/common/kitchens/contour/6.jpg"
+                },
+            },
+            "modest": {
+                "0":{
+                    name: "Горіх болонья темний",
+                    url: "/images/common/kitchens/modest/1.jpg"
+                },
+                "1":{
+                    name: "Дуб молочний, Венге темний",
+                    url: "/images/common/kitchens/modest/2.jpg"
+                },
+                "2":{
+                    name: "Дуб сонома",
+                    url: "/images/common/kitchens/modest/3.jpg"
+                },
+                "3":{
+                    name: "Сірий уніколор",
+                    url: "/images/common/kitchens/modest/4.jpg"
+                },
+            },
+        };
+
         this.kitchenfacades = {
             "platinum": {
                 0: {
@@ -176,7 +399,6 @@
                       name: "",
                       url: "/images/common/kitchens/platinum/facades/12.jpg",
                   },
-
         },
             "quadris": {
                   0:{
@@ -517,8 +739,8 @@
 
         
 
-        this.getKitchens = function () {
-            return {}
+        this.getKitchens = function (type) {
+            return this.kitchens[type];
         };
         this.getFurnitures = function () {
 
@@ -556,4 +778,5 @@
             })
         }
 
+       
     }])

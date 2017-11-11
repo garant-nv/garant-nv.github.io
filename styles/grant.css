@@ -451,3 +451,15 @@ nav ul li:hover {
     font-weight: 600;
     color: black;
 }
+
+
+.furnitures-text {
+    color: black;
+    text-align: center;
+    margin-bottom: 125px;
+    text-decoration: underline;
+    font-size: 100px;
+    font-style: italic;
+    font-family: -webkit-body;
+    font-weight: 600;
+}
