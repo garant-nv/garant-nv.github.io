@@ -228,16 +228,22 @@ app.controller('detailsController', function ($scope, $state, $stateParams, data
        dataService.getCabinets($scope.type)
          .then(function (res) {
              $scope.imageContent = res;
-             var index = 0;
-             $scope.active = index;
+             if ($scope.imageContent.length > 0) {
+                 var index = 0;
 
-             angular.forEach($scope.imageContent, function (v, k) {
-                 $scope.slides.push({
-                     image: v.url,
-                     id: index
+                 $scope.active = index;
+
+                 angular.forEach($scope.imageContent, function (v, k) {
+                     $scope.slides.push({
+                         image: v.url,
+                         id: index
+                     })
+                     index++;
                  })
-                 index++;
-             })
+             } else {
+                 $scope.active = null;
+                 $scope.slides = [];
+             }
 
          });
     }

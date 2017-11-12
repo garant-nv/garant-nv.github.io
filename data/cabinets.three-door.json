@@ -1,25 +1,236 @@
 ﻿[
-  
+
   {
     "id": 1900,
-    
-   
-    "material": "dsp",
-    "hull": "ДСП дуб сантана",
-    "system": "шампань",
-    "facade": "дзеркало",
-    "photoprint": 2761,
+
+    "hull": "h6",
+    "system": "gold",
+    "facade": "bronze",
+    "piskost": null,
+    "photoprint": null,
     "sizes": {
-      "w": [ 1000 ],
+      "w": [ 1900 ],
       "h": [ 2200, 2400 ],
       "d": [ 450, 600 ]
     },
+    "kombi": true,
+    "dsp": null,
+    "mdf": "mdf4",
+    "oracal": null,
     "url": "/images/common/cabinets/1900/1900-min.jpg",
     "datails": [
       "/images/common/cabinets/1900/190_220_45_3_dim-min.png",
       "/images/common/cabinets/1900/190_220_60_3_dim-min.png",
       "/images/common/cabinets/1900/190_240_45_3_dim-min.png",
       "/images/common/cabinets/1900/190_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2000,
+
+    "hull": "h4",
+    "system": "wenge_gloss",
+    "facade": null,
+    "piskost": "ps4",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": true,
+    "dsp": "dps1",
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/2000/2000-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2000/200_220_45_3_dim-min.png",
+      "/images/common/cabinets/2000/200_220_60_3_dim-min.png",
+      "/images/common/cabinets/2000/200_240_45_3_dim-min.png",
+      "/images/common/cabinets/2000/200_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2100,
+
+    "hull": "h7",
+    "system": "gold",
+    "facade": null,
+    "piskost": "ps5",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2100 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/2100/2100-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2100/210_220_45_3_dim-min.png",
+      "/images/common/cabinets/2100/210_220_60_3_dim-min.png",
+      "/images/common/cabinets/2100/210_240_45_3_dim-min.png",
+      "/images/common/cabinets/2100/210_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2200,
+
+    "hull": "h1",
+    "system": "argentum",
+    "facade": null,
+    "piskost": null,
+    "photoprint": 1547,
+    "sizes": {
+      "w": [ 2200 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": "45",
+    "url": "/images/common/cabinets/2200/2200-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2200/220_220_45_3_dim-min.png",
+      "/images/common/cabinets/2200/220_220_60_3_dim-min.png",
+      "/images/common/cabinets/2200/220_240_45_3_dim-min.png",
+      "/images/common/cabinets/2200/220_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2300,
+
+    "hull": "h5",
+    "system": "champagne",
+    "facade": null,
+    "piskost": "ps6",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2300 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": "mdf5",
+    "oracal": null,
+    "url": "/images/common/cabinets/2300/2300-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2300/230_220_45_3_dim-min.png",
+      "/images/common/cabinets/2300/230_220_60_3_dim-min.png",
+      "/images/common/cabinets/2300/230_240_45_3_dim-min.png",
+      "/images/common/cabinets/2300/230_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2400,
+
+    "hull": "h8",
+    "system": "gold",
+    "facade": null,
+    "piskost": null,
+    "photoprint": 2577,
+    "sizes": {
+      "w": [ 2400 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/2400/2400-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2400/240_220_45_3_dim-min.png",
+      "/images/common/cabinets/2400/240_220_60_3_dim-min.png",
+      "/images/common/cabinets/2400/240_240_45_3_dim-min.png",
+      "/images/common/cabinets/2400/240_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2500,
+
+    "hull": "h3",
+    "system": "wenge_gloss",
+    "facade": "bronze",
+    "piskost": "ps7",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2500 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/2500/2500-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2500/250_220_45_3_dim-min.png",
+      "/images/common/cabinets/2500/250_220_60_3_dim-min.png",
+      "/images/common/cabinets/2500/250_240_45_3_dim-min.png",
+      "/images/common/cabinets/2500/250_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2600,
+
+    "hull": "h2",
+    "system": "argentum",
+    "facade": null,
+    "piskost": "ps8",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2600 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": "dsp2",
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/2600/2600-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2600/260_220_45_3_dim-min.png",
+      "/images/common/cabinets/2600/260_220_60_3_dim-min.png",
+      "/images/common/cabinets/2600/260_240_45_3_dim-min.png",
+      "/images/common/cabinets/2600/260_240_60_3_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2700,
+
+    "hull": "h1",
+    "system": "wenge_gloss",
+    "facade": "bronze",
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2700 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": "mdf6",
+    "oracal": null,
+    "url": "/images/common/cabinets/2700/2700-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2700/270_220_45_3_dim-min.png",
+      "/images/common/cabinets/2700/270_220_60_3_dim-min.png",
+      "/images/common/cabinets/2700/270_240_45_3_dim-min.png",
+      "/images/common/cabinets/2700/270_240_60_3_dim-min.png"
 
     ]
   }

@@ -1,0 +1,18 @@
+﻿<div class="form-group">
+    <label>Розміри</label>
+    <div>
+        <p>Ширина: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+        <p>Глибина: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+        <p>Висота: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+    </div>
+
+</div>
+<div class="form-group">
+    <label>Деталі продукції</label>
+    <div>
+        <p>Корпус: <span>{{imageContent[active].material}}</span><span> {{imageContent[active].hullcolor}}</span></p>
+        <p>Система: <span>{{imageContent[active].system}}</span></p>
+        <p>Фасад: <span>{{imageContent[active].facade}}</span></p>
+        <p>Фотодрук: <span>{{imageContent[active].photoprint}}</span></p>
+    </div>
+</div>

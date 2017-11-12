@@ -1,0 +1,238 @@
+﻿[
+
+  {
+    "id": 2800,
+
+    "hull": "h5",
+    "system": "champagne",
+    "facade": "argentum",
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [ 2800 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": "mdf7",
+    "oracal": null,
+    "url": "/images/common/cabinets/2800/2800-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2800/280_220_45_4_dim-min.png",
+      "/images/common/cabinets/2800/280_220_60_4_dim-min.png",
+      "/images/common/cabinets/2800/280_240_45_4_dim-min.png",
+      "/images/common/cabinets/2800/280_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 2900,
+
+    "hull": "h6",
+    "system": "argentum",
+    "facade": null,
+    "piskost": null,
+    "photoprint": 2738,
+    "sizes": {
+      "w": [ 2900 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/2900/2900-min.jpg",
+    "datails": [
+      "/images/common/cabinets/2900/290_220_45_4_dim-min.png",
+      "/images/common/cabinets/2900/290_220_60_4_dim-min.png",
+      "/images/common/cabinets/2900/290_240_45_4_dim-min.png",
+      "/images/common/cabinets/2900/290_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3000,
+
+    "hull": "h7",
+    "system": "argentum",
+    "facade": null,
+    "piskost": "ps9",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 3000 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/3000/3000-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3000/300_220_45_4_dim-min.png",
+      "/images/common/cabinets/3000/300_220_60_4_dim-min.png",
+      "/images/common/cabinets/3000/300_240_45_4_dim-min.png",
+      "/images/common/cabinets/3000/300_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3100,
+
+    "hull": "h4",
+    "system": "argentum",
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [ 3100 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": true,
+    "dsp": null,
+    "mdf": null,
+    "oracal": "068, 010, 055",
+    "url": "/images/common/cabinets/3100/3100-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3100/310_220_45_4_dim-min.png",
+      "/images/common/cabinets/3100/310_220_60_4_dim-min.png",
+      "/images/common/cabinets/3100/310_240_45_4_dim-min.png",
+      "/images/common/cabinets/3100/310_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3200,
+
+    "hull": "h1",
+    "system": "argentum",
+    "facade": "argentum",
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [ 3200 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": true,
+    "dsp": null,
+    "mdf": null,
+    "oracal": "045",
+    "url": "/images/common/cabinets/3200/3200-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3200/320_220_45_4_dim-min.png",
+      "/images/common/cabinets/3200/320_220_60_4_dim-min.png",
+      "/images/common/cabinets/3200/320_240_45_4_dim-min.png",
+      "/images/common/cabinets/3200/320_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3300,
+
+    "hull": "h4",
+    "system": "wenge_gloss",
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [ 3300 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": true,
+    "dsp": null,
+    "mdf": "mdf8",
+    "oracal": null,
+    "url": "/images/common/cabinets/3300/3300-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3300/330_220_45_4_dim-min.png",
+      "/images/common/cabinets/3300/330_220_60_4_dim-min.png",
+      "/images/common/cabinets/3300/330_240_45_4_dim-min.png",
+      "/images/common/cabinets/3300/330_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3400,
+
+    "hull": "h5",
+    "system": "champagne",
+    "facade": null,
+    "piskost": null,
+    "photoprint": 1765,
+    "sizes": {
+      "w": [ 3400 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/3400/3400-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3400/340_220_45_4_dim-min.png",
+      "/images/common/cabinets/3400/340_220_60_4_dim-min.png",
+      "/images/common/cabinets/3400/340_240_45_4_dim-min.png",
+      "/images/common/cabinets/3400/340_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3500,
+
+    "hull": "h6",
+    "system": "argentum",
+    "facade": "argentum",
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [ 3500 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": true,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/3500/3500-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3500/350_220_45_4_dim-min.png",
+      "/images/common/cabinets/3500/350_220_60_4_dim-min.png",
+      "/images/common/cabinets/3500/350_240_45_4_dim-min.png",
+      "/images/common/cabinets/3500/350_240_60_4_dim-min.png"
+
+    ]
+  },
+  {
+    "id": 3600,
+
+    "hull": "h3",
+    "system": "argentum",
+    "facade": "argentum",
+    "piskost": "ps10",
+    "photoprint": null,
+    "sizes": {
+      "w": [ 3600 ],
+      "h": [ 2200, 2400 ],
+      "d": [ 450, 600 ]
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/3600/3600-min.jpg",
+    "datails": [
+      "/images/common/cabinets/3600/360_220_45_4_dim-min.png",
+      "/images/common/cabinets/3600/360_220_60_4_dim-min.png",
+      "/images/common/cabinets/3600/360_240_45_4_dim-min.png",
+      "/images/common/cabinets/3600/360_240_60_4_dim-min.png"
+
+    ]
+  }
+
+]

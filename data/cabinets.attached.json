@@ -1,0 +1,57 @@
+﻿[
+
+  {
+    "id": 1,
+
+    "hull": "h7",
+    "system": "gold",
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/attached/attached1-min.jpg",
+    "datails": [
+      "/images/common/cabinets/attached/at1-min.png",
+      "/images/common/cabinets/attached/at2-min.png",
+      "/images/common/cabinets/attached/at3-min.png",
+      "/images/common/cabinets/attached/at4-min.png",
+      "/images/common/cabinets/attached/at5-min.png"
+
+    ]
+  },
+  {
+    "id": 2,
+
+    "hull": "h3",
+    "system": "argentum",
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/attached/attached2-min.jpg",
+    "datails": [
+      "/images/common/cabinets/attached/at1-min.png",
+      "/images/common/cabinets/attached/at2-min.png",
+      "/images/common/cabinets/attached/at3-min.png",
+      "/images/common/cabinets/attached/at4-min.png",
+      "/images/common/cabinets/attached/at5-min.png"
+
+    ]
+  }
+]

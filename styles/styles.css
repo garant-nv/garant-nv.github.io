@@ -1,12 +1,12 @@
 ﻿/*--- GLOBAL STYLES -------------------------------------------------*/
 @font-face {
     font-family: "oswald light";
-    src: url(fonts/oswald-light.ttf);
+    src: url(/fonts/oswald-light.ttf);
 }
 
 @font-face {
     font-family: "oswald bold";
-    src: url(fonts/oswald-bold.ttf);
+    src: url(/fonts/oswald-bold.ttf);
 }
 div.container{
     min-width: 300px !important;

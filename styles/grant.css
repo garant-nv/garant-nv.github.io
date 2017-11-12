@@ -1,4 +1,26 @@
-﻿.navbar-custom {
+﻿/*
+footer{
+    background-color: #131316;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer p span {
+    color: #ffe600;
+}
+footer p a{
+    margin-left: 7px;
+    margin-right: 7px;
+}*/
+
+/*nav*/
+
+.navbar-custom {
     border-radius: 0px;
     height:65px;
     position: fixed;
@@ -444,6 +466,7 @@ nav ul li:hover {
     padding:0px;
 }
 .general-common-titles {
+    margin-top: 50px;
     text-align: center;
     font-size: x-large;
     font-stretch: normal;

@@ -1,10 +1,10 @@
 ﻿<div >
-  
+    {{type}}
     <div ng-if="category=='cabinets'">
         <div class="row" >
-            <div class="col-md-9">
-
-                <div class="col-md-12">
+           
+            <!--uib-tooltip="cabinet-tooltip.html" tooltip-placement="bottom"-->
+                <div class="col-md-12" ng-mouseenter="detailsshow = true" ng-mouseleave="detailsshow = false">
                     <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                         <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" >
                             <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;">
@@ -17,14 +17,34 @@
 
                     </div>
                 </div>
-                <!--<div class="col-md-12">
-                    <div class="col-md-3 cabinet-texs-wrap" ng-repeat="tex in commonCabinetTexs">
-                        <img ng-src="{{tex}}" class="cabinet-texs"/>
+                <div class="row" ng-show="detailsshow">
+                    <div class="col-md-3">
+                        
+                           
+                            <div>
+                                <p ng-show="imageContent[active].sizes.w.length>1">width: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                                <p ng-show="imageContent[active].sizes.d.length>1">depth: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                                <p ng-show="imageContent[active].sizes.h.length>1">height: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                          
+                                <p ng-show="imageContent[active].hull != null">hull:   <span>{{imageContent[active].hull}}</span></p>
+                                <p ng-show="imageContent[active].system != null">system:  <span>{{imageContent[active].system}}</span></p>
+                                <p ng-show="imageContent[active].facade != null">facade:    <span>{{imageContent[active].facade}}</span></p>
+                                <p ng-show="imageContent[active].photoprint != null">photoprint: <span>{{imageContent[active].photoprint}}</span></p>
+                                <p ng-show="imageContent[active].piskost != null">piskost: <span>{{imageContent[active].piskost}}</span></p>
+                                
+                                <p ng-show="imageContent[active].mdf != null">mdf: <span>{{imageContent[active].mdf}}</span></p>
+                                <p ng-show="imageContent[active].dsp != null">dsp: <span>{{imageContent[active].dsp}}</span></p>
+                                <p ng-show="imageContent[active].oracal != null">oracal: <span>{{imageContent[active].oracal}}</span></p>
+                                <p ng-show="imageContent[active].kombi != null">kombi: <span>{{imageContent[active].kombi? '+': '-'}}</span></p>
+                                
+                            </div>
+                        
                     </div>
-                </div>-->
+                </div>
+               
                 <div class="row">
                     <div class="x-commons-wrap">
-                        <div class="cabinet-texs-wrap"  ng-repeat="c in commonCabinetTexs">
+                        <div class="cabinet-texs-wrap"  ng-repeat="c in imageContent[active].details">
 
                             <!--<label class="kitchen-commons-name">{{c}}</label>-->
                             <div class="x-commons-img-wrap" ng-click="zoomImage(c);">
@@ -36,27 +56,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-group">
-                    <label>Розміри</label>
-                    <div>
-                        <p>Ширина: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                        <p>Глибина: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                        <p>Висота: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                    </div>
-
-                </div>
-                <div class="form-group">
-                    <label>Деталі продукції</label>
-                    <div>
-                        <p>Корпус: <span>{{imageContent[active].material}}</span><span> {{imageContent[active].hullcolor}}</span></p>
-                        <p>Система: <span>{{imageContent[active].system}}</span></p>
-                        <p>Фасад: <span>{{imageContent[active].facade}}</span></p>
-                        <p>Фотодрук: <span>{{imageContent[active].photoprint}}</span></p>
-                    </div>
-                </div>
-            </div>
+          
+           
         </div>
 
 

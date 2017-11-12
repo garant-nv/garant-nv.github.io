@@ -119,12 +119,12 @@
 
         };
 
-        this.commonCabinetTexs = [
-            "/images/common/cabinets/1-min.png",
-            "/images/common/cabinets/2-min.png",
-            "/images/common/cabinets/3-min.png",
-            "/images/common/cabinets/4-min.png",
-        ]
+        //this.commonCabinetTexs = [
+        //    "/images/common/cabinets/1-min.png",
+        //    "/images/common/cabinets/2-min.png",
+        //    "/images/common/cabinets/3-min.png",
+        //    "/images/common/cabinets/4-min.png",
+        //]
 
         this.kitchens = {
             "platinum": {
@@ -771,7 +771,7 @@
             }
         }
         this.getCabinets = function (type) {
-            type = "two-door";
+           
             return $http.get("/data/cabinets."+type+".json").then(function (response) {
                 console.log(angular.fromJson(response.data));
                 return angular.fromJson(response.data);

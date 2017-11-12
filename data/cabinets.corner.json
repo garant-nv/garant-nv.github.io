@@ -1,0 +1,56 @@
+﻿[
+  {
+    "id": 1,
+
+    "hull": "h7",
+    "system": "gold",
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/corner/corner1-min.jpg",
+    "datails": [
+      "/images/common/cabinets/corner/cor1-min.png",
+      "/images/common/cabinets/corner/cor2-min.png",
+      "/images/common/cabinets/corner/cor3-min.png",
+      "/images/common/cabinets/corner/cor4-min.png",
+      "/images/common/cabinets/corner/cor5-min.png"
+
+    ]
+  },
+  {
+    "id": 2,
+
+    "hull": "h7",
+    "system": "gold",
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/corner/corner2-min.jpg",
+    "datails": [
+      "/images/common/cabinets/corner/cor1-min.png",
+      "/images/common/cabinets/corner/cor2-min.png",
+      "/images/common/cabinets/corner/cor3-min.png",
+      "/images/common/cabinets/corner/cor4-min.png",
+      "/images/common/cabinets/corner/cor5-min.png"
+
+    ]
+  }
+]
