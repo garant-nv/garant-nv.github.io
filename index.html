@@ -17,84 +17,90 @@
     <script src="Scripts/angular-touch.min.js"></script>
     <script src="Scripts/ui-bootstrap-tpls.min.js"></script>
    
-    <link href="styles/styles.css" rel="stylesheet" />
-    <!--<script src="app/scripts.js"></script>-->
+    <!--<link href="styles/styles.css" rel="stylesheet" />-->
+ 
    
     <script src="app/app.js"></script>
-    <script src="app/dataService.js"></script>
+    <script src="app/main/mainController.js"></script>
+    <script src="app/about/aboutController.js"></script>
+    <script src="app/contact/contactController.js"></script>
+    <script src="app/home/homeController.js"></script>
+    <script src="app/modal/modalController.js"></script>
+    <script src="app/products/productsController.js"></script>
+    <script src="app/products/cabinets/cabinetsController.js"></script>
+    <script src="app/products/furnitures/furnituresController.js"></script>
+    <script src="app/products/kitchens/kitchensController.js"></script>
+    <script src="app/products/details/detailsController.js"></script>
+    <script src="app/service/dataService.js"></script>
 
     <!--<base href="/index.html">-->
     
 </head>
 <body ng-app="app">
-   
-    <!-- NAVIGATION -->
-    <header class="container-fluid">
-        
-        <nav class="navbar navbar-inverse navbar-custom" role="navigation" id="nav">
-            <!--<div class="navbar-header">
-                <a class="navbar-brand" ui-sref="#" title="Garant"><img src="images/logo.png" class="logo-brand"/></a>
+    <div>
+        <header class="container-fluid">
 
-            </div>-->
-            <div class="container">
+            <nav class="navbar navbar-inverse navbar-custom" role="navigation" id="nav">
+                <!--<div class="navbar-header">
+                    <a class="navbar-brand" ui-sref="#" title="Garant"><img src="images/logo.png" class="logo-brand"/></a>
 
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" ng-click="is_active = !is_active" ng-init="is_active=false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" ui-sref="home" title="Garant"><img src="images/logo_500.png" class="logo-brand" /></a>
-                </div>
-                <div id="main-menu" class="navbar-collapse {{is_active ? 'collapse in' : 'collapse'}}">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a class="nav-link" ui-sref="home" ng-click="is_active = false">Головна</a></li>
-                        <li><a class="nav-link" ui-sref="products" ng-click="is_active = false">Продукція</a></li>
-                        <li><a class="nav-link" ui-sref="about" ng-click="is_active = false">Про нас</a></li>
-                        <li><a class="nav-link" ui-sref="contact" ng-click="is_active = false">Контакти</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right lang-menu" ng-init="lang='ua'">
-                        <li class="dropdown {{choose_lan? 'open': ''}}">
-                            <a class="nav-link" href="javascript:void(0);" ng-click="choose_lan = !choose_lan">
-                                <img src="images/flag/flag_ua.png" ng-show="lang=='ua'" />
-                                <img src="images/flag/flag_ru.png" ng-show="lang=='ru'" />
-                                <img src="images/flag/flag_uk.png" ng-show="lang=='uk'" /> <i class="glyphicon glyphicon-chevron-down"></i>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <p style="text-align: center;">Виберіть мову:</p>
-                                <li ng-click="setLanguge('ua'); lang='ua'; choose_lan = false;">
-                                    <a href="javascript:void(0);">
-                                        <img src="images/flag/flag_ua.png" /> Українська
-                                    </a>
-                                </li>
-                                <li ng-click="setLanguge('ru'); lang='ru'; choose_lan = false;">
-                                    <a href="javascript:void(0);">
-                                        <img src="images/flag/flag_ru.png" /> Російська
-                                    </a>
-                                </li>
-                                <li ng-click="setLanguge('uk'); lang='uk'; choose_lan = false;">
-                                    <a href="javascript:void(0);">
-                                        <img src="images/flag/flag_uk.png" /> Англійська
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container-fluid">
-            <section class="row mainSection">
+                </div>-->
                 <div class="container">
-                        <div ui-view></div>
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" ng-click="is_active = !is_active" ng-init="is_active=false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" ui-sref="home" title="Garant"><img src="images/logo_500.png" class="logo-brand" /></a>
+                    </div>
+                    <div id="main-menu" class="navbar-collapse {{is_active ? 'collapse in' : 'collapse'}}">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a class="nav-link" ui-sref="home" ng-click="is_active = false">Головна</a></li>
+                            <li><a class="nav-link" ui-sref="products" ng-click="is_active = false">Продукція</a></li>
+                            <li><a class="nav-link" ui-sref="about" ng-click="is_active = false">Про нас</a></li>
+                            <li><a class="nav-link" ui-sref="contact" ng-click="is_active = false">Контакти</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right lang-menu" ng-init="lang='ua'">
+                            <li class="dropdown {{choose_lan? 'open': ''}}">
+                                <a class="nav-link" href="javascript:void(0);" ng-click="choose_lan = !choose_lan">
+                                    <img src="images/flag/flag_ua.png" ng-show="lang=='ua'" />
+                                    <img src="images/flag/flag_ru.png" ng-show="lang=='ru'" />
+                                    <img src="images/flag/flag_uk.png" ng-show="lang=='uk'" /> <i class="glyphicon glyphicon-chevron-down"></i>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <p style="text-align: center;">Виберіть мову:</p>
+                                    <li ng-click="setLanguge('ua'); lang='ua'; choose_lan = false;">
+                                        <a href="javascript:void(0);">
+                                            <img src="images/flag/flag_ua.png" /> Українська
+                                        </a>
+                                    </li>
+                                    <li ng-click="setLanguge('ru'); lang='ru'; choose_lan = false;">
+                                        <a href="javascript:void(0);">
+                                            <img src="images/flag/flag_ru.png" /> Російська
+                                        </a>
+                                    </li>
+                                    <li ng-click="setLanguge('uk'); lang='uk'; choose_lan = false;">
+                                        <a href="javascript:void(0);">
+                                            <img src="images/flag/flag_uk.png" /> Англійська
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
+            </nav>
+        </header>
+    </div>
+    <div class="container-fluid main-conten">
+        <section class="container">
+            <div ui-view></div>
+        </section>
+    </div>
 
-            
-
-        </div>
     <footer class="row footer-custom">
         <div class="container">
             <div class="row">
@@ -121,6 +127,8 @@
             <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
         </ul>
     </footer>
+    
+    
 </body>
 </html>
 

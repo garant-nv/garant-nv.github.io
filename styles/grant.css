@@ -42,7 +42,10 @@ footer p a{
     color: white;
 
 }
- 
+
+.main-conten {
+margin-top:75px;
+}
 .footer-custom, .navbar-custom, .lang-wrap, #main-menu{
     font-size: 17px;
     line-height: 35px;

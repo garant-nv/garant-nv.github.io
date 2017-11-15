@@ -1,0 +1,56 @@
+﻿<header class="container-fluid">
+
+    <nav class="navbar navbar-inverse navbar-custom" role="navigation" id="nav">
+        <!--<div class="navbar-header">
+            <a class="navbar-brand" ui-sref="#" title="Garant"><img src="images/logo.png" class="logo-brand"/></a>
+
+        </div>-->
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" ng-click="is_active = !is_active" ng-init="is_active=false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" ui-sref="home" title="Garant"><img src="images/logo_500.png" class="logo-brand" /></a>
+            </div>
+            <div id="main-menu" class="navbar-collapse {{is_active ? 'collapse in' : 'collapse'}}">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a class="nav-link" ui-sref="home" ng-click="is_active = false">Головна</a></li>
+                    <li><a class="nav-link" ui-sref="products" ng-click="is_active = false">Продукція</a></li>
+                    <li><a class="nav-link" ui-sref="about" ng-click="is_active = false">Про нас</a></li>
+                    <li><a class="nav-link" ui-sref="contact" ng-click="is_active = false">Контакти</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right lang-menu" ng-init="lang='ua'">
+                    <li class="dropdown {{choose_lan? 'open': ''}}">
+                        <a class="nav-link" href="javascript:void(0);" ng-click="choose_lan = !choose_lan">
+                            <img src="images/flag/flag_ua.png" ng-show="lang=='ua'" />
+                            <img src="images/flag/flag_ru.png" ng-show="lang=='ru'" />
+                            <img src="images/flag/flag_uk.png" ng-show="lang=='uk'" /> <i class="glyphicon glyphicon-chevron-down"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <p style="text-align: center;">Виберіть мову:</p>
+                            <li ng-click="setLanguge('ua'); lang='ua'; choose_lan = false;">
+                                <a href="javascript:void(0);">
+                                    <img src="images/flag/flag_ua.png" /> Українська
+                                </a>
+                            </li>
+                            <li ng-click="setLanguge('ru'); lang='ru'; choose_lan = false;">
+                                <a href="javascript:void(0);">
+                                    <img src="images/flag/flag_ru.png" /> Російська
+                                </a>
+                            </li>
+                            <li ng-click="setLanguge('uk'); lang='uk'; choose_lan = false;">
+                                <a href="javascript:void(0);">
+                                    <img src="images/flag/flag_uk.png" /> Англійська
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
