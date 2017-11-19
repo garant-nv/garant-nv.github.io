@@ -1,4 +1,21 @@
-﻿p {
+﻿.products-nav-wrap {
+ line-height: 49px;
+    font-size: xx-large;
+    font-style: italic;   line-height: 49px;
+    font-size: xx-large;
+}
+.products-small-nav {
+   cursor:pointer;
+}
+.products-small-def {
+   
+}
+.products-small-nav:hover {
+    color:red;
+    text-decoration:underline;
+}
+
+p {
 font-size: 2em;
     margin: 0 0 10px;
     font-family: sans-serif;
@@ -372,9 +389,9 @@ font-size: 2em;
     transition: 1s ease-in-out;
 }
 
-    .social__btn:hover {
-         background-color: #23527c;
-    }
+.social__btn:hover {
+        background-color: #23527c;
+}
 
 body.bg {
      background: url('../images/bgs/bg-19.jpg') no-repeat center center fixed;
@@ -383,6 +400,8 @@ body.bg {
 }
 
 .main-content {
+    padding-left:0px;
+    padding-right:0px;
     min-height: -webkit-calc(100vh - 179px);
     min-height: -moz-calc(100vh - 179px);
     min-height: calc(100vh - 179px);
