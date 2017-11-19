@@ -3,6 +3,10 @@
         <span class="products-small-nav" ui-sref="products">Продукція</span> &rarr;
         <span class="products-small-nav" ui-sref="products.{{category}}">{{category}}</span> &rarr;
         <span class="products-small-def" ng-hide="category=='furnitures'">{{type}}</span>
+        <div class="pull-right">
+            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/cabinets.pdf">Каталог шаф</a>
+            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/kitchens.pdf">Каталог кухонь</a>
+        </div>
     </div>
     <h2 class="section-title" ng-hide="category=='furnitures'">{{type}}</h2>
     <div ng-if="category=='cabinets'">
