@@ -17,7 +17,7 @@
     <script src="Scripts/angular-touch.min.js"></script>
     <script src="Scripts/ui-bootstrap-tpls.min.js"></script>
    
-    <!--<link href="styles/styles.css" rel="stylesheet" />-->
+    <link href="styles/styles.css" rel="stylesheet" />
  
    
     <script src="app/app.js"></script>
@@ -34,101 +34,79 @@
     <script src="app/service/dataService.js"></script>
 
     <!--<base href="/index.html">-->
-    
+   
 </head>
-<body ng-app="app">
-    <div>
-        <header class="container-fluid">
+<body ng-app="app" class="bg fixed bg1">
 
-            <nav class="navbar navbar-inverse navbar-custom" role="navigation" id="nav">
-                <!--<div class="navbar-header">
-                    <a class="navbar-brand" ui-sref="#" title="Garant"><img src="images/logo.png" class="logo-brand"/></a>
-
-                </div>-->
-                <div class="container">
-
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" ng-click="is_active = !is_active" ng-init="is_active=false">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" ui-sref="home" title="Garant"><img src="images/logo_500.png" class="logo-brand" /></a>
-                    </div>
-                    <div id="main-menu" class="navbar-collapse {{is_active ? 'collapse in' : 'collapse'}}">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li><a class="nav-link" ui-sref="home" ng-click="is_active = false">Головна</a></li>
-                            <li><a class="nav-link" ui-sref="products" ng-click="is_active = false">Продукція</a></li>
-                            <li><a class="nav-link" ui-sref="about" ng-click="is_active = false">Про нас</a></li>
-                            <li><a class="nav-link" ui-sref="contact" ng-click="is_active = false">Контакти</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right lang-menu" ng-init="lang='ua'">
-                            <li class="dropdown {{choose_lan? 'open': ''}}">
-                                <a class="nav-link" href="javascript:void(0);" ng-click="choose_lan = !choose_lan">
-                                    <img src="images/flag/flag_ua.png" ng-show="lang=='ua'" />
-                                    <img src="images/flag/flag_ru.png" ng-show="lang=='ru'" />
-                                    <img src="images/flag/flag_uk.png" ng-show="lang=='uk'" /> <i class="glyphicon glyphicon-chevron-down"></i>
-                                </a>
-
-                                <ul class="dropdown-menu">
-                                    <p style="text-align: center;">Виберіть мову:</p>
-                                    <li ng-click="setLanguge('ua'); lang='ua'; choose_lan = false;">
-                                        <a href="javascript:void(0);">
-                                            <img src="images/flag/flag_ua.png" /> Українська
-                                        </a>
-                                    </li>
-                                    <li ng-click="setLanguge('ru'); lang='ru'; choose_lan = false;">
-                                        <a href="javascript:void(0);">
-                                            <img src="images/flag/flag_ru.png" /> Російська
-                                        </a>
-                                    </li>
-                                    <li ng-click="setLanguge('uk'); lang='uk'; choose_lan = false;">
-                                        <a href="javascript:void(0);">
-                                            <img src="images/flag/flag_uk.png" /> Англійська
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-    </div>
-    <div class="container-fluid main-conten">
-        <section class="container">
-            <div ui-view></div>
-        </section>
-    </div>
-
-    <footer class="footer-custom">
+    <div class="clearfix top-header"  >
         <div class="container">
-            <div class="row">
-                <div class="hidden-xs col-sm-2 col-md-4 col-lg-4"></div>
-                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                    <p>
-                        <a href="http://www.facebook.com" target="_blanc"><img src="images/footer-fb.png" alt="Facebook"></a>
-                        <a href="https://twitter.com/" target="_blanc"><img src="images/footer-twitter.png" alt="Twitter"></a>
-                        <a href="http://plus.google.com" target="_blanc"><img src="images/footer-gplus.png" alt="Google+"></a>
-                    </p>
-                </div>
-                <div class="hidden-xs col-sm-2 col-md-4 col-lg-4"></div>
+            <div class="col-sm-6" style="width:50%">
+                <span>
+                    <i class="glyphicon glyphicon glyphicon-globe"></i>
+                    <a target="_blank" class="top-header-links" href="http://garant-nv.sigmasoft.com.ua/ua/">Наш сайт</a>
+                </span>
+                <span>
+                    <i class="glyphicon glyphicon-map-marker"></i>
+                    <a target="_blank" class="top-header-links" href="https://www.google.com/maps/place/Garant+NV/@50.582287,27.600579,14z/data=!4m12!1m6!3m5!1s0x0:0x57fecc7eeda2343e!2sGarant+NV!8m2!3d50.582287!4d27.600579!3m4!1s0x0:0x57fecc7eeda2343e!8m2!3d50.582287!4d27.600579?hl=en" target="_blank">Наша адреса</a>
+                </span>
             </div>
-            <div class="row footer-info">
-                Телефони: <i class="glyphicon glyphicon-phone"></i> <a href="tel:+380674119788">+380674119788</a>, <a href="tel:+380638224054">+380638224054</a>, <a href="tel:+380506572917">+380506572917</a>
-
-            </div>
-            <div class="row footer-info">
-                <span> <i class="glyphicon glyphicon glyphicon-globe"></i> <a href="http://garant-nv.sigmasoft.com.ua/ua/">Наш сайт</a></span>
-                <span> <i class="glyphicon glyphicon-map-marker"></i><a href="https://www.google.com/maps/place/Garant+NV/@50.582287,27.600579,14z/data=!4m12!1m6!3m5!1s0x0:0x57fecc7eeda2343e!2sGarant+NV!8m2!3d50.582287!4d27.600579!3m4!1s0x0:0x57fecc7eeda2343e!8m2!3d50.582287!4d27.600579?hl=en" target="_blank">Наша адреса</a></span>
+            <div class="col-sm-6" style="width:50%">
+                <span class="pull-right">
+                    Телефони: <i class="glyphicon glyphicon-phone"></i>
+                    <a target="_blank" class="top-header-links" href="tel:+380674119788">+380674119788</a>,
+                    <a target="_blank" class="top-header-links" href="tel:+380638224054">+380638224054</a>,
+                    <a target="_blank" class="top-header-links" href="tel:+380506572917">+380506572917</a>
+                </span>
             </div>
         </div>
-        <ul class="nav pull-right scroll-top">
-            <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
-        </ul>
+    </div>
+    <header class="clearfix">
+        <div class="container-fluid">
+         
+            <div class="container">
+                <div class="header-left">
+                    <a class="" ui-sref="home" title="Garant"><img src="images/logo_500.png" class="logo-brand" /></a>
+                    <!--<h1 style="color:black">Меблі Garant</h1>-->
+                </div>
+                <div class="header-right">
+                    <label for="open">
+                        <span class="hidden-desktop"></span>
+                    </label>
+                    <input type="checkbox" name="" id="open">
+                    <nav>
+                        <a class="nav-link" ui-sref="home" ng-click="is_active = false">Головна</a>
+                        <a class="nav-link" ui-sref="products" ng-click="is_active = false">Продукція</a>
+                        <a class="nav-link" ui-sref="about" ng-click="is_active = false">Про нас</a>
+                        <a class="nav-link" ui-sref="contact" ng-click="is_active = false">Контакти</a>
+
+                        <a class="" style="text-decoration:none; padding-right:0em ;" ng-init="lang='ua'" href="javascript:void(0);">
+
+                            <img src="images/flag/flag_ua.png" title="ua" class="lang {{lang=='ua'? 'lan-active':''}}" ng-click="lang='ua'" />
+                            <img src="images/flag/flag_ru.png" title="ru" class="lang {{lang=='ru'? 'lan-active':''}}" ng-click="lang='ru'" />
+                            <img src="images/flag/flag_uk.png" title="uk" class="lang {{lang=='uk'? 'lan-active':''}}" ng-click="lang='uk'" />
+                    
+                        </a>
+
+                   
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid main-content">
+            <div ui-view></div>
+    </div>
+    <footer class="footer clearfix">
+        <p class="copyright">
+            <span class="copyright__text">© Garant 2017</span>
+        </p>
+        <div class="social">
+            <a href="http://www.facebook.com" class="social__btn" target="_blank"><img src="images/footer-fb.png" alt="Facebook"></a>
+            <a href="https://twitter.com/" class="social__btn" target="_blank"><img src="images/footer-twitter.png" alt="Twitter"></a>
+            <a href="http://plus.google.com" class="social__btn" target="_blank"><img src="images/footer-gplus.png" alt="Google+"></a>
+        </div>
     </footer>
-    
-    
 </body>
 </html>
 

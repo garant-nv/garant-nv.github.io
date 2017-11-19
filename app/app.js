@@ -90,6 +90,8 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
            controller: 'contactController'
            
        });
+}).run(function ($state) {
+    console.log($state);
 });
 
 
