@@ -1,4 +1,15 @@
-﻿.products-nav-wrap {
+﻿.lang-wrap > .lang {
+    display:none;
+
+}
+.lang-wrap .lan-active{
+    display:inline-block;
+} 
+.lang-wrap:hover > .lang
+{
+    display:inline-block;
+}
+.products-nav-wrap {
  line-height: 49px;
     font-size: xx-large;
     font-style: italic;   line-height: 49px;
