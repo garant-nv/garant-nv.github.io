@@ -83,5 +83,13 @@
   "argentum": "срібло",
   "gold": "золото",
   "champagne": "шампань",
-  "wenge_gloss": "венге глянець"
+  "wenge_gloss": "венге глянець",
+
+  "hull_color_l": "Кольори корпусів",
+  "system_color_l": "Кольори систем",
+  "kombi_l": "Комбі",
+  "ex_vs_l": "Зразки ВС",
+  "mirrors_l": "Зразки дзеркал",
+  "ex_facade_kitch_l": "Зразки фасадів кухонь",
+  "ex_modules_kitch_l": "Зразки модулів"
 }
