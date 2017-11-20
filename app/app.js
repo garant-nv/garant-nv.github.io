@@ -1,9 +1,18 @@
-﻿var app = angular.module("app", ['ui.router', 'ui.bootstrap']);
+﻿var app = angular.module("app", ['ui.router', 'ui.bootstrap',  'pascalprecht.translate']);
 
-app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $locationProvider) {
     //$locationProvider.html5Mode(true).hashPrefix('!');
     $urlRouterProvider.otherwise('/');
-   
+
+    $translateProvider.useSanitizeValueStrategy(null);
+    $translateProvider.useStaticFilesLoader({
+        prefix: '/data/translations/',
+        suffix: '.json'
+    });
+
+    $translateProvider.preferredLanguage('ua');
+    //$translateProvider.fallbackLanguage('ua');
+
     $stateProvider
    
        .state('home', {
@@ -91,6 +100,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
            
        });
 }).run(function ($state) {
+    
     console.log($state);
 });
 

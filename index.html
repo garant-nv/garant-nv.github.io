@@ -13,8 +13,12 @@
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/angular-ui-router.min.js"></script>
 
-    <script src="Scripts/angular-animate.min.js"></script>
-    <script src="Scripts/angular-touch.min.js"></script>
+    <!--<script src="Scripts/angular-animate.min.js"></script>-->
+ <!--   <script src="Scripts/angular-touch.min.js"></script>-->
+    <script src="Scripts/angular-translate.min.js"></script>
+    <!--<script src="Scripts/angular-translate-loader-url.min.js"></script>-->
+    <script src="Scripts/angular-translate-loader-static-files.min.js"></script>
+
     <script src="Scripts/ui-bootstrap-tpls.min.js"></script>
    
     <link href="styles/styles.css" rel="stylesheet" />
@@ -43,16 +47,16 @@
             <div class="col-sm-6" style="width:50%">
                 <span>
                     <i class="glyphicon glyphicon glyphicon-globe"></i>
-                    <a target="_blank" class="top-header-links" href="http://garant-nv.sigmasoft.com.ua/ua/">Наш сайт</a>
+                    <a target="_blank" class="top-header-links" href="http://garant-nv.sigmasoft.com.ua/ua/">{{'NAV_OUR_WEBSITE' | translate }}</a>
                 </span>
                 <span>
                     <i class="glyphicon glyphicon-map-marker"></i>
-                    <a target="_blank" class="top-header-links" href="https://www.google.com/maps/place/Garant+NV/@50.582287,27.600579,14z/data=!4m12!1m6!3m5!1s0x0:0x57fecc7eeda2343e!2sGarant+NV!8m2!3d50.582287!4d27.600579!3m4!1s0x0:0x57fecc7eeda2343e!8m2!3d50.582287!4d27.600579?hl=en" target="_blank">Наша адреса</a>
+                    <a target="_blank" class="top-header-links" href="https://www.google.com/maps/place/Garant+NV/@50.582287,27.600579,14z/data=!4m12!1m6!3m5!1s0x0:0x57fecc7eeda2343e!2sGarant+NV!8m2!3d50.582287!4d27.600579!3m4!1s0x0:0x57fecc7eeda2343e!8m2!3d50.582287!4d27.600579?hl=en" target="_blank">{{'NAV_OUR_ADDRESS' | translate }}</a>
                 </span>
             </div>
             <div class="col-sm-6" style="width:50%">
                 <span class="pull-right">
-                    Телефони: <i class="glyphicon glyphicon-phone"></i>
+                    {{'NAV_TELEPHONS' | translate }}: <i class="glyphicon glyphicon-phone"></i>
                     <a target="_blank" class="top-header-links" href="tel:+380674119788">+380674119788</a>,
                     <a target="_blank" class="top-header-links" href="tel:+380638224054">+380638224054</a>,
                     <a target="_blank" class="top-header-links" href="tel:+380506572917">+380506572917</a>
@@ -60,7 +64,7 @@
             </div>
         </div>
     </div>
-    <header class="clearfix">
+    <header class="clearfix" ng-controller="mainController">
         <div class="container-fluid" style="background:white;">
          
             <div class="container">
@@ -74,16 +78,16 @@
                     </label>
                     <input type="checkbox" name="" id="open">
                     <nav>
-                        <a class="nav-link" ui-sref="home" ng-click="is_active = false">Головна</a>
-                        <a class="nav-link" ui-sref="products" ng-click="is_active = false">Продукція</a>
-                        <a class="nav-link" ui-sref="about" ng-click="is_active = false">Про нас</a>
-                        <a class="nav-link" ui-sref="contact" ng-click="is_active = false">Контакти</a>
+                        <a class="nav-link" ui-sref="home" ng-click="is_active = false">{{'NAV_HOME' | translate }}</a>
+                        <a class="nav-link" ui-sref="products" ng-click="is_active = false">{{'NAV_PRODUCTS' | translate }}</a>
+                        <a class="nav-link" ui-sref="about" ng-click="is_active = false">{{'NAV_ABOUT' | translate }}</a>
+                        <a class="nav-link" ui-sref="contact" ng-click="is_active = false">{{'NAV_CONTACTS' | translate }}</a>
 
                         <a class="lang-wrap" style="text-decoration:none; padding-right:0em ;" ng-init="lang='ua'" href="javascript:void(0);">
 
-                            <img src="images/flag/flag_ua.png" title="ua" class="lang {{lang=='ua'? 'lan-active':''}}" ng-click="lang='ua'" />
-                            <img src="images/flag/flag_ru.png" title="ru" class="lang {{lang=='ru'? 'lan-active':''}}" ng-click="lang='ru'" />
-                            <img src="images/flag/flag_uk.png" title="uk" class="lang {{lang=='uk'? 'lan-active':''}}" ng-click="lang='uk'" />
+                            <img src="images/flag/flag_ua.png" title="ua" class="lang {{lang=='ua'? 'lan-active':''}}" ng-click="setLang('ua')" />
+                            <img src="images/flag/flag_ru.png" title="ru" class="lang {{lang=='ru'? 'lan-active':''}}" ng-click="setLang('ru')" />
+                            <img src="images/flag/flag_uk.png" title="uk" class="lang {{lang=='uk'? 'lan-active':''}}" ng-click="setLang('uk')" />
                     
                         </a>
 
@@ -94,6 +98,7 @@
             </div>
         </div>
     </header>
+   
     <div class="container-fluid main-content" ui-view>
             
     </div>

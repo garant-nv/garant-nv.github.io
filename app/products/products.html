@@ -3,11 +3,11 @@
 <div class="container data-content" ui-view >
     <div class="products-nav-wrap ">
         <div class="pull-right">
-            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/cabinets.pdf">Каталог шаф</a>
-            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/kitchens.pdf">Каталог кухонь</a>
+            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/cabinets.pdf">{{'PRODUCTS_CAT1' | translate}}</a>
+            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/kitchens.pdf">{{'PRODUCTS_CAT2' | translate}}</a>
         </div>
     </div>
-    <h2 class="section-title">Продукція</h2>
+    <h2 class="section-title">{{'NAV_PRODUCTS' | translate}}</h2>
     <hr />
     <div ui-view="shortmenu"></div>
     <div ui-view="details"></div>

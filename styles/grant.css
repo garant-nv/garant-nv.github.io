@@ -399,9 +399,11 @@ font-size: 2em;
     -moz-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
 }
-
+.nav-link {
+    cursor:pointer;
+}
 .social__btn:hover {
-        background-color: #23527c;
+        background-color: #1018F9;
 }
 
 body.bg {
