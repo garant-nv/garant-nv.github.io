@@ -741,8 +741,8 @@ nav ul li:hover {
   cursor: pointer;
     display: inline-block;
     position: relative;
-    width: 142px;
-    height: 142px;
+    width: 185px;
+    height: 185px;
     margin-right: 15px;
     background-color: #4b515d;
     -webkit-box-shadow: 0 0 0 1px #3F51B5;
@@ -877,4 +877,26 @@ nav ul li:hover {
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+}
+.catalog-icon {
+       width: 48px;
+    height: 48px;
+}
+.map-wrap {
+    overflow-x: auto;
+}
+.main-image-source {
+margin:auto; height:1000px; width:auto;
+}
+
+.card-test::hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+      
 }

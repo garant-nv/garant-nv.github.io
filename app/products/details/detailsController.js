@@ -26,14 +26,14 @@
     }
 
 
-    $scope.zoomImage = function (url) {
+    $scope.zoomImage = function (url, name) {
         var modalInstance = $uibModal.open({
             templateUrl: '/app/modal/modal.html',
             controller: 'modalController',
 
             resolve: {
-                inputdata: function () {
-                    return url;
+                data: function () {
+                    return {url: url , name: name};
                 }
             }
         });
@@ -55,7 +55,8 @@
         angular.forEach($scope.imageContent, function (v, k) {
             $scope.slides.push({
                 image: v.url,
-                id: index
+                id: index,
+                name: v.name
             })
             index++;
         })

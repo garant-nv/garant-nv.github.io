@@ -1,7 +1,8 @@
-﻿app.controller('modalController', function ($scope, $uibModalInstance, inputdata) {
+﻿app.controller('modalController', function ($scope, $uibModalInstance, data) {
 
 
-    $scope.bigurl = inputdata;
+    $scope.url = data.url;
+    $scope.name = data.name;
 
 
     $scope.close = function () {

@@ -4,11 +4,12 @@
         <span class="products-small-nav" ui-sref="products.{{category}}">{{category | translate}}</span> &rarr;
         <span class="products-small-def" ng-hide="category=='furnitures'">{{type | translate}}</span>
         <div class="pull-right">
-            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/cabinets.pdf">{{'PRODUCTS_CAT1' | translate}}</a>
-            <a target="_blank" class="glyphicon glyphicon-paperclip products-small-nav" style="color:black;" href="/data/kitchens.pdf">{{'PRODUCTS_CAT2' | translate}}</a>
+            <a target="_blank" class="products-small-nav" style="color:black;" href="/data/cabinets.pdf" title="{{'PRODUCTS_CAT1' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_CABINETS' | translate}}</a>
+            <a target="_blank" class="products-small-nav" style="color:black;" href="/data/kitchens.pdf" title="{{'PRODUCTS_CAT2' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_KITCHENS' | translate}}</a>
         </div>
     </div>
     <h2 class="section-title" ng-hide="category=='furnitures'">{{type | translate}}</h2>
+    <!--<h2 class="section-title" ng-if="category=='kitchens'">{{imageContent[active].name | translate}}</h2>-->
     <div ng-if="category=='cabinets'">
         <div class="row" >
            
@@ -16,77 +17,68 @@
                 <div class="col-md-12" >
                     <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                         <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" >
-                            <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;">
-                            <!--<div class="carousel-caption">
-                    <h4>Slide {{item.id}}</h4>
-                    <p>{{item.type}}</p>
-                </div>-->
+                            <img ng-src="{{slide.image}}"  class="main-image-source">
+                            <div class="carousel-caption">
+                                 <h4>{{slide.name}}</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+
+                            <p class="col-md-3" ng-if="imageContent[active].sizes.w.length>1">{{'width' | translate}}: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                            <p class="col-md-3" ng-if="imageContent[active].sizes.d.length>1">{{'depth' | translate}}: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                            <p class="col-md-3" ng-if="imageContent[active].sizes.h.length>1">{{'height' | translate}}: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+
+                            <p class="col-md-3" ng-if="imageContent[active].hull != null">{{'hull' | translate}}:   <span>{{imageContent[active].hull | translate}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].system != null">{{'system' | translate}}:  <span>{{imageContent[active].system | translate}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].facade != null">{{'facade' | translate}}:    <span>{{imageContent[active].facade | translate}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].photoprint != null">{{'photoprint' | translate}}: <span>{{imageContent[active].photoprint}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].piskost != null">{{'piskost' | translate}}: <span>{{imageContent[active].piskost | translate}}</span></p>
+
+                            <p class="col-md-3" ng-if="imageContent[active].mdf != null">{{'mdf' | translate}}: <span>{{imageContent[active].mdf | translate}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].dsp != null">{{'dsp' | translate}}: <span>{{imageContent[active].dsp | translate}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].oracal != null">{{'oracal' | translate}}: <span>{{imageContent[active].oracal}}</span></p>
+                            <p class="col-md-3" ng-if="imageContent[active].kombi != null">{{'kombi' | translate}}: <span>{{imageContent[active].kombi? '+': '-'}}</span></p>
+
                         </div>
 
+                        {{active}}
+                        {{imageContent[active].datails}}
+                        <div class="row">
+                            <div class="x-commons-wrap">
+                                <div class="cabinet-texs-wrap" ng-repeat="cimg in imageContent[active].details">
 
-                    </div>
-                </div>
-                <div class="row" >
-                    <div class="col-md-3">
-                        
-                           
-                            <div>
-                                <p ng-show="imageContent[active].sizes.w.length>1">{{'width' | translate}}: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                                <p ng-show="imageContent[active].sizes.d.length>1">{{'depth' | translate}}: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                                <p ng-show="imageContent[active].sizes.h.length>1">{{'height' | translate}}: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                          
-                                <p ng-show="imageContent[active].hull != null">{{'hull' | translate}}:   <span>{{imageContent[active].hull | translate}}</span></p>
-                                <p ng-show="imageContent[active].system != null">{{'system' | translate}}:  <span>{{imageContent[active].system | translate}}</span></p>
-                                <p ng-show="imageContent[active].facade != null">{{'facade' | translate}}:    <span>{{imageContent[active].facade | translate}}</span></p>
-                                <p ng-show="imageContent[active].photoprint != null">{{'photoprint' | translate}}: <span>{{imageContent[active].photoprint}}</span></p>
-                                <p ng-show="imageContent[active].piskost != null">{{'piskost' | translate}}: <span>{{imageContent[active].piskost | translate}}</span></p>
-                                
-                                <p ng-show="imageContent[active].mdf != null">{{'mdf' | translate}}: <span>{{imageContent[active].mdf | translate}}</span></p>
-                                <p ng-show="imageContent[active].dsp != null">{{'dsp' | translate}}: <span>{{imageContent[active].dsp | translate}}</span></p>
-                                <p ng-show="imageContent[active].oracal != null">{{'oracal' | translate}}: <span>{{imageContent[active].oracal}}</span></p>
-                                <p ng-show="imageContent[active].kombi != null">{{'kombi' | translate}}: <span>{{imageContent[active].kombi? '+': '-'}}</span></p>
+                                  
+                                    <div class="x-commons-img-wrap" ng-click="zoomImage(cimg, null);">
+                                        <img ng-src="cimg" class="x-commons-img" />
+                                        <span class="x-commons-img-zoom">
+                                            <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                        
+                        </div>
                     </div>
                 </div>
+                
                
-                <div class="row">
-                    <div class="x-commons-wrap">
-                        <div class="cabinet-texs-wrap"  ng-repeat="c in imageContent[active].details">
-
-                            <!--<label class="kitchen-commons-name">{{c}}</label>-->
-                            <div class="x-commons-img-wrap" ng-click="zoomImage(c);">
-                                <img ng-src="{{c}}"  class="x-commons-img" />
-                                <span class="x-commons-img-zoom">
-                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
           
            
         </div>
 
-
+        <div ng-hide="type=='chests'">
         <div class="row general-common-titles">
             {{'hull_color_l'|translate}}
         </div>
         <hr/>
 
         <div class="row">
-            <!--<div class="col-md-2 cabinet-hull" ng-repeat="c in hullColors">
-
-                <label class="cabinet-hull-name">{{c.name}}</label>
-                <div class="cabinet-hull-img-wrap">
-                    <img ng-src="{{c.url}}" class="cabinet-hull-img"/>
-                </div>
-            </div>-->
+        
             <div class="x-commons-wrap">
                 <div class="x-commons" ng-repeat="c in hullColors" title="{{c.name}}">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -112,7 +104,7 @@
                 <div class="x-commons" ng-repeat="c in systemColors">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -140,7 +132,7 @@
                 <div class="x-commons" ng-repeat="c in combis">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -167,7 +159,7 @@
                 <div class="x-commons" ng-repeat="c in vsTypes">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -187,7 +179,7 @@
                 <div class="x-commons" ng-repeat="c in mirrors">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -204,19 +196,17 @@
             </div>-->
         </div>
     </div>
+    </div>
     <div ng-if="category=='kitchens'">
         <div class="row">
             <div>
                 <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                     <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" >
-                        <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;">
-                        <!--<div class="carousel-caption">
-                <h4>Slide {{item.id}}</h4>
-                <p>{{item.type}}</p>
-            </div>-->
+                        <img ng-src="{{slide.image}}" class="main-image-source">
+                        <div class="carousel-caption">
+                            <h1>{{slide.name}}</h1>
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -229,7 +219,7 @@
                 <div class="x-commons" ng-repeat="c in facades">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -238,6 +228,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="row general-common-titles">
             {{'ex_modules_kitch_l'|translate}}
         </div>
@@ -247,7 +238,7 @@
                 <div class="x-commons" ng-repeat="c in kitchenCommons">
 
                     <!--<label class="kitchen-commons-name">{{c.name}}</label>-->
-                    <div class="x-commons-img-wrap" ng-click="zoomImage(c.url);">
+                    <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
                         <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
                         <span class="x-commons-img-zoom">
                             <i class="glyphicon glyphicon-plus plus-icon"></i>
@@ -262,7 +253,7 @@
         <div class="col-md-12">
             <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                 <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-                    <img ng-src="{{slide.image}}" style="margin:auto; height:600px; width:auto;opacity: 0.4;">
+                    <img ng-src="{{slide.image}}" class="main-image-source" style="opacity: 0.4;">
                     <div class="carousel-caption">
                 
                         <p  class="furnitures-text" >{{'products_in_dev' | translate}}</p>

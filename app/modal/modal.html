@@ -1,14 +1,13 @@
 ﻿<div class="modal-content">
     <div class="image-zoom-modal-header" >
+        {{name | translate}}
         <span class="image-zoom-modal-close" title="close" ng-click="close()">
             <i class="glyphicon glyphicon-remove"></i>
         </span>
     </div>
     <div class="modal-body image-zoom-modal-body">
-        <img ng-src="{{bigurl}}" class="img-responsive  center-block" />
-        <!--<img ng-src="{{bigurl}}" />-->
+        <img ng-src="{{url}}" class="img-responsive  center-block" />
+        
     </div>
-    <!--<div class="image-zoom-modal-footer">
-        <button class="btn btn-primary" ng-click="close()">close</button>
-    </div>-->
+    
 </div>
