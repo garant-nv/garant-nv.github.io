@@ -865,3 +865,16 @@ nav ul li:hover {
     font-family: -webkit-body;
     font-weight: 600;
 }
+
+.skype-icon {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
