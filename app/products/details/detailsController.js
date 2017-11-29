@@ -1,4 +1,5 @@
-﻿app.controller('detailsController', function ($scope, $state, $stateParams, dataService, $uibModal, $sce) {
+﻿app
+.controller('detailsController', function ($scope, $state, $stateParams, dataService, $uibModal, $sce) {
     $scope.slides = [];
     $scope.myInterval = 1500;
     $scope.noWrapSlides = false;
@@ -23,6 +24,11 @@
         console.log($scope.imageContent);
 
 
+    }
+
+    $scope.getCabinetTemps = function () {
+
+        return $scope.imageContent[$scope.active];
     }
 
 
@@ -101,11 +107,12 @@
 
     function loadCabinetsCommon() {
         $scope.mirrors = dataService.mirrors;
-        $scope.commonCabinetTexs = dataService.commonCabinetTexs;
+        $scope.oracalColors = dataService.oracalColors;
         $scope.systemColors = dataService.systemColors;
         $scope.combis = dataService.combiTypes;
         $scope.vsTypes = dataService.vsTypes;
         $scope.hullColors = dataService.hullColors;
+        $scope.mdfs = dataService.mdfs;
     }
 
     function loadKitchenFacades() {

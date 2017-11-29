@@ -99,7 +99,12 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
            controller: 'contactController'
            
        });
-}).run(function ($state) {
+}).filter('trusted', ['$sce', function ($sce) {
+    return function (url) {
+        return $sce.trustAsResourceUrl(url);
+    };
+}])
+    .run(function ($state) {
     
     console.log($state);
 });

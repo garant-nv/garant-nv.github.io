@@ -21,7 +21,7 @@
             4: { name: "lavender_bronze", url: "/images/common/cabinets/mdfs/5.jpg" },
             5: { name: "lavender_white", url: "/images/common/cabinets/mdfs/6.jpg" },
             6: { name: "shtroks_chocolate", url: "/images/common/cabinets/mdfs/7.jpg" },
-            7: { name: "olive_shtroks", url: "/images/common/cabinets/mdfs/9.jpg" },
+            7: { name: "olive_shtroks", url: "/images/common/cabinets/mdfs/8.jpg" },
             8: { name: "flax_dark", url: "/images/common/cabinets/mdfs/9.jpg" },
         };
 
@@ -71,24 +71,24 @@
 
         this.vsTypes = {
             0: { name: "bc_01", url: "/images/common/cabinets/vss/1.jpg" },
-            1: { name: "bc_01", url: "/images/common/cabinets/vss/2.jpg" },
-            2: { name: "bc_01", url: "/images/common/cabinets/vss/3.jpg" },
-            3: { name: "bc_01", url: "/images/common/cabinets/vss/4.jpg" },
+            1: { name: "bc_02", url: "/images/common/cabinets/vss/2.jpg" },
+            2: { name: "bc_03", url: "/images/common/cabinets/vss/3.jpg" },
+            3: { name: "bc_04", url: "/images/common/cabinets/vss/4.jpg" },
 
-            4: { name: "bc_01", url: "/images/common/cabinets/vss/5.jpg" },
-            5: { name: "bc_01", url: "/images/common/cabinets/vss/6.jpg" },
-            6: { name: "bc_01", url: "/images/common/cabinets/vss/7.jpg" },
-            7: { name: "bc_01", url: "/images/common/cabinets/vss/8.jpg" },
+            4: { name: "bc_05", url: "/images/common/cabinets/vss/5.jpg" },
+            5: { name: "bc_06", url: "/images/common/cabinets/vss/6.jpg" },
+            6: { name: "bc_07", url: "/images/common/cabinets/vss/7.jpg" },
+            7: { name: "bc_08", url: "/images/common/cabinets/vss/8.jpg" },
 
-            8: { name: "bc_01", url: "/images/common/cabinets/vss/9.jpg" },
-            9: { name: "bc_01", url: "/images/common/cabinets/vss/10.jpg" },
-            10: { name: "bc_01", url: "/images/common/cabinets/vss/11.jpg" },
-            11: { name: "bc_01", url: "/images/common/cabinets/vss/12.jpg" },
+            8: { name: "bc_09", url: "/images/common/cabinets/vss/9.jpg" },
+            9: { name: "bc_10", url: "/images/common/cabinets/vss/10.jpg" },
+            10: { name: "bc_11", url: "/images/common/cabinets/vss/11.jpg" },
+            11: { name: "bc_12", url: "/images/common/cabinets/vss/12.jpg" },
 
-            12: { name: "bc_01", url: "/images/common/cabinets/vss/13.jpg" },
-            13: { name: "bc_01", url: "/images/common/cabinets/vss/14.jpg" },
-            14: { name: "bc_01", url: "/images/common/cabinets/vss/15.jpg" },
-            15: { name: "bc_01", url: "/images/common/cabinets/vss/16.jpg" },
+            12: { name: "bc_13", url: "/images/common/cabinets/vss/13.jpg" },
+            13: { name: "bc_14", url: "/images/common/cabinets/vss/14.jpg" },
+            14: { name: "bc_15", url: "/images/common/cabinets/vss/15.jpg" },
+            15: { name: "bc_16", url: "/images/common/cabinets/vss/16.jpg" },
 
         };
 
@@ -96,12 +96,12 @@
             0: { code: "023", name: "creamy", url: "/images/common/cabinets/oracal_colors/023.jpg" },
             1: { code: "025", name: "sulfur_yellow", url: "/images/common/cabinets/oracal_colors/025.jpg" },
             2: { code: "032", name: "light_red", url: "/images/common/cabinets/oracal_colors/032.jpg" },
-            3: { code: "036", name: "light_orange", url: "/images/common/cabinets/oracal_colors/036.jpg" },
+            3: { code: "036", name: "light_orange", url: "/images/common/cabinets/oracal_colors/036.png" },
 
             4: { code: "040", name: "purple", url: "/images/common/cabinets/oracal_colors/040.jpg" },
             5: { code: "045", name: "light_pink", url: "/images/common/cabinets/oracal_colors/045.jpg" },
             6: { code: "053", name: "light_blue", url: "/images/common/cabinets/oracal_colors/053.jpg" },
-            7: { code: "055", name: "minty", url: "/images/common/cabinets/oracal_colors/055.jpg" },
+            7: { code: "055", name: "minty", url: "/images/common/cabinets/oracal_colors/055.png" },
 
             8: { code: "063", name: "lilac_green", url: "/images/common/cabinets/oracal_colors/063.jpg" },
             9: { code: "066", name: "turquoise_blue", url: "/images/common/cabinets/oracal_colors/066.jpg" },
@@ -128,222 +128,223 @@
 
         this.kitchens = {
             "platinum": {
-                "0":{
-                    name: "Біла структура в сріблі",
+                "0": {
+                    
+                    name: "kit_p1",
                     url: "/images/common/kitchens/platinum/1.jpg"
                 },
                 "1":{
-                    name: "Ваніль супермат",
+                    name: "kit_p2",
                     url: "/images/common/kitchens/platinum/2.jpg"
                 },
                 "2":{
-                    name: "Вишня форема",
+                    name: "kit_p3",
                     url: "/images/common/kitchens/platinum/3.jpg"
                 },
                 "3":{
-                    name: "Горіх Пасифік",
+                    name: "kit_p4",
                     url: "/images/common/kitchens/platinum/4.jpg"
                 },
                 "4":{
-                    name: "Дуб білений",
+                    name: "kit_p5",
                     url: "/images/common/kitchens/platinum/5.jpg"
                 },
                 "5":{
-                    name: "Кедр Люкс",
+                    name: "kit_p6",
                     url: "/images/common/kitchens/platinum/6.jpg"
                 },
                 "6":{
-                    name: "Патина 38 радіал",
+                    name: "kit_p7",
                     url: "/images/common/kitchens/platinum/7.jpg"
                 },
                 "7":{
-                    name: "Рельєф пастель",
+                    name: "kit_p8",
                     url: "/images/common/kitchens/platinum/8.jpg"
                 },
                 "8":{
-                    name: "Сомона темна",
+                    name: "kit_p9",
                     url: "/images/common/kitchens/platinum/9.jpg"
                 },
                 "9":{
-                    name: "Ялина карпатська",
+                    name: "kit_p10",
                     url: "/images/common/kitchens/platinum/10.jpg"
                 },
                 "10":{
-                    name: "Ясен беж",
+                    name: "kit_p11",
                     url: "/images/common/kitchens/platinum/11.jpg"
                 },
                 "11":{
-                    name: "Ясен Голд",
+                    name: "kit_p12",
                     url: "/images/common/kitchens/platinum/12.jpg"
                 },
             },
             "quadris": {
                 "0":{
-                    name: "Біле дерево, Кедр люкс",
+                    name: "kit_q1",
                     url: "/images/common/kitchens/quadris/1.jpg"
                 },
                 "1":{
-                    name: "Дуб португальський",
+                    name: "kit_q2",
                     url: "/images/common/kitchens/quadris/2.jpg"
                 },
                 "2":{
-                    name: "Сонома світла та горіх темний",
+                    name: "kit_q3",
                     url: "/images/common/kitchens/quadris/3.jpg"
                 },
                 "3":{
-                    name: "Ясен жемчужний та ваніль супермат",
+                    name: "kit_q4",
                     url: "/images/common/kitchens/quadris/4.jpg"
                 },
             },
             "sunrise": {
                 "0":{
-                    name: "Клен світлий, Венге Темний",
+                    name: "kit_s1",
                     url: "/images/common/kitchens/sunrise/1.jpg"
                 },
                 "1":{
-                    name: "Слива луїза",
+                    name: "kit_s2",
                     url: "/images/common/kitchens/sunrise/2.jpg"
                 },
                 "2":{
-                    name: "Сонома темна",
+                    name: "kit_s3",
                     url: "/images/common/kitchens/sunrise/3.jpg"
                 },
                 "3":{
-                    name: "Яблуня світла, Яблуня темна тиснена",
+                    name: "kit_s4",
                     url: "/images/common/kitchens/sunrise/4.jpg"
                 },
             },
             "elite": {
                 "0":{
-                    name: "Айфорі та шоколад Еліт",
+                    name: "kit_e1",
                     url: "/images/common/kitchens/elite/1.jpg"
                 },
                 "1":{
-                    name: "Антарктика супермат",
+                    name: "kit_e2",
                     url: "/images/common/kitchens/elite/2.jpg"
                 },
                 "2":{
-                    name: "Блакитний та рожевий металік Еліт",
+                    name: "kit_e3",
                     url: "/images/common/kitchens/elite/3.jpg"
                 },
                 "3":{
-                    name: "Мурена супермат Еліт",
+                    name: "kit_e4",
                     url: "/images/common/kitchens/elite/4.jpg"
                 },
                 "4":{
-                    name: "Оранж та Олива супермат Еліт",
+                    name: "kit_e5",
                     url: "/images/common/kitchens/elite/5.jpg"
                 },
                 "5":{
-                    name: "Північне сяйво глянець та марс глянець",
+                    name: "kit_e6",
                     url: "/images/common/kitchens/elite/6.jpg"
                 },
                 "6":{
-                    name: "Титан Еліт",
+                    name: "kit_e7",
                     url: "/images/common/kitchens/elite/7.jpg"
                 },
                 "7":{
-                    name: "Чорний глянець перламутр Еліт",
+                    name: "kit_e8",
                     url: "/images/common/kitchens/elite/8.jpg"
                 },
             },
             "frame": {
                 "0":{
-                    name: "Бордо",
+                    name: "kit_f1",
                     url: "/images/common/kitchens/frame/1.jpg"
                 },
                 "1":{
-                    name: "Оранж та зелений лайм",
+                    name: "kit_f2",
                     url: "/images/common/kitchens/frame/2.jpg"
                 },
                 "2":{
-                    name: "Слонова кістка",
+                    name: "kit_f3",
                     url: "/images/common/kitchens/frame/3.jpg"
                 },
                 "3":{
-                    name: "Чорний",
+                    name: "kit_f4",
                     url: "/images/common/kitchens/frame/4.jpg"
                 },
             },
             "glamor": {
                 "0":{
-                    name: "Аквамарин металік та сакура металік",
+                    name: "kit_g1",
                     url: "/images/common/kitchens/glamor/1.jpg"
                 },
                 "1":{
-                    name: "Білий металік, бордо 140",
+                    name: "kit_g2",
                     url: "/images/common/kitchens/glamor/2.jpg"
                 },
                 "2":{
-                    name: "Глянець шоколад",
+                    name: "kit_g3",
                     url: "/images/common/kitchens/glamor/3.jpg"
                 },
                 "3":{
-                    name: "Лайм металік",
+                    name: "kit_g4",
                     url: "/images/common/kitchens/glamor/4.jpg"
                 },
                 "4":{
-                    name: "Ліловий та білий металік",
+                    name: "kit_g5",
                     url: "/images/common/kitchens/glamor/5.jpg"
                 },
                 "5":{
-                    name: "Оранж металік",
+                    name: "kit_g6",
                     url: "/images/common/kitchens/glamor/6.jpg"
                 },
                 "6":{
-                    name: "Слонова кістка глянець",
+                    name: "kit_g7",
                     url: "/images/common/kitchens/glamor/7.jpg"
                 },
                 "7":{
-                    name: "Червоний глянець",
+                    name: "kit_g8",
                     url: "/images/common/kitchens/glamor/8.jpg"
                 },
                 "8":{
-                    name: "Білий глянець, Чорний глянець",
+                    name: "kit_g9",
                     url: "/images/common/kitchens/glamor/9.jpg"
                 },
             },
             "contour": {
                 "0":{
-                    name: "Венге темний, Дуб молочний",
+                    name: "kit_c1",
                     url: "/images/common/kitchens/contour/1.jpg"
                 },
                 "1":{
-                    name: "Вільха гірська темна",
+                    name: "kit_c2",
                     url: "/images/common/kitchens/contour/2.jpg"
                 },
                 "2":{
-                    name: "Горіх Болонья Темний",
+                    name: "kit_c3",
                     url: "/images/common/kitchens/contour/3.jpg"
                 },
                 "3":{
-                    name: "Дуб молочний, Горіх Болонья Темний",
+                    name: "kit_c4",
                     url: "/images/common/kitchens/contour/4.jpg"
                 },
                 "4":{
-                    name: "Дуб молочний",
+                    name: "kit_c5",
                     url: "/images/common/kitchens/contour/5.jpg"
                 },
                 "5":{
-                    name: "Яблуня локарно темна, Дуб молочний",
+                    name: "kit_c6",
                     url: "/images/common/kitchens/contour/6.jpg"
                 },
             },
             "modest": {
                 "0":{
-                    name: "Горіх болонья темний",
+                    name: "kit_m1",
                     url: "/images/common/kitchens/modest/1.jpg"
                 },
                 "1":{
-                    name: "Дуб молочний, Венге темний",
+                    name: "kit_m2",
                     url: "/images/common/kitchens/modest/2.jpg"
                 },
                 "2":{
-                    name: "Дуб сонома",
+                    name: "kit_m3",
                     url: "/images/common/kitchens/modest/3.jpg"
                 },
                 "3":{
-                    name: "Сірий уніколор",
+                    name: "kit_m4",
                     url: "/images/common/kitchens/modest/4.jpg"
                 },
             },
@@ -352,371 +353,371 @@
         this.kitchenfacades = {
             "platinum": {
                 0: {
-                     name: "",
+                    name: "platinum_n1",
                      url: "/images/common/kitchens/platinum/facades/1.jpg",
                  },
                 1:{
-                    name: "",
+                    name: "platinum_n2",
                     url: "/images/common/kitchens/platinum/facades/2.jpg",
                 },
                 2: {
-                      name: "",
+                    name: "platinum_n3",
                       url: "/images/common/kitchens/platinum/facades/3.jpg",
                   },
                 3: {
-                      name: "",
+                    name: "platinum_n4",
                       url: "/images/common/kitchens/platinum/facades/4.jpg",
                   },
                  4: {
-                      name: "",
+                     name: "platinum_n5",
                       url: "/images/common/kitchens/platinum/facades/5.jpg",
                   },
                   5:{
-                      name: "",
+                      name: "platinum_n6",
                       url: "/images/common/kitchens/platinum/facades/6.jpg",
                   },
                   6:{
-                      name: "",
+                      name: "platinum_n7",
                       url: "/images/common/kitchens/platinum/facades/7.jpg",
                   },
                   7:{
-                      name: "",
+                      name: "platinum_n8",
                       url: "/images/common/kitchens/platinum/facades/8.jpg",
                   },
                   8:{
-                      name: "",
+                      name: "platinum_n9",
                       url: "/images/common/kitchens/platinum/facades/9.jpg",
                   },
                   9:{
-                      name: "",
+                      name: "platinum_n10",
                       url: "/images/common/kitchens/platinum/facades/10.jpg",
                   },
                   10:{
-                      name: "",
+                      name: "platinum_n11",
                       url: "/images/common/kitchens/platinum/facades/11.jpg",
                   },
                   11:{
-                      name: "",
+                      name: "platinum_n12",
                       url: "/images/common/kitchens/platinum/facades/12.jpg",
                   },
         },
             "quadris": {
                   0:{
-                      name: "",
+                      name: "quadris_n1",
                       url: "/images/common/kitchens/quadris/facades/1.jpg",
                   },
                   1:{
-                      name: "",
+                      name: "quadris_n2",
                       url: "/images/common/kitchens/quadris/facades/2.jpg",
                   },
                   2:{
-                      name: "",
+                      name: "quadris_n3",
                       url: "/images/common/kitchens/quadris/facades/3.jpg",
                   },
                   3:{
-                      name: "",
+                      name: "quadris_n4",
                       url: "/images/common/kitchens/quadris/facades/4.jpg",
                   },
                   4:{
-                      name: "",
+                      name: "quadris_n5",
                       url: "/images/common/kitchens/quadris/facades/5.jpg",
                   },
                   5: {
-                      name: "",
+                      name: "quadris_n6",
                       url: "/images/common/kitchens/quadris/facades/6.jpg",
                   },
                   6:{
-                      name: "",
+                      name: "quadris_n7",
                       url: "/images/common/kitchens/quadris/facades/7.jpg",
                   },
                   7:{
-                      name: "",
+                      name: "quadris_n8",
                       url: "/images/common/kitchens/quadris/facades/8.jpg",
                   },
                   8:{
-                      name: "",
+                      name: "quadris_n9",
                       url: "/images/common/kitchens/quadris/facades/9.jpg",
                   },
                   9:{
-                      name: "",
+                      name: "quadris_n10",
                       url: "/images/common/kitchens/quadris/facades/10.jpg",
                   },
                   10: {
-                      name: "",
+                      name: "quadris_n11",
                       url: "/images/common/kitchens/quadris/facades/11.jpg",
                   },
                   11:{
-                      name: "",
+                      name: "quadris_n12",
                       url: "/images/common/kitchens/quadris/facades/12.jpg",
                   },
                   12:{
-                      name: "",
+                      name: "quadris_n13",
                       url: "/images/common/kitchens/quadris/facades/13.jpg",
                   },
                   13: {
-                      name: "",
+                      name: "quadris_n14",
                       url: "/images/common/kitchens/quadris/facades/14.jpg",
                   },
                   14:{
-                      name: "",
+                      name: "quadris_n15",
                       url: "/images/common/kitchens/quadris/facades/15.jpg",
                   },
             },
             "sunrise": {
                   0:{
-                      name: "",
+                      name: "sunrise_n1",
                       url: "/images/common/kitchens/sunrise/facades/1.jpg",
                   },
                   1:{
-                      name: "",
+                      name: "sunrise_n2",
                       url: "/images/common/kitchens/sunrise/facades/2.jpg",
                   },
                   2:{
-                      name: "",
+                      name: "sunrise_n3",
                       url: "/images/common/kitchens/sunrise/facades/3.jpg",
                   },
                   3:{
-                      name: "",
+                      name: "sunrise_n4",
                       url: "/images/common/kitchens/sunrise/facades/4.jpg",
                   },
                   4:{
-                      name: "",
+                      name: "sunrise_n5",
                       url: "/images/common/kitchens/sunrise/facades/5.jpg",
                   },
                   5:{
-                      name: "",
+                      name: "sunrise_n6",
                       url: "/images/common/kitchens/sunrise/facades/6.jpg",
                   },
                   6:{
-                      name: "",
+                      name: "sunrise_n7",
                       url: "/images/common/kitchens/sunrise/facades/7.jpg",
                   },
                   7:{
-                      name: "",
+                      name: "sunrise_n8",
                       url: "/images/common/kitchens/sunrise/facades/8.jpg",
                   },
                   8:{
-                      name: "",
+                      name: "sunrise_n9",
                       url: "/images/common/kitchens/sunrise/facades/9.jpg",
                   },
                   9:{
-                      name: "",
+                      name: "sunrise_n10",
                       url: "/images/common/kitchens/sunrise/facades/10.jpg",
                   },
                   10:{
-                      name: "",
+                      name: "sunrise_n11",
                       url: "/images/common/kitchens/sunrise/facades/11.jpg",
                   },
                   11:{
-                      name: "",
+                      name: "sunrise_n12",
                       url: "/images/common/kitchens/sunrise/facades/12.jpg",
                   },
                   12:{
-                      name: "",
+                      name: "sunrise_n13",
                       url: "/images/common/kitchens/sunrise/facades/13.jpg",
                   },
                   13:{
-                      name: "",
+                      name: "sunrise_n14",
                       url: "/images/common/kitchens/sunrise/facades/14.jpg",
                   },
                   14:{
-                      name: "",
+                      name: "sunrise_n15",
                       url: "/images/common/kitchens/sunrise/facades/15.jpg",
                   },
 
             },
             "elite": {
                   0:{
-                      name: "",
+                      name: "elite_n1",
                       url: "/images/common/kitchens/elite/facades/1.jpg",
                   },
                   1:{
-                      name: "",
+                      name: "elite_n2",
                       url: "/images/common/kitchens/elite/facades/2.jpg",
                   },
                   2:{
-                      name: "",
+                      name: "elite_n3",
                       url: "/images/common/kitchens/elite/facades/3.jpg",
                   },
                   3:{
-                      name: "",
+                      name: "elite_n4",
                       url: "/images/common/kitchens/elite/facades/4.jpg",
                   },
                   4:{
-                      name: "",
+                      name: "elite_n5",
                       url: "/images/common/kitchens/elite/facades/5.jpg",
                   },
                   5:{
-                      name: "",
+                      name: "elite_n6",
                       url: "/images/common/kitchens/elite/facades/6.jpg",
                   },
                   6:{
-                      name: "",
+                      name: "elite_n7",
                       url: "/images/common/kitchens/elite/facades/7.jpg",
                   },
                   7:{
-                      name: "",
+                      name: "elite_n8",
                       url: "/images/common/kitchens/elite/facades/8.jpg",
                   },
                   8:{
-                      name: "",
+                      name: "elite_n9",
                       url: "/images/common/kitchens/elite/facades/9.jpg",
                   },
                   9:{
-                      name: "",
+                      name: "elite_n10",
                       url: "/images/common/kitchens/elite/facades/10.jpg",
                   },
                   10:{
-                      name: "",
+                      name: "elite_n11",
                       url: "/images/common/kitchens/elite/facades/11.jpg",
                   },
                   11:{
-                      name: "",
+                      name: "elite_n12",
                       url: "/images/common/kitchens/elite/facades/12.jpg",
                   },
                   12:{
-                      name: "",
+                      name: "elite_n13",
                       url: "/images/common/kitchens/elite/facades/13.jpg",
                   },
             },
             "frame": {
                 0:{
-                      name: "",
+                    name: "frame_n1",
                       url: "/images/common/kitchens/frame/facades/1.jpg",
                   },
                 1:{
-                      name: "",
+                    name: "frame_n2",
                       url: "/images/common/kitchens/frame/facades/2.jpg",
                   },
                 2:{
-                      name: "",
+                    name: "frame_n3",
                       url: "/images/common/kitchens/frame/facades/3.jpg",
                   },
                 3:{
-                      name: "",
+                    name: "frame_n4",
                       url: "/images/common/kitchens/frame/facades/4.jpg",
                   },
                 4:{
-                      name: "",
+                    name: "frame_n5",
                       url: "/images/common/kitchens/frame/facades/5.jpg",
                   },
                 5:{
-                     name: "",
+                    name: "frame_n6",
                      url: "/images/common/kitchens/frame/facades/6.jpg",
                   },
             },
             "glamor": {
                 0:{
-                      name: "",
+                    name: "glamor_n1",
                       url: "/images/common/kitchens/glamor/facades/1.jpg",
                   },
                 1:{
-                      name: "",
+                    name: "glamor_n2",
                       url: "/images/common/kitchens/glamor/facades/2.jpg",
                   },
                 2:{
-                      name: "",
+                    name: "glamor_n3",
                       url: "/images/common/kitchens/glamor/facades/3.jpg",
                   },
                 3:{
-                      name: "",
+                    name: "glamor_n4",
                       url: "/images/common/kitchens/glamor/facades/4.jpg",
                   },
                 4:{
-                      name: "",
+                    name: "glamor_n5",
                       url: "/images/common/kitchens/glamor/facades/5.jpg",
                   },
                 5:{
-                      name: "",
+                    name: "glamor_n6",
                       url: "/images/common/kitchens/glamor/facades/6.jpg",
                   },
                 6:{
-                      name: "",
+                    name: "glamor_n7",
                       url: "/images/common/kitchens/glamor/facades/7.jpg",
                   },
                 7:{
-                      name: "",
+                    name: "glamor_n8",
                       url: "/images/common/kitchens/glamor/facades/8.jpg",
                   },
                 8:{
-                      name: "",
+                    name: "glamor_n9",
                       url: "/images/common/kitchens/glamor/facades/9.jpg",
                   },
                 9:{
-                      name: "",
+                    name: "glamor_n10",
                       url: "/images/common/kitchens/glamor/facades/10.jpg",
                   },
                 10:{
-                      name: "",
+                    name: "glamor_n11",
                       url: "/images/common/kitchens/glamor/facades/11.jpg",
                   },
                 11:{
-                      name: "",
+                    name: "glamor_n12",
                       url: "/images/common/kitchens/glamor/facades/12.jpg",
                   },
                 12:{
-                      name: "",
+                    name: "glamor_n13",
                       url: "/images/common/kitchens/glamor/facades/13.jpg",
                   },
 
             },
             "contour": {
                 0:{
-                      name: "",
+                    name: "contour_n1",
                       url: "/images/common/kitchens/contour/facades/1.jpg",
                   },
                 1: {
-                       name: "",
+                    name: "contour_n2",
                        url: "/images/common/kitchens/contour/facades/2.jpg",
                    },
                 2:  {
-                        name: "",
+                    name: "contour_n3",
                         url: "/images/common/kitchens/contour/facades/3.jpg",
                     },
                 3:   {
-                         name: "",
+                    name: "contour_n4",
                          url: "/images/common/kitchens/contour/facades/4.jpg",
                      },
                 4:    {
-                          name: "",
+                    name: "contour_n5",
                           url: "/images/common/kitchens/contour/facades/5.jpg",
                       },
                 5:     {
-                           name: "",
+                    name: "contour_n6",
                            url: "/images/common/kitchens/contour/facades/6.jpg",
                        },
             },
             "modest": {
                 0: {
-                       name: "",
+                    name: "modest_n1",
                        url: "/images/common/kitchens/modest/facades/1.jpg",
                    },
                 1:{
-                      name: "",
+                    name: "modest_n2",
                       url: "/images/common/kitchens/modest/facades/2.jpg",
                   },
                 2:{
-                      name: "",
+                    name: "modest_n3",
                       url: "/images/common/kitchens/modest/facades/3.jpg",
                   },
                 3:{
-                      name: "",
+                    name: "modest_n4",
                       url: "/images/common/kitchens/modest/facades/4.jpg",
                   },
                 4:{
-                      name: "",
+                    name: "modest_n5",
                       url: "/images/common/kitchens/modest/facades/5.jpg",
                   },
                 5:{
-                      name: "",
+                    name: "modest_n6",
                       url: "/images/common/kitchens/modest/facades/6.jpg",
                   },
                 6:{
-                      name: "",
+                    name: "modest_n7",
                       url: "/images/common/kitchens/modest/facades/7.jpg",
                   },
                 7: {
-                      name: "",
+                    name: "modest_n8",
                       url: "/images/common/kitchens/modest/facades/8.jpg",
                   }
 
@@ -725,16 +726,16 @@
         };
 
         this.kitchenCommons = [
-            { name: "", url: "/images/common/kitchens/mod1.png" },
-            { name: "", url: "/images/common/kitchens/mod2.png" },
-            { name: "", url: "/images/common/kitchens/mod3.png" },
-            { name: "", url: "/images/common/kitchens/mod4.png" },
-            { name: "", url: "/images/common/kitchens/mod5.png" },
-            { name: "", url: "/images/common/kitchens/mod6.png" },
-            { name: "", url: "/images/common/kitchens/mod7.png" },
-            { name: "", url: "/images/common/kitchens/mod8.png" },
-            { name: "", url: "/images/common/kitchens/mod9.png" },
-            { name: "", url: "/images/common/kitchens/mod10.png" },
+            { name: "cmod1", url: "/images/common/kitchens/mod1.png" },
+            { name: "cmod2", url: "/images/common/kitchens/mod2.png" },
+            { name: "cmod3", url: "/images/common/kitchens/mod3.png" },
+            { name: "cmod4", url: "/images/common/kitchens/mod4.png" },
+            { name: "cmod5", url: "/images/common/kitchens/mod5.png" },
+            { name: "cmod6", url: "/images/common/kitchens/mod6.png" },
+            { name: "cmod7", url: "/images/common/kitchens/mod7.png" },
+            { name: "cmod8", url: "/images/common/kitchens/mod8.png" },
+            { name: "cmod9", url: "/images/common/kitchens/mod9.png" },
+            { name: "cmod10", url: "/images/common/kitchens/mod10.png" },
         ]
 
         
