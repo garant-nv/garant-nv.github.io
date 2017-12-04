@@ -53,5 +53,113 @@
       "/images/common/cabinets/attached/at5-min.png"
 
     ]
+  },
+  {
+    "id": 3,
+
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/attached/30.jpg",
+    "datails": [
+      "/images/common/cabinets/attached/at1-min.png",
+      "/images/common/cabinets/attached/at2-min.png",
+      "/images/common/cabinets/attached/at3-min.png",
+      "/images/common/cabinets/attached/at4-min.png",
+      "/images/common/cabinets/attached/at5-min.png"
+
+    ]
+  },
+  {
+    "id": 4,
+
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/attached/31.jpg",
+    "datails": [
+      "/images/common/cabinets/attached/at1-min.png",
+      "/images/common/cabinets/attached/at2-min.png",
+      "/images/common/cabinets/attached/at3-min.png",
+      "/images/common/cabinets/attached/at4-min.png",
+      "/images/common/cabinets/attached/at5-min.png"
+
+    ]
+  },
+  {
+    "id": 5,
+
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/attached/32.jpg",
+    "datails": [
+      "/images/common/cabinets/attached/at1-min.png",
+      "/images/common/cabinets/attached/at2-min.png",
+      "/images/common/cabinets/attached/at3-min.png",
+      "/images/common/cabinets/attached/at4-min.png",
+      "/images/common/cabinets/attached/at5-min.png"
+
+    ]
+  },
+  {
+    "id": 6,
+
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/attached/33.jpg",
+    "datails": [
+      "/images/common/cabinets/attached/at1-min.png",
+      "/images/common/cabinets/attached/at2-min.png",
+      "/images/common/cabinets/attached/at3-min.png",
+      "/images/common/cabinets/attached/at4-min.png",
+      "/images/common/cabinets/attached/at5-min.png"
+
+    ]
   }
 ]

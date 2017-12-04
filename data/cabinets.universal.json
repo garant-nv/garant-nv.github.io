@@ -8,14 +8,74 @@
     "photoprint": null,
     "sizes": {
       "w": [],
-      "h": [ ],
+      "h": [],
       "d": []
     },
     "kombi": null,
     "dsp": null,
     "mdf": null,
     "oracal": null,
-    "url": "/images/common/cabinets/universal/universal1-min.jpg",
+    "url": "/images/common/cabinets/universal/42.jpg",
+    "datails": [
+    ]
+  },
+  {
+    "id": 2,
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/universal/43.jpg",
+    "datails": [
+    ]
+  },
+  {
+    "id": 3,
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/universal/44.jpg",
+    "datails": [
+    ]
+  },
+  {
+    "id": 4,
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/universal/45.jpg",
     "datails": [
     ]
   }

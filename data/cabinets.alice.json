@@ -15,7 +15,27 @@
     "dsp": null,
     "mdf": null,
     "oracal": null,
-    "url": "/images/common/cabinets/alice/alice.jpg",
+    "url": "/images/common/cabinets/alice/40.jpg",
+    "datails": [
+    ]
+  },
+  {
+    "id": 2,
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/alice/41.jpg",
     "datails": [
     ]
   }
