@@ -886,7 +886,7 @@ nav ul li:hover {
     overflow-x: auto;
 }
 .main-image-source {
-margin:auto; height:1000px; width:auto;
+margin:auto; height:600px; width:auto;
 }
 
 .card-test::hover {
@@ -899,4 +899,14 @@ margin:auto; height:1000px; width:auto;
     transition: all 200ms ease-in;
     transform: scale(1.05);
       
+}
+.carousel-caption h3:first-child {
+	animation-delay: 2s;
+}
+.carousel-caption h3
+{
+	background-color: #1018F9;
+}
+.carousel-caption h3 {
+	padding: .5em;
 }
