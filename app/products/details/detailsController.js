@@ -1,7 +1,7 @@
 ﻿app
 .controller('detailsController', function ($scope, $state, $stateParams, dataService, $uibModal, $sce) {
     $scope.slides = [];
-    $scope.myInterval = 1500;
+    $scope.myInterval = 3000;
     $scope.noWrapSlides = false;
     $scope.type = $stateParams.type;
     $scope.category = $stateParams.category;
@@ -36,7 +36,7 @@
         var modalInstance = $uibModal.open({
             templateUrl: '/app/modal/modal.html',
             controller: 'modalController',
-
+            //windowClass: 'modal_full',
             resolve: {
                 data: function () {
                     return {url: url , name: name};

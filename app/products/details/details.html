@@ -18,20 +18,27 @@
                 <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                     <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
                         <!--ng-click="zoomImage(slide.image, slide.name)"-->
-                        <img ng-src="{{slide.image}}" class="main-image-source">
+                        <img ng-src="{{slide.image}}" class="main-image-source" ng-click="zoomImage(slide.image, slide.name)">
                         <div class="carousel-caption">
                             <h4>{{slide.name}}</h4>
                         </div>
                     </div>
 
-                    {{imageContent[active].datails}}
+                    
 
                 </div>
+             
             </div>
             <div class="col-md-12">
-                <p class="col-md-3" ng-if="imageContent[active].sizes.w.length>1">{{'width' | translate}}: <span>{{imageContent[active].sizes.w[0]}} <span ng-show="imageContent[active].sizes.w.length>1">(<span ng-repeat="isize in imageContent[active].sizes.w.slice(1,imageContent[active].sizes.w.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                <p class="col-md-3" ng-if="imageContent[active].sizes.d.length>1">{{'depth' | translate}}: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
-                <p class="col-md-3" ng-if="imageContent[active].sizes.h.length>1">{{'height' | translate}}: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                <div class="col-md-4 col-md-3 col-md-2" ng-repeat="c in imageContent[active].datails">
+                    <img ng-src="{{c}}" ng-click="zoomImage(c, null);" class="img-responsive " />
+                </div>
+            </div>
+            
+            <div class="col-md-12">
+                <p class="col-md-3" ng-if="imageContent[active].sizes.w.length>0">{{'width' | translate}}: <span>{{imageContent[active].sizes.w[0]}}  мм</span>  </p>
+                <p class="col-md-3" ng-if="imageContent[active].sizes.d.length>0">{{'depth' | translate}}: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                <p class="col-md-3" ng-if="imageContent[active].sizes.h.length>0">{{'height' | translate}}: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
                 <p class="col-md-3" ng-if="imageContent[active].hull != null">{{'hull' | translate}}:   <span>{{imageContent[active].hull | translate}}</span></p>
                 <p class="col-md-3" ng-if="imageContent[active].system != null">{{'system' | translate}}:  <span>{{imageContent[active].system | translate}}</span></p>
                 <p class="col-md-3" ng-if="imageContent[active].facade != null">{{'facade' | translate}}:    <span>{{imageContent[active].facade | translate}}</span></p>
