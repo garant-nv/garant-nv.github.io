@@ -2,6 +2,9 @@
     display:none;
 
 }*/
+hr {
+    border-top: 0px solid #eee;
+}
 @font-face {
   font-family: 'custom-font-garant';
   font-style: normal;
