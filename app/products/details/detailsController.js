@@ -32,11 +32,11 @@
     }
 
 
-    $scope.zoomImage = function (url, name) {
+    $scope.zoomImage = function (url, name, isFull) {
         var modalInstance = $uibModal.open({
             templateUrl: '/app/modal/modal.html',
             controller: 'modalController',
-            windowClass: 'modal-custom-full',
+            windowClass: isFull ?'modal-custom-full': '',
             resolve: {
                 data: function () {
                     return {url: url , name: name};

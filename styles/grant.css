@@ -865,7 +865,7 @@ background: #4b515d;
     right: 7px;
 }
 .image-zoom-modal-body {
-    
+    background: #4b515d;
     text-align: center;
     padding:0px;
 }
@@ -915,7 +915,7 @@ background: #4b515d;
 margin:auto;
  height:450px;
   width:auto;
-  max-width: 550px;
+  
 
 }
 .home-img-frame {
