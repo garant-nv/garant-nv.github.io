@@ -10,10 +10,13 @@
   src:  url("/fonts/Alouette Personal Use/Alouette Personal Use.ttf") format('TTF');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
-p, a, span, div, h1,h2,h3,h4,div {
+
+p, a, div, h1,h2,h3,h4,div {
      /*font-family: 'Shadows Into Light Two', cursive !important;
    font-family: 'Shadows Into Light Two', cursive;*/
 font-family: 'Handlee', cursive !important;
+
+font-size:14px;
 }
 .lang-wrap .lan-active{
     display:inline-block;
@@ -37,11 +40,7 @@ font-family: 'Handlee', cursive !important;
     text-decoration:underline;
 }
 
-p {
-font-size: 2em;
-    margin: 0 0 10px;
-    font-weight: 500;
-}
+
         *{
             margin: 0;
             padding: 0;
@@ -53,12 +52,7 @@ font-size: 2em;
         *:after{
             -webkit-box-sizing: border-box;
         }
-        .clearfix {
-            *zoom: 1;
-        }
-        html{
-            font-size: 12px;
-        }
+      
        
         .clearfix:before,
         .clearfix:after {
@@ -427,9 +421,9 @@ body.bg {
 .main-content {
     padding-left:0px;
     padding-right:0px;
-    min-height: -webkit-calc(100vh -0px);
-    min-height: -moz-calc(100vh -0px);
-    min-height: calc(100vh - 0px);
+    min-height: -webkit-calc(100vh - 128px);
+    min-height: -moz-calc(100vh - 128px);
+    min-height: calc(100vh - 128px);
 }
 .navbar-custom {
     border-radius: 0px;
