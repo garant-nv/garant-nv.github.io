@@ -22,7 +22,7 @@ font-family: 'Handlee', cursive !important;
 a, div, h1, h2, h3, h4, div {
     font-size:14px;
 }
-.container> p, .container>ul>li>p, contacts-cont>p , contacts-cont>h4{
+.container> p, .container>ul>li>p, .contacts-cont>p , .contacts-cont>h4{
     font-size:20px;
 }
 .lang-wrap .lan-active{
