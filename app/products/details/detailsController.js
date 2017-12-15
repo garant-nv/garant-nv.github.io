@@ -36,7 +36,7 @@
         var modalInstance = $uibModal.open({
             templateUrl: '/app/modal/modal.html',
             controller: 'modalController',
-            //windowClass: 'modal_full',
+            windowClass: 'modal-custom-full',
             resolve: {
                 data: function () {
                     return {url: url , name: name};
