@@ -1,5 +1,5 @@
 ﻿<div class="">
-    <div class="col-md-12 products-nav-wrap">
+    <div class="col-md-12 products-nav-wrap" style="margin-bottom:35px;">
         <span class="products-small-nav" ui-sref="products">{{'NAV_PRODUCTS' | translate}}</span> &rarr;
         <span class="products-small-nav" ui-sref="products.{{category}}">{{category | translate}}</span> &rarr;
         <span class="products-small-def" ng-hide="category=='furnitures'">{{type | translate}}</span>
@@ -8,7 +8,7 @@
             <a target="_blank" class="products-small-nav" style="color:black;" href="/data/kitchens.pdf" title="{{'PRODUCTS_CAT2' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_KITCHENS' | translate}}</a>
         </div>
     </div>
-    <div style="margin-top:35px;">
+    <div >
         <div ng-if="category=='cabinets'" class="col-md-12">
             <div class="row">
 
