@@ -461,7 +461,7 @@ a:hover {
 
 .card {
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: -35px;
     padding: 35px;
 }
 
