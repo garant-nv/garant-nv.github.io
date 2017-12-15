@@ -1,12 +1,12 @@
 ﻿
 <div class="container  data-content" ui-view>
-    <h2 class="section-title">{{'NAV_HOME' | translate}}</h2>
+    <!--<h2 class="section-title">{{'NAV_HOME' | translate}}</h2>-->
    
-    <div>
+    <div class="col-md-offset-1 col-md-10 col-md-offset-1 home-img-frame">
 
-        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides" >
             <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-                <img ng-src="{{slide.image}}" class="main-image-source" style="margin:auto;">
+                <img ng-src="{{slide.image}}" class="main-image-source" >
                 <div class="carousel-caption">
                     <!--<h4>Slide {{slide.id}}</h4>-->
                     <h3>{{slide.text| translate}}</h3>
@@ -19,12 +19,12 @@
     <!--<h1>{{'HOME_TXT1' | translate}}</h1>
     <h2>{{'HOME_TXT2' | translate}}</h2>-->
 
-    <div class="">
+    <div class="col-md-12">
         <div ui-view="shortmenu@home"></div>
     </div>
 
 
-    <div class="">
-        <h3>{{'HOME_TXT3' | translate}}</h3>
-    </div>
+    
+        <h3 class="col-md-12">{{'HOME_TXT3' | translate}}</h3>
+    
 </div>

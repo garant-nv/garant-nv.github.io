@@ -83,14 +83,14 @@
                         <a class="nav-link" ui-sref="about" ng-click="is_active = false">{{'NAV_ABOUT' | translate }}</a>
                         <a class="nav-link" ui-sref="contact" ng-click="is_active = false">{{'NAV_CONTACTS' | translate }}</a>
 
-                        <a class="lang-wrap" style="text-decoration:none; padding-right:0em ;" ng-init="lang='ua'" href="javascript:void(0);">
+                        <a class="nav-link lang-wrap" style="text-decoration:none; padding-right:0em ;" ng-init="lang='ua'" href="javascript:void(0);">
 
                             <img src="images/flag/flag_ua.png" title="ua" class="lang {{lang=='ua'? 'lan-active':''}}" ng-click="setLang('ua')" />
                             <img src="images/flag/flag_ru.png" title="ru" class="lang {{lang=='ru'? 'lan-active':''}}" ng-click="setLang('ru')" />
                             <img src="images/flag/flag_uk.png" title="uk" class="lang {{lang=='uk'? 'lan-active':''}}" ng-click="setLang('uk')" />
-                    
+                    <!--{{lang=='ua'? 'lan-active':''}}-->
                         </a>
-
+                     
                    
                     </nav>
                     

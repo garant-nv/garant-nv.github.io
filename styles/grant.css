@@ -1,19 +1,17 @@
-﻿.lang-wrap > .lang {
+﻿/*.lang-wrap > .lang {
     display:none;
 
-}
+}*/
 .lang-wrap .lan-active{
     display:inline-block;
 } 
-.lang-wrap:hover > .lang
-{
-    display:inline-block;
-}
+
 .products-nav-wrap {
- line-height: 49px;
-    font-size: xx-large;
-    font-style: italic;   line-height: 49px;
-    font-size: xx-large;
+     margin-top: 40px;
+    padding-right: 25px;
+    font-style: italic;
+    line-height: 21px;
+    font-size: 21px;
 }
 .products-small-nav {
    cursor:pointer;
@@ -74,7 +72,7 @@ font-size: 2em;
 
         header{
             width: 100%;
-            height: 120px;
+            height: 70px;
             background: white;
            -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
            -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -92,8 +90,9 @@ font-size: 2em;
             float: left;
         }
         .header-left{
-            padding-top:10px;
-            width: 15%;
+          padding-top: 5px;
+            width: 10%;
+            padding-bottom: 5px;
         }
         .header-right label{
             position: absolute;
@@ -125,7 +124,7 @@ font-size: 2em;
             top: 14px;
         }
         .header-right{
-            padding-top:35px;
+            padding-top:5px;
             width: 85%;
             text-align: right;
         }
@@ -136,12 +135,12 @@ font-size: 2em;
         nav>a{
             position: relative;
             display: inline-block;
-            font-size: 30px;
-            line-height: 45px;
+               font-size: 25px;
+            line-height: 25px;
             padding: 0 1em;
             -webkit-transition: all .3s ease;
         }
-        nav>a.nav-link:hover{
+        /*nav>a.nav-link:hover :not(.nav-lang){
             background-color: #e6eff7;
          
             color: black;
@@ -149,7 +148,7 @@ font-size: 2em;
           
            
          
-        }
+        }*/
         .lan {
             margin-left:5px;
             margin-right:5px;
@@ -359,6 +358,7 @@ font-size: 2em;
     bottom: 0;
 }
 .copyright {
+    padding-left: 15px;
     float: left;
     line-height: 35px;
     margin-bottom: 0;
@@ -369,8 +369,9 @@ font-size: 2em;
     color: #fff;
 }
 .social {
+    padding-right: 15px;
     float: right;
-    padding-top: 4px;
+    padding-top:2px;
 }
 .social__btn:first-child {
     margin-left: 0;
@@ -415,9 +416,9 @@ body.bg {
 .main-content {
     padding-left:0px;
     padding-right:0px;
-    min-height: -webkit-calc(100vh - 179px);
-    min-height: -moz-calc(100vh - 179px);
-    min-height: calc(100vh - 179px);
+    min-height: -webkit-calc(100vh -0px);
+    min-height: -moz-calc(100vh -0px);
+    min-height: calc(100vh - 0px);
 }
 .navbar-custom {
     border-radius: 0px;
@@ -432,7 +433,7 @@ body.bg {
     
 }
 .logo-brand {
-    height:100px;
+    height:70px;
 }
 .p-left {
     text-align:left
@@ -461,13 +462,14 @@ a:hover {
 .card {
     cursor: pointer;
     margin-bottom: 30px;
+    padding: 35px;
 }
 
 .card-title {
-    height: 35px;
-    line-height: 35px;
+    height: 26px;
+    line-height: 26px;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 18px;
     color: #fff;
     margin-bottom: 0;
 }
@@ -488,11 +490,14 @@ a:hover {
     -moz-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
 }
+.card-header-menu {
+    /*height:125px !important;*/
+}
 .card-header {
     overflow: hidden;
     position: relative;
     top: 10px;
-    height: 190px;
+    height: 150px;
     margin-left: 16px;
     margin-right: 16px;
     padding-top: 20px;
@@ -717,7 +722,7 @@ nav ul li:hover {
 /*kitchens*/
 .x-commons-wrap {
     padding-top: 6px;
-    height: 188px;
+    height: 150px;
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: auto;
@@ -741,8 +746,8 @@ nav ul li:hover {
   cursor: pointer;
     display: inline-block;
     position: relative;
-    width: 185px;
-    height: 185px;
+    width: 110px;
+    height: 110px;
     margin-right: 15px;
     background-color: #4b515d;
     -webkit-box-shadow: 0 0 0 1px #3F51B5;
@@ -756,6 +761,20 @@ nav ul li:hover {
     transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out, -moz-box-shadow .3s ease-in-out;
     transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
 
+}
+.x-commons-label {
+    left: 0px;
+    bottom: -20px;
+    z-index: 5;
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    line-height: 20px;
+    /* background-color: #333; */
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 0px;
 }
 .x-commons-img-wrap {
     position: relative;
@@ -879,16 +898,24 @@ nav ul li:hover {
     -webkit-font-smoothing: antialiased;
 }
 .catalog-icon {
-       width: 48px;
-    height: 48px;
+    width: 21px;
+    height: 21px;
 }
 .map-wrap {
     overflow-x: auto;
 }
 .main-image-source {
-margin:auto; height:600px; width:auto;
-}
 
+margin:auto;
+ height:450px;
+  width:auto;
+  max-width: 550px;
+
+}
+.home-img-frame {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .card-test::hover {
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.05);
