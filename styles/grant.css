@@ -9,15 +9,15 @@ hr {
   font-family: 'custom-font-garant';
   font-style: normal;
   font-weight: 400;
-  /*src:  url('/fonts/Book Antiqua/Book Antiqua-2.TTF') format('TTF');*/
-  src:  url("/fonts/Alouette Personal Use/Alouette Personal Use.ttf") format('TTF');
+  src:  url('/fonts/Book Antiqua/Book Antiqua-2.TTF') format('TTF');
+  /*src:  url("/fonts/Alouette Personal Use/Alouette Personal Use.ttf") format('TTF');*/
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
 
 p, a, div, h1,h2,h3,h4,div {
      /*font-family: 'Shadows Into Light Two', cursive !important;
    font-family: 'Shadows Into Light Two', cursive;*/
-font-family: 'Handlee', cursive !important;
+font-family: serif !important;
 
 
 }
@@ -25,7 +25,7 @@ font-family: 'Handlee', cursive !important;
 a, div, h1, h2, h4, div {
     font-size:14px;
 }
-.container> p, .container>ul>li>p, .contacts-cont>p , .contacts-cont>h4{
+.container> p, .container>ul>li>p, .contacts-cont>p , .contacts-cont>h4, .contacts-cont>p>a{
     font-size:20px;
 }
 .lang-wrap .lan-active{
@@ -423,7 +423,7 @@ a, div, h1, h2, h4, div {
 }
 
 body.bg {
-     background: url('../images/bgs/bg-19.jpg') no-repeat center center fixed;
+     background: url('../images/bgs/bg-23.jpg') no-repeat center center fixed;
       background-size: cover;
       background-color:rgba(0,0,0,0);
 }
