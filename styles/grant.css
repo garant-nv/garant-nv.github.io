@@ -32,6 +32,7 @@ a, div, h1, h2, h4, div {
     display:inline-block;
 }
 .data-content {
+    padding:15px;
     margin-top:20px !important;
     background: rgba(255, 255, 255, 0.6)
 }
