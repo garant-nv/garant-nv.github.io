@@ -435,9 +435,9 @@ body.bg {
 .main-content {
     padding-left:0px;
     padding-right:0px;
-    min-height: -webkit-calc(100vh - 128px);
-    min-height: -moz-calc(100vh - 128px);
-    min-height: calc(100vh - 128px);
+    min-height: -webkit-calc(100vh - 138px);
+    min-height: -moz-calc(100vh - 138px);
+    min-height: calc(100vh - 138px);
 }
 .navbar-custom {
     border-radius: 0px;
