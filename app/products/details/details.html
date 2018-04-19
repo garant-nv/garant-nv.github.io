@@ -51,7 +51,7 @@
                 </div>
 
             </div>
-            <div ng-hide="type=='chests'">
+            <div ng-if="type!='chests' && type!='nika' && type!='popular'">
                 <div class="row general-common-titles">
                     {{'hull_color_l' | translate}}
                 </div>
