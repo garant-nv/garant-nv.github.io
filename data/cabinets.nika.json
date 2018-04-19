@@ -1,0 +1,159 @@
+﻿[
+
+  {
+    "id": 1,
+    "desc": "nika_desc",
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/nika/Nika_1.jpg",
+    "datails": [
+      "/images/common/cabinets/nika/Nika_1_un_1.png",
+      "/images/common/cabinets/nika/Nika_1_un_2.png",
+      "/images/common/cabinets/nika/Nika_1_un _3.png",
+      "/images/common/cabinets/nika/Nika_1_un_4.png",
+      "/images/common/cabinets/nika/Nika_1_un_5.png"
+    ]
+  },
+  {
+    "id": 2,
+    "desc": "nika_desc",
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/nika/Nika_1a.jpg",
+    "datails": [
+      "/images/common/cabinets/nika/Nika_1_un_1.png",
+      "/images/common/cabinets/nika/Nika_1_un_2.png",
+      "/images/common/cabinets/nika/Nika_1_un _3.png",
+      "/images/common/cabinets/nika/Nika_1_un_4.png",
+      "/images/common/cabinets/nika/Nika_1_un_5.png"
+    ]
+  },
+  {
+    "id": 3,
+    "desc": "nika_desc",
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/nika/Nika_1b.jpg",
+    "datails": [
+      "/images/common/cabinets/nika/Nika_1_un_1.png",
+      "/images/common/cabinets/nika/Nika_1_un_2.png",
+      "/images/common/cabinets/nika/Nika_1_un _3.png",
+      "/images/common/cabinets/nika/Nika_1_un_4.png",
+      "/images/common/cabinets/nika/Nika_1_un_5.png"
+    ]
+  },
+  {
+    "id": 4,
+    "desc": "nika_desc",
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/nika/Nika_2.jpg",
+    "datails": [
+      "/images/common/cabinets/nika/Nika_2_un_1.png",
+      "/images/common/cabinets/nika/Nika_2_un_2.png",
+      "/images/common/cabinets/nika/Nika_2_un_3.png",
+      "/images/common/cabinets/nika/Nika_2_un_4.png",
+      "/images/common/cabinets/nika/Nika_2_un_5.png"
+    ]
+  },
+  {
+    "id": 5,
+    "desc": "nika_desc",
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/nika/Nika_2a.jpg",
+    "datails": [
+      "/images/common/cabinets/nika/Nika_2_un_1.png",
+      "/images/common/cabinets/nika/Nika_2_un_2.png",
+      "/images/common/cabinets/nika/Nika_2_un_3.png",
+      "/images/common/cabinets/nika/Nika_2_un_4.png",
+      "/images/common/cabinets/nika/Nika_2_un_5.png"
+    ]
+  },
+  {
+    "id": 6,
+    "desc": "nika_desc",
+    "hull": null,
+    "system": null,
+    "facade": null,
+    "piskost": null,
+    "photoprint": null,
+    "sizes": {
+      "w": [],
+      "h": [],
+      "d": []
+    },
+    "kombi": null,
+    "dsp": null,
+    "mdf": null,
+    "oracal": null,
+    "url": "/images/common/cabinets/nika/Nika_2b.jpg",
+    "datails": [
+      "/images/common/cabinets/nika/Nika_2_un_1.png",
+      "/images/common/cabinets/nika/Nika_2_un_2.png",
+      "/images/common/cabinets/nika/Nika_2_un_3.png",
+      "/images/common/cabinets/nika/Nika_2_un_4.png",
+      "/images/common/cabinets/nika/Nika_2_un_5.png"
+    ]
+  }
+]
