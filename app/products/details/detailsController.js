@@ -76,9 +76,10 @@
         console.log($scope.kitchenCommons);
     }
     function loadFurnitures() {
-        $scope.active = 0;
+        //$scope.active = 0;
         $scope.slides = $scope.imageContent = dataService.getFurnitures();
-
+        $scope.currentImg = $scope.slides[$scope.type];
+        console.log($scope.currentImg);
     }
 
     function loadCabinets() {

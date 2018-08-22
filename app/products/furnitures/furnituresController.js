@@ -1,4 +1,6 @@
-﻿app.controller('furnituresController', function ($scope) {
-    console.log('furnituresController');
+﻿app.controller('furnituresController', function ($scope, dataService) {
+
+    $scope.fdata = dataService.getFurnitures();
+    console.log('furnituresController', dataService.getFurnitures());
 
 });

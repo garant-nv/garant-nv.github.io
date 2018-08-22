@@ -5,61 +5,149 @@
         <div class="pull-right">
             <a target="_blank" class="products-small-nav" style="color:black;" href="/data/cabinets.pdf" title="{{'PRODUCTS_CAT1' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_CABINETS' | translate}}</a>
             <a target="_blank" class="products-small-nav" style="color:black;" href="/data/kitchens.pdf" title="{{'PRODUCTS_CAT2' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_KITCHENS' | translate}}</a>
+            <a target="_blank" class="products-small-nav" style="color:black;" href="/data/furnitures.pdf" title="{{'PRODUCTS_CAT3' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_FURNITURES' | translate}}</a>
         </div>
     </div>
     <div ui-view>
-  
-        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type:'1'})">
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '0'})">
             <div class="card-wrap">
-                <div class="card-header">
-                    <img class="card-img" src="/images/furnitures/1.jpg" style="opacity: 0.6;"/>
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/0.jpg" />
                 </div>
                 <div class="card-body">
-                    <p class="card-title" style="line-height:15px; font-size:14px ;">
-                        {{'products_in_dev' | translate}}
+                    <p class="card-title">
+                        {{fdata[0].name | translate}}
                     </p>
                 </div>
             </div>
 
         </div>
-        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type:'2'})">
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '1'})">
             <div class="card-wrap">
-                <div class="card-header">
-                    <img class="card-img" src="/images/furnitures/2.jpg"  style="opacity: 0.6;"/>
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/1.jpg" />
                 </div>
                 <div class="card-body">
-                    <p class="card-title" style="line-height:15px; font-size:14px ;">
-                        {{'products_in_dev' | translate}}
+                    <p class="card-title">
+                        {{fdata[1].name | translate}}
                     </p>
                 </div>
             </div>
 
         </div>
-        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type:'3'})">
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '2'})">
             <div class="card-wrap">
-                <div class="card-header">
-                    <img class="card-img" src="/images/furnitures/3.jpg"  style="opacity: 0.6;"/>
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/2.jpg" />
                 </div>
                 <div class="card-body">
-                    <p class="card-title" style="line-height:15px; font-size:14px ;">
-                        {{'products_in_dev' | translate}}
+                    <p class="card-title">
+                        {{fdata[2].name | translate}}
                     </p>
                 </div>
             </div>
 
         </div>
-        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type:'4'})">
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '3'})">
             <div class="card-wrap">
-                <div class="card-header">
-                    <img class="card-img" src="/images/furnitures/4.jpg"  style="opacity: 0.6;"/>
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/3.jpg" />
                 </div>
                 <div class="card-body">
-                    <p class="card-title" style="line-height:15px; font-size:14px ;">
-                       {{'products_in_dev' | translate}}
+                    <p class="card-title">
+                        {{fdata[3].name | translate}}
                     </p>
                 </div>
             </div>
 
         </div>
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '4'})">
+            <div class="card-wrap">
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/4.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{fdata[4].name | translate}}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '5'})">
+            <div class="card-wrap">
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/5.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{fdata[5].name | translate}}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '6'})">
+            <div class="card-wrap">
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/6.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{fdata[6].name | translate}}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '7'})">
+            <div class="card-wrap">
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/7.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{fdata[7].name | translate}}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '8'})">
+            <div class="card-wrap">
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/8.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{fdata[8].name | translate}}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3  card" ui-sref="products.details({category:'furnitures', type: '9'})">
+            <div class="card-wrap">
+                <div class="card-header" style="height: 90px;">
+                    <img class="card-img" src="/images/common/furnitures/9.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{fdata[9].name | translate}}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </div>

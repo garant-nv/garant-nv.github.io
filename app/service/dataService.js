@@ -771,22 +771,17 @@
         this.getFurnitures = function () {
 
             return [
-                {
-                    id: 0,
-                    image: "/images/common/furnitures/1.jpg"
-                },
-                {
-                    id: 1,
-                    image: "/images/common/furnitures/2.jpg"
-                },
-                {
-                    id: 2,
-                    image: "/images/common/furnitures/3.jpg"
-                },
-                {
-                    id: 3,
-                    image: "/images/common/furnitures/4.jpg"
-                }
+                { id: 0, name: "Alex3", image: "/images/common/furnitures/Alex3.jpg" },
+                { id: 1, name: "Alex4", image: "/images/common/furnitures/Alex4.jpg" },
+                { id: 2, name: "Alex5", image: "/images/common/furnitures/Alex5.jpg" },
+                { id: 3, name: "Alex6", image: "/images/common/furnitures/Alex6.jpg" },
+                { id: 4, name: "Alex7", image: "/images/common/furnitures/Alex7.jpg" },
+                { id: 5, name: "Alex8", image: "/images/common/furnitures/Alex8.jpg" },
+                { id: 6, name: "Alex9", image: "/images/common/furnitures/Alex9.jpg" },
+                { id: 7, name: "Alex10", image: "/images/common/furnitures/Alex10.jpg" },
+                { id: 8, name: "Alex11", image: "/images/common/furnitures/Alex11.jpg" },
+                { id: 9, name: "Alex12", image: "/images/common/furnitures/Alex12.jpg" }
+              
             ];
         }
 
