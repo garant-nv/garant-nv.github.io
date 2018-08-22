@@ -348,6 +348,31 @@
                     url: "/images/common/kitchens/modest/4.jpg"
                 },
             },
+            "horizon": {
+                "0": { name: "horizont_taho", url: "/images/common/kitchens/horizon/horizont_taho.jpg" },
+                "1": { name: "horizont_snw", url: "/images/common/kitchens/horizon/horizont_snw.jpg" },
+                "2": { name: "horizont_ind", url: "/images/common/kitchens/horizon/horizont_ind.jpg" },
+                "3": { name: "horizont_ship", url: "/images/common/kitchens/horizon/horizont_ship.jpg" },
+                "4": { name: "horizont_nut_swiss", url: "/images/common/kitchens/horizon/horizont_nut_swiss.jpg" },
+                "5": { name: "horizont_chmn_l", url: "/images/common/kitchens/horizon/horizont_chmn_l.jpg" },
+                "6": { name: "horizont_chmn_d", url: "/images/common/kitchens/horizon/horizont_chmn_d.jpg" },
+                "7": { name: "horizont_cream", url: "/images/common/kitchens/horizon/horizont_cream.jpg" },
+                "8": { name: "horizont_indigo", url: "/images/common/kitchens/horizon/horizont_indigo.jpg" },
+                "9": { name: "horizont_lime", url: "/images/common/kitchens/horizon/horizont_lime.jpg" },
+                "10": { name: "horizont_turku", url: "/images/common/kitchens/horizon/horizont_turku.jpg" }
+            },
+            "vintage": {
+                "0": { name: "vintage_pltn", url: "/images/common/kitchens/vintage/vintage_pltn.jpg" },
+                "1": { name: "vintage_idstr", url: "/images/common/kitchens/vintage/vintage_idstr.jpg" },
+                "2": { name: "vintage_clnd", url: "/images/common/kitchens/vintage/vintage_clnd.jpg" },
+                "3": { name: "vintage_drkr", url: "/images/common/kitchens/vintage/vintage_drkr.jpg" },
+                "4": { name: "vintage_brd", url: "/images/common/kitchens/vintage/vintage_brd.jpg" },
+                "5": { name: "vintage_grft", url: "/images/common/kitchens/vintage/vintage_grft.jpg" },
+                "6": { name: "vintage_ltt", url: "/images/common/kitchens/vintage/vintage_ltt.jpg" },
+                "7": { name: "vintage_lvnd", url: "/images/common/kitchens/vintage/vintage_lvnd.jpg" },
+                "8": { name: "vintage_rglt_l", url: "/images/common/kitchens/vintage/vintage_rglt_l.jpg" },
+                "9": { name: "vintage_rglt_d", url: "/images/common/kitchens/vintage/vintage_rglt_d.jpg" }
+            },
         };
 
         this.kitchenfacades = {

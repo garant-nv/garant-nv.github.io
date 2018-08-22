@@ -6,6 +6,7 @@
         <div class="pull-right">
             <a target="_blank" class="products-small-nav" style="color:black;" href="/data/cabinets.pdf" title="{{'PRODUCTS_CAT1' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_CABINETS' | translate}}</a>
             <a target="_blank" class="products-small-nav" style="color:black;" href="/data/kitchens.pdf" title="{{'PRODUCTS_CAT2' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_KITCHENS' | translate}}</a>
+            <a target="_blank" class="products-small-nav" style="color:black;" href="/data/furnitures.pdf" title="{{'PRODUCTS_CAT3' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_FURNITURES' | translate}}</a>
         </div>
     </div>
     <div >
@@ -198,11 +199,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row general-common-titles">
+            <div class="row general-common-titles" ng-if="type!='horizon' && type!='vintage'">
                 {{'ex_facade_kitch_l'|translate}}
             </div>
             <hr />
-            <div class="row">
+            <div class="row" ng-if="type!='horizon' && type!='vintage'">
                 <div class="x-commons-wrap">
                     <div class="x-commons" ng-repeat="c in facades" title="{{c.name | translate}}">
                         <label class="x-commons-label">{{c.name | translate}}</label>
