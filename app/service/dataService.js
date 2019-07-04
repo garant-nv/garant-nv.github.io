@@ -380,6 +380,19 @@
                 "3": { name: "vuitton_04", url: "/images/common/kitchens/viton/vuitton_04.jpg" },
                 "4": { name: "vuitton_05", url: "/images/common/kitchens/viton/vuitton_05.jpg" },
                 "5": { name: "vuitton_06", url: "/images/common/kitchens/viton/vuitton_06.jpg" }
+            },
+            "techblock": {
+                "0": { name: "", url: "/images/common/kitchens/techblock/166.jpg" },
+                "1": { name: "", url: "/images/common/kitchens/techblock/167.jpg" },
+                "2": { name: "", url: "/images/common/kitchens/techblock/168.jpg" },
+                "3": { name: "", url: "/images/common/kitchens/techblock/169.jpg" },
+                "4": { name: "", url: "/images/common/kitchens/techblock/170.jpg" },
+                "5": { name: "", url: "/images/common/kitchens/techblock/171.jpg" },
+                "6": { name: "", url: "/images/common/kitchens/techblock/172.jpg" },
+                "7": { name: "", url: "/images/common/kitchens/techblock/173.jpg" },
+                "8": { name: "", url: "/images/common/kitchens/techblock/174.jpg" },
+                "9": { name: "", url: "/images/common/kitchens/techblock/175.jpg" },
+                "10": { name: "", url: "/images/common/kitchens/techblock/176.jpg" },
             }
         };
 
