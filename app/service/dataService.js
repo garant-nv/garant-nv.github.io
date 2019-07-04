@@ -118,14 +118,7 @@
             18: { code: "312", name: "burgundy", url: "/images/common/cabinets/oracal_colors/312.jpg" },
 
         };
-
-        //this.commonCabinetTexs = [
-        //    "/images/common/cabinets/1-min.png",
-        //    "/images/common/cabinets/2-min.png",
-        //    "/images/common/cabinets/3-min.png",
-        //    "/images/common/cabinets/4-min.png",
-        //]
-
+        
         this.kitchens = {
             "platinum": {
                 "0": {
@@ -771,18 +764,170 @@
 
         };
 
-        this.kitchenCommons = [
-            { name: "cmod1", url: "/images/common/kitchens/mod1.png" },
-            { name: "cmod2", url: "/images/common/kitchens/mod2.png" },
-            { name: "cmod3", url: "/images/common/kitchens/mod3.png" },
-            { name: "cmod4", url: "/images/common/kitchens/mod4.png" },
-            { name: "cmod5", url: "/images/common/kitchens/mod5.png" },
-            { name: "cmod6", url: "/images/common/kitchens/mod6.png" },
-            { name: "cmod7", url: "/images/common/kitchens/mod7.png" },
-            { name: "cmod8", url: "/images/common/kitchens/mod8.png" },
-            { name: "cmod9", url: "/images/common/kitchens/mod9.png" },
-            { name: "cmod10", url: "/images/common/kitchens/mod10.png" },
-        ]
+        this.kitchenCommons = {
+            "platinum": [
+                { name: "_1_22_l", url: "/images/common/kitchens/platinum/sets/_1_22_l.jpg" },
+                { name: "_2_13_l", url: "/images/common/kitchens/platinum/sets/_2_13_l.jpg" },
+                { name: "_2_14_l", url: "/images/common/kitchens/platinum/sets/_2_14_l.jpg" },
+                { name: "_3_01_l", url: "/images/common/kitchens/platinum/sets/_3_01_l.jpg" },
+                { name: "_3_02_l", url: "/images/common/kitchens/platinum/sets/_3_02_l.jpg" },
+                { name: "_3_03_l", url: "/images/common/kitchens/platinum/sets/_3_03_l.jpg" },
+                { name: "_3_04_l", url: "/images/common/kitchens/platinum/sets/_3_04_l.jpg" },
+                { name: "_3_05_l", url: "/images/common/kitchens/platinum/sets/_3_05_l.jpg" },
+                { name: "_3_06_l", url: "/images/common/kitchens/platinum/sets/_3_06_l.jpg" },
+                { name: "platinum_04_05", url: "/images/common/kitchens/platinum/sets/platinum_04_05.jpg" },
+                { name: "platinum_06_07", url: "/images/common/kitchens/platinum/sets/platinum_06_07.jpg" },
+                { name: "platinum_08_09", url: "/images/common/kitchens/platinum/sets/platinum_08_09.jpg" },
+                { name: "platinum_10_11", url: "/images/common/kitchens/platinum/sets/platinum_10_11.jpg" },
+                { name: "platinum_14_15", url: "/images/common/kitchens/platinum/sets/platinum_14_15.jpg" },
+                { name: "platinum_16_17", url: "/images/common/kitchens/platinum/sets/platinum_16_17.jpg" },
+                { name: "platinum_18_19", url: "/images/common/kitchens/platinum/sets/platinum_18_19.jpg" },
+                { name: "platinum_20_21", url: "/images/common/kitchens/platinum/sets/platinum_20_21.jpg" },
+                { name: "platinum_22_23", url: "/images/common/kitchens/platinum/sets/platinum_22_23.jpg" },
+                { name: "platinum_24_25", url: "/images/common/kitchens/platinum/sets/platinum_24_25.jpg" },
+                { name: "platinum_26_27", url: "/images/common/kitchens/platinum/sets/platinum_26_27.jpg" }
+            ],
+            "quadris": [
+                { name: "_1_01_l", url: "/images/common/kitchens/quadris/sets/_1_01_l.jpg" },
+                { name: "_1_02_l", url: "/images/common/kitchens/quadris/sets/_1_02_l.jpg" },
+                { name: "_1_03_l", url: "/images/common/kitchens/quadris/sets/_1_03_l.jpg" },
+                { name: "_1_04_l", url: "/images/common/kitchens/quadris/sets/_1_04_l.jpg" },
+                { name: "_1_05_l", url: "/images/common/kitchens/quadris/sets/_1_05_l.jpg" },
+                { name: "_1_06_l", url: "/images/common/kitchens/quadris/sets/_1_06_l.jpg" },
+                { name: "_1_07_l", url: "/images/common/kitchens/quadris/sets/_1_07_l.jpg" },
+                { name: "_2_08_l", url: "/images/common/kitchens/quadris/sets/_2_08_l.jpg" },
+                { name: "_2_10_l", url: "/images/common/kitchens/quadris/sets/_2_10_l.jpg" },
+                { name: "_2_12_l", url: "/images/common/kitchens/quadris/sets/_2_12_l.jpg" },
+                { name: "quadris_ald", url: "/images/common/kitchens/quadris/sets/quadris_ald.jpg" },
+                { name: "quadris_apd", url: "/images/common/kitchens/quadris/sets/quadris_apd.jpg" },
+                { name: "quadris_apl", url: "/images/common/kitchens/quadris/sets/quadris_apl.jpg" },
+                { name: "quadris_ash", url: "/images/common/kitchens/quadris/sets/quadris_ash.jpg" },
+                { name: "quadris_cdr", url: "/images/common/kitchens/quadris/sets/quadris_cdr.jpg" },
+                { name: "quadris_frm", url: "/images/common/kitchens/quadris/sets/quadris_frm.jpg" },
+                { name: "quadris_lsa", url: "/images/common/kitchens/quadris/sets/quadris_lsa.jpg" },
+                { name: "quadris_mpl", url: "/images/common/kitchens/quadris/sets/quadris_mpl.jpg" },
+                { name: "quadris_nut", url: "/images/common/kitchens/quadris/sets/quadris_nut.jpg" },
+                { name: "quadris_snd", url: "/images/common/kitchens/quadris/sets/quadris_snd.jpg" },
+                { name: "quadris_snl", url: "/images/common/kitchens/quadris/sets/quadris_snl.jpg" },
+                { name: "quadris_wng", url: "/images/common/kitchens/quadris/sets/quadris_wng.jpg" },
+                { name: "quadris_wnl", url: "/images/common/kitchens/quadris/sets/quadris_wnl.jpg" },
+                { name: "quadris_wtw", url: "/images/common/kitchens/quadris/sets/quadris_wtw.jpg" }
+
+            ],
+            "sunrise": [
+                { name: "_1_08_l", url: "/images/common/kitchens/sunrise/sets/_1_08_l.jpg" },
+                { name: "_1_09_l", url: "/images/common/kitchens/sunrise/sets/_1_09_l.jpg" },
+                { name: "_2_06_l", url: "/images/common/kitchens/sunrise/sets/_2_06_l.jpg" },
+                { name: "_2_07_l", url: "/images/common/kitchens/sunrise/sets/_2_07_l.jpg" },
+                { name: "_2_11_l", url: "/images/common/kitchens/sunrise/sets/_2_11_l.jpg" },
+                { name: "sunrise_ald", url: "/images/common/kitchens/sunrise/sets/sunrise_ald.jpg" },
+                { name: "sunrise_apd", url: "/images/common/kitchens/sunrise/sets/sunrise_apd.jpg" },
+                { name: "sunrise_apl", url: "/images/common/kitchens/sunrise/sets/sunrise_apl.jpg" },
+                { name: "sunrise_ash", url: "/images/common/kitchens/sunrise/sets/sunrise_ash.jpg" }
+            ],
+            "elite": [
+                { name: "_1_12_l", url: "/images/common/kitchens/elite/sets/_1_12_l.jpg" },
+                { name: "_1_14_l", url: "/images/common/kitchens/elite/sets/_1_14_l.jpg" },
+                { name: "_1_15_l", url: "/images/common/kitchens/elite/sets/_1_15_l.jpg" },
+                { name: "_2_01_l", url: "/images/common/kitchens/elite/sets/_2_01_l.jpg" },
+                { name: "_2_05_l", url: "/images/common/kitchens/elite/sets/_2_05_l.jpg" },
+                { name: "_4_05_l", url: "/images/common/kitchens/elite/sets/_4_05_l.jpg" },
+                { name: "_4_08_l", url: "/images/common/kitchens/elite/sets/_4_08_l.jpg" },
+                { name: "_4_09_l", url: "/images/common/kitchens/elite/sets/_4_09_l.jpg" },
+                { name: "elite_antr_sm", url: "/images/common/kitchens/elite/sets/elite_antr_sm.jpg" },
+                { name: "elite_blc_mtl", url: "/images/common/kitchens/elite/sets/elite_blc_mtl.jpg" },
+                { name: "elite_brn_sm", url: "/images/common/kitchens/elite/sets/elite_brn_sm.jpg" },
+                { name: "elite_cyn", url: "/images/common/kitchens/elite/sets/elite_cyn.jpg" },
+                { name: "elite_ivr_sm", url: "/images/common/kitchens/elite/sets/elite_ivr_sm.jpg" },
+                { name: "elite_mgnt", url: "/images/common/kitchens/elite/sets/elite_mgnt.jpg" },
+                { name: "elite_mrn_sm", url: "/images/common/kitchens/elite/sets/elite_mrn_sm.jpg" },
+                { name: "elite_nrth", url: "/images/common/kitchens/elite/sets/elite_nrth.jpg" },
+                { name: "elite_olv_sm", url: "/images/common/kitchens/elite/sets/elite_olv_sm.jpg" },
+                { name: "elite_orng_sm", url: "/images/common/kitchens/elite/sets/elite_orng_sm.jpg" },
+                { name: "elite_ttn_blc", url: "/images/common/kitchens/elite/sets/elite_ttn_blc.jpg" },
+                { name: "elite_ttn_wt", url: "/images/common/kitchens/elite/sets/elite_ttn_wt.jpg" }
+
+            ],
+            "frame": [
+               
+            ],
+            "glamor": [
+                { name: "_1_10_l", url: "/images/common/kitchens/glamor/sets/_1_10_l.jpg" },
+                { name: "_1_11_l", url: "/images/common/kitchens/glamor/sets/_1_11_l.jpg" },
+                { name: "_1_13_l", url: "/images/common/kitchens/glamor/sets/_1_13_l.jpg" },
+                { name: "_2_02_l", url: "/images/common/kitchens/glamor/sets/_2_02_l.jpg" },
+                { name: "_2_03_l", url: "/images/common/kitchens/glamor/sets/_2_03_l.jpg" },
+                { name: "_2_04_l", url: "/images/common/kitchens/glamor/sets/_2_04_l.jpg" },
+                { name: "_4_01_l", url: "/images/common/kitchens/glamor/sets/_4_01_l.jpg" },
+                { name: "_4_02_l", url: "/images/common/kitchens/glamor/sets/_4_02_l.jpg" },
+                { name: "_4_03_l", url: "/images/common/kitchens/glamor/sets/_4_03_l.jpg" },
+                { name: "_4_04_l", url: "/images/common/kitchens/glamor/sets/_4_04_l.jpg" },
+                { name: "_4_07_l", url: "/images/common/kitchens/glamor/sets/_4_07_l.jpg" },
+                { name: "glamour_aqmr_mtl", url: "/images/common/kitchens/glamor/sets/glamour_aqmr_mtl.jpg" },
+                { name: "glamour_blc_gl", url: "/images/common/kitchens/glamor/sets/glamour_blc_gl.jpg" },
+                { name: "glamour_chk_gl", url: "/images/common/kitchens/glamor/sets/glamour_chk_gl.jpg" },
+                { name: "glamour_elb_gl", url: "/images/common/kitchens/glamor/sets/glamour_elb_gl.jpg" },
+                { name: "glamour_gry_mtl", url: "/images/common/kitchens/glamor/sets/glamour_gry_mtl.jpg" },
+                { name: "glamour_lime_mtl", url: "/images/common/kitchens/glamor/sets/glamour_lime_mtl.jpg" },
+                { name: "glamour_llc_mtl", url: "/images/common/kitchens/glamor/sets/glamour_llc_mtl.jpg" },
+                { name: "glamour_orng_mtl", url: "/images/common/kitchens/glamor/sets/glamour_orng_mtl.jpg" },
+                { name: "glamour_red_gl", url: "/images/common/kitchens/glamor/sets/glamour_red_gl.jpg" },
+                { name: "glamour_scr_mtl", url: "/images/common/kitchens/glamor/sets/glamour_scr_mtl.jpg" },
+                { name: "glamour_wht_gl", url: "/images/common/kitchens/glamor/sets/glamour_wht_gl.jpg" },
+                { name: "glamour_wht_mtl", url: "/images/common/kitchens/glamor/sets/glamour_wht_mtl.jpg" },
+                { name: "laim2", url: "/images/common/kitchens/glamor/sets/laim2.jpg" }
+
+            ],
+            "contour": [
+                { name: "_1_20_l", url: "/images/common/kitchens/contour/sets/_1_20_l.jpg" },
+                { name: "_1_21_l", url: "/images/common/kitchens/contour/sets/_1_21_l.jpg" },
+                { name: "_2_18_l", url: "/images/common/kitchens/contour/sets/_2_18_l.jpg" },
+                { name: "contour_ald_ald", url: "/images/common/kitchens/contour/sets/contour_ald_ald.jpg" },
+                { name: "contour_apl_apl", url: "/images/common/kitchens/contour/sets/contour_apl_apl.jpg" },
+                { name: "contour_apl_mlk", url: "/images/common/kitchens/contour/sets/contour_apl_mlk.jpg" },
+                { name: "contour_mlk_mlk", url: "/images/common/kitchens/contour/sets/contour_mlk_mlk.jpg" },
+                { name: "contour_nut_nut", url: "/images/common/kitchens/contour/sets/contour_nut_nut.jpg" },
+                { name: "contour_wng_mlk", url: "/images/common/kitchens/contour/sets/contour_wng_mlk.jpg" }
+            ],
+            "modest": [
+                { name: "_1_17_l", url: "/images/common/kitchens/modest/sets/_1_17_l.jpg" },
+                { name: "_1_18_l", url: "/images/common/kitchens/modest/sets/_1_18_l.jpg" },
+                { name: "_1_19_l", url: "/images/common/kitchens/modest/sets/_1_19_l.jpg" },
+                { name: "_2_15_l", url: "/images/common/kitchens/modest/sets/_2_15_l.jpg" },
+                { name: "_2_16_l", url: "/images/common/kitchens/modest/sets/_2_16_l.jpg" },
+                { name: "_2_17_l", url: "/images/common/kitchens/modest/sets/_2_17_l.jpg" },
+                { name: "modest_apd", url: "/images/common/kitchens/modest/sets/modest_apd.jpg" },
+                { name: "modest_gry", url: "/images/common/kitchens/modest/sets/modest_gry.jpg" },
+                { name: "modest_mlk", url: "/images/common/kitchens/modest/sets/modest_mlk.jpg" },
+                { name: "modest_nut", url: "/images/common/kitchens/modest/sets/modest_nut.jpg" },
+                { name: "modest_snl", url: "/images/common/kitchens/modest/sets/modest_snl.jpg" },
+                { name: "modest_trf", url: "/images/common/kitchens/modest/sets/modest_trf.jpg" },
+                { name: "modest_wht", url: "/images/common/kitchens/modest/sets/modest_wht.jpg" },
+                { name: "modest_wng", url: "/images/common/kitchens/modest/sets/modest_wng.jpg" }
+            ],
+            "horizon": [
+                { name: "horizont_chmn_d", url: "/images/common/kitchens/horizon/sets/horizont_chmn_d.jpg" },
+                { name: "horizont_chmn_l", url: "/images/common/kitchens/horizon/sets/horizont_chmn_l.jpg" },
+                { name: "horizont_cream", url: "/images/common/kitchens/horizon/sets/horizont_cream.jpg" },
+                { name: "horizont_ind", url: "/images/common/kitchens/horizon/sets/horizont_ind.jpg" },
+                { name: "horizont_indigo", url: "/images/common/kitchens/horizon/sets/horizont_indigo.jpg" },
+                { name: "horizont_lime", url: "/images/common/kitchens/horizon/sets/horizont_lime.jpg" },
+                { name: "horizont_nut_swiss", url: "/images/common/kitchens/horizon/sets/horizont_nut_swiss.jpg" },
+                { name: "horizont_ship", url: "/images/common/kitchens/horizon/sets/horizont_ship.jpg" },
+                { name: "horizont_snw", url: "/images/common/kitchens/horizon/sets/horizont_snw.jpg" },
+                { name: "horizont_taho", url: "/images/common/kitchens/horizon/sets/horizont_taho.jpg" },
+                { name: "horizont_turku", url: "/images/common/kitchens/horizon/sets/horizont_turku.jpg" }
+            ],
+            "vintage": [
+            
+            ],
+            "viton": [
+               
+            ],
+            "techblock": []
+        }
+       
+        
 
         
 
