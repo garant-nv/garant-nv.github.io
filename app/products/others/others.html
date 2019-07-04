@@ -10,6 +10,54 @@
     </div>
     
     <div ui-view>
-        <div></div>
+        <div class="col-md-4  card" ui-sref="products.details({category:'others', type:'alice'})">
+            <div class="card-wrap">
+                <div class="card-header">
+                    <img class="card-img" src="/images/cabinets/cabinets - alice.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{'alice' | translate}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4  card" ui-sref="products.details({category:'others', type:'universal'})">
+            <div class="card-wrap">
+                <div class="card-header">
+                    <img class="card-img" src="/images/cabinets/cabinets - universal.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{'universal' | translate}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4  card" ui-sref="products.details({category:'others', type:'chests'})">
+            <div class="card-wrap">
+                <div class="card-header">
+                    <img class="card-img" src="/images/cabinets/cabinets - chests.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{'chests' | translate}}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4  card" ui-sref="products.details({category:'others', type:'nika'})">
+            <div class="card-wrap">
+                <div class="card-header">
+                    <img class="card-img" src="/images/cabinets/cabinets - nika.jpg" />
+                </div>
+                <div class="card-body">
+                    <p class="card-title">
+                        {{'nika' | translate}}
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>    
 </div>

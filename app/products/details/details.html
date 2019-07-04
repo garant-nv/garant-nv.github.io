@@ -10,7 +10,7 @@
             <a target="_blank" class="products-small-nav" style="color:black;" href="/data/furnitures.pdf" title="{{'PRODUCTS_CAT3' | translate}}"><img class="catalog-icon" src="/images/catalog.png" />{{'S_MENU_FURNITURES' | translate}}</a>
         </div>
     </div>
-    <div >
+    <div>
         <div ng-if="category=='cabinets'" class="col-md-12">
             <div class="row">
 
@@ -240,8 +240,184 @@
         <div ng-if="category=='furnitures'" class="col-md-12" style="margin-bottom:80px;margin-top:80px;text-align:center">
             <img ng-src="{{currentImg.image}}" class="main-image-source " style="max-width: -webkit-fill-available;"
                  ng-click="zoomImage(currentImg.image, currentImg.name, true)">
-           
 
+
+        </div>
+        <div ng-if="category=='others'" class="col-md-12">
+            <div class="row">
+
+
+                <div class="col-md-12">
+                    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                        <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                            <!--ng-click="zoomImage(slide.image, slide.name)"-->
+                            <img ng-src="{{slide.image}}" class="main-image-source" ng-click="zoomImage(slide.image, slide.name, true)">
+                            <div class="carousel-caption">
+                                <h4>{{slide.name}}</h4>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-4 col-md-3 col-md-2" ng-repeat="c in imageContent[active].datails">
+                        <img ng-src="{{c}}" ng-click="zoomImage(c, null);" class="img-responsive " />
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <p class="col-md-12" style="text-align: center;" ng-if="imageContent[active].desc != null"><span style="line-height: 21px;font-size: 19px;">{{imageContent[active].desc | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].sizes.w.length>0">{{'width' | translate}}: <span>{{imageContent[active].sizes.w[0]}}  мм</span>  </p>
+                    <p class="col-md-3" ng-if="imageContent[active].sizes.d.length>0">{{'depth' | translate}}: <span>{{imageContent[active].sizes.d[0]}} <span ng-show="imageContent[active].sizes.d.length>1">(<span ng-repeat="isize in imageContent[active].sizes.d.slice(1,imageContent[active].sizes.d.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                    <p class="col-md-3" ng-if="imageContent[active].sizes.h.length>0">{{'height' | translate}}: <span>{{imageContent[active].sizes.h[0]}} <span ng-show="imageContent[active].sizes.h.length>1">(<span ng-repeat="isize in imageContent[active].sizes.h.slice(1,imageContent[active].sizes.h.length)">{{isize}}{{$last ? '' : ', '}}</span>)</span> мм</span>  </p>
+                    <p class="col-md-3" ng-if="imageContent[active].hull != null">{{'hull' | translate}}:   <span>{{imageContent[active].hull | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].system != null">{{'system' | translate}}:  <span>{{imageContent[active].system | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].facade != null">{{'facade' | translate}}:    <span>{{imageContent[active].facade | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].photoprint != null">{{'photoprint' | translate}}: <span>{{imageContent[active].photoprint}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].piskost != null">{{'piskost' | translate}}: <span>{{imageContent[active].piskost | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].mdf != null">{{'mdf' | translate}}: <span>{{imageContent[active].mdf | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].dsp != null">{{'dsp' | translate}}: <span>{{imageContent[active].dsp | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].oracal != null">{{'oracal' | translate}}: <span>{{imageContent[active].oracal | translate}}</span></p>
+                    <p class="col-md-3" ng-if="imageContent[active].kombi != null">{{'kombi' | translate}}: <span>{{imageContent[active].kombi? '+': '-'}}</span></p>
+                </div>
+
+            </div>
+            <div ng-if="type!='chests' && type!='nika' && type!='popular'">
+                <div class="row general-common-titles">
+                    {{'hull_color_l' | translate}}
+                </div>
+                <hr />
+                <div class="row">
+
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in hullColors" title="{{c.name | translate}}">
+                            <label class="x-commons-label">{{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row general-common-titles">
+                    {{'orakal_color_l'|translate}}
+                </div>
+                <hr />
+                <div class="row">
+
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in oracalColors" title="{{c.code}} - {{c.name | translate}}">
+                            <label class="x-commons-label">{{c.code}} - {{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row general-common-titles">
+                    {{'exapmle_mdf_l'|translate}}
+                </div>
+                <hr />
+                <div class="row">
+
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in mdfs" title="{{c.name | translate}}">
+                            <label class="x-commons-label">{{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row general-common-titles">
+                    {{'system_color_l'|translate}}
+                </div>
+                <hr />
+                <div class="row">
+
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in systemColors" title="{{c.name | translate}}">
+                            <label class="x-commons-label">{{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row general-common-titles">
+                    {{'kombi_l'|translate}}
+                </div>
+                <hr />
+                <div class="row">
+
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in combis" title="{{c.name | translate}}">
+                            <label class="x-commons-label">{{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" title="{{c.name | translate}}" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row general-common-titles">
+                    {{'ex_vs_l'|translate}}
+                </div>
+                <hr />
+                <div class="row">
+
+
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in vsTypes" title="{{c.name | translate}}">
+                            <label class="x-commons-label">{{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row general-common-titles">
+                    {{'mirrors_l'|translate}}
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="x-commons-wrap">
+                        <div class="x-commons" ng-repeat="c in mirrors" title="{{c.name | translate}}">
+                            <label class="x-commons-label">{{c.name | translate}}</label>
+                            <div class="x-commons-img-wrap" ng-click="zoomImage(c.url, c.name);">
+                                <img ng-src="{{c.url}}" title="{{c.name}}" class="x-commons-img" />
+                                <span class="x-commons-img-zoom">
+                                    <i class="glyphicon glyphicon-plus plus-icon"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
