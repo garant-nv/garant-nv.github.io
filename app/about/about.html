@@ -5,17 +5,10 @@
     <p>{{'about_p2' | translate}}</p>
     <p>{{'about_p3' | translate}}</p>
     <p>{{'about_p4' | translate}}</p>
-    <div >
-
-        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-            <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-                <img ng-src="{{slide.image}}" class="main-image-source" style="margin:auto;">
-                <!--<div class="carousel-caption">
-                    <h4>Slide {{slide.id}}</h4>
-                    <p>{{slide.text}}</p>
-                </div>-->
-            </div>
-        </div>
+    <div align="center" class="embed-responsive embed-responsive-16by9">
+        <video autoplay controls loop class="embed-responsive-item">
+            <source  src="/data/Alex_720.mp4" type="video/mp4"/>
+        </video>
     </div>
 
     <h2>{{'about_title' | translate}}</h2>
@@ -29,7 +22,17 @@
         <li><p>{{'about_p10' | translate}}</p></li>
         <li><p>{{'about_p11' | translate}}</p></li>
         <li><p>{{'about_p12' | translate}}</p></li>
-        
-        
     </ul>
+
+    <div>
+        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+            <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                <img ng-src="{{slide.image}}" class="main-image-source" style="margin:auto;">
+                <!--<div class="carousel-caption">
+                    <h4>Slide {{slide.id}}</h4>
+                    <p>{{slide.text}}</p>
+                </div>-->
+            </div>
+        </div>
+    </div>
 </div>
