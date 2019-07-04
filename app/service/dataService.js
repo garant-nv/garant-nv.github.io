@@ -373,6 +373,14 @@
                 "8": { name: "vintage_rglt_l", url: "/images/common/kitchens/vintage/vintage_rglt_l.jpg" },
                 "9": { name: "vintage_rglt_d", url: "/images/common/kitchens/vintage/vintage_rglt_d.jpg" }
             },
+            "viton": {
+                "0": { name: "vuitton_01", url: "/images/common/kitchens/viton/vuitton_01.jpg" },
+                "1": { name: "vuitton_02", url: "/images/common/kitchens/viton/vuitton_02.jpg" },
+                "2": { name: "vuitton_03", url: "/images/common/kitchens/viton/vuitton_03.jpg" },
+                "3": { name: "vuitton_04", url: "/images/common/kitchens/viton/vuitton_04.jpg" },
+                "4": { name: "vuitton_05", url: "/images/common/kitchens/viton/vuitton_05.jpg" },
+                "5": { name: "vuitton_06", url: "/images/common/kitchens/viton/vuitton_06.jpg" }
+            }
         };
 
         this.kitchenfacades = {

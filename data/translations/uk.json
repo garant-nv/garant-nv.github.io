@@ -68,7 +68,7 @@
   "glamor": "Glamor",
   "contour": "Contour",
   "modest": "Modest",
-
+  "viton": "Viton",
   "width": "Width",
   "depth": "Depth",
   "height": "Height",
@@ -229,6 +229,13 @@
   "shtroks_chocolate": "Strokes chocolate",
   "olive_shtroks": "Strokes olive",
   "flax_dark": "Flax dark",
+
+  "vuitton_01": "Oak sonoma, oak sonoma",
+  "vuitton_02": "Oak nortland, oak milky",
+  "vuitton_03": "Oak sonoma grey, ash snow",
+  "vuitton_04": "Mont blanc brown",
+  "vuitton_05": "Oak milky, oak milky",
+  "vuitton_06": "Ivory, White",
 
   "kit_p1": "White structure in silver",
   "kit_p2": "Vanilla Supermate",
