@@ -72,9 +72,9 @@
     }
     function loadKitchenCommons() {
 
-        $scope.kitchenCommons = dataService.kitchenCommons;
+        $scope.kitchenCommons = dataService.kitchenCommons[$scope.type];
         $scope.facades = dataService.kitchenfacades[$scope.type];
-
+     
         console.log($scope.facades);
         console.log($scope.kitchenCommons);
     }
