@@ -19,6 +19,8 @@
             loadKitchenCommons();
         } else if ($scope.category == 'furnitures') {
             loadFurnitures();
+        } else {
+            console.log("others");
         }
 
         console.log($scope.imageContent);

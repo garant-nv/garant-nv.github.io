@@ -14,7 +14,6 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
     //$translateProvider.fallbackLanguage('ua');
 
     $stateProvider
-   
        .state('home', {
            url: '/',
           
@@ -26,15 +25,10 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
                'shortmenu@home': {templateUrl: '/app/templates/shortmenu.html'}
            }
        })
-
-        
        .state('about', {
            url: '/about',
            templateUrl: '/app/about/about.html', 
            controller: 'aboutController' 
-             
-           
-
        })
        .state('products', {
            url: '/products',
@@ -43,10 +37,8 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
                    templateUrl: '/app/products/products.html',
                    controller: 'productsController'
                },
-               'shortmenu@products': { templateUrl: '/app/templates/shortmenu.html' },
-             
+               'shortmenu@products': { templateUrl: '/app/templates/shortmenu.html' }
            }
-
        })
         .state('products.details', {
             name:"details",
@@ -58,9 +50,7 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
                 category: null,
                 type: null
             }
-            
         })
-      
         .state('products.cabinets', {
             name:"cabinets",
             parent: "products",
@@ -72,12 +62,7 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
                 },
                 'cabinetsmenu@cabinets':{templateUrl: '/app/templates/cabinetsmenu.html'}
             }
-               
-               
-               
-            
         })
-      
         // кухны
         .state('products.kitchens', {
             parent: "products",
@@ -92,7 +77,13 @@ app.config(function ($stateProvider, $urlRouterProvider,  $translateProvider, $l
             templateUrl: '/app/products/furnitures/furnitures.html',
             controller: 'furnituresController'
         })
-
+        //others
+        .state('products.others', {
+            parent: "products",
+            url: '/others',
+            templateUrl: '/app/products/others/others.html',
+            controller: 'othersController'
+        })
        .state('contact', {
            url: '/contact',
            templateUrl: '/app/contact/contact.html',
