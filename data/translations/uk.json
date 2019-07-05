@@ -377,16 +377,7 @@
   "modest_n6": "WhiteUnicolor",
   "modest_n7": "Gray Unicolor",
   "modest_n8": "Oak sonoma truffle",
-  "cmod1": "",
-  "cmod2": "",
-  "cmod3": "",
-  "cmod4": "",
-  "cmod5": "",
-  "cmod6": "",
-  "cmod7": "",
-  "cmod8": "",
-  "cmod9": "",
-  "cmod10": "",
+
 
   "nika": "Nika",
   "nika_desc": "A set of furniture for the hallway NIKA can be ordered as a set and each item separately.",
@@ -428,26 +419,17 @@
   "Alex11": "Cuba",
   "Alex12": "Queen",
 
-
-  "vuitton_01": "Oak sonoma, oak sonoma",
-  "vuitton_02": "Oak nortland, oak milky",
-  "vuitton_03": "Oak sonoma grey, ash snow",
-  "vuitton_04": "Mont blanc brown",
-  "vuitton_05": "Oak milky, oak milky",
-  "vuitton_06": "Ivory, White",
-
-  "Кухонні наборки Гламур": "",
-  "_1_10_l": "Black high gloss, Red high gloss",
-  "_1_11_l": "White high gloss",
-  "_1_13_l": "Lime high gloss meallic",
-  "_2_02_l": "Red high gloss, Black high gloss",
-  "_2_03_l": "Ivory high gloss, chocolate high gloss",
-  "_2_04_l": "lilac high gloss metallic",
-  "_4_01_l": "Red high gloss",
-  "_4_02_l": "Ivory high gloss, chocolate high gloss",
-  "_4_03_l": "Grey high gloss metallic, bordeaux 140",
-  "_4_04_l": "Orange high gloss metallic",
-  "_4_07_l": "Whith high gloss",
+  "glamour_1_10_l": "Black high gloss, Red high gloss",
+  "glamour_1_11_l": "White high gloss",
+  "glamour_1_13_l": "Lime high gloss meallic",
+  "glamour_2_02_l": "Red high gloss, Black high gloss",
+  "glamour_2_03_l": "Ivory high gloss, chocolate high gloss",
+  "glamour_2_04_l": "lilac high gloss metallic",
+  "glamour_4_01_l": "Red high gloss",
+  "glamour_4_02_l": "Ivory high gloss, chocolate high gloss",
+  "glamour_4_03_l": "Grey high gloss metallic, bordeaux 140",
+  "glamour_4_04_l": "Orange high gloss metallic",
+  "glamour_4_07_l": "Whith high gloss",
   "glamour_aqmr_mtl": "Aquamarine high gloss metallic",
   "glamour_blc_gl": "Black high gloss",
   "glamour_chk_gl": "Chocolate high gloss",
@@ -460,18 +442,18 @@
   "glamour_scr_mtl": "lilac high gloss metallic",
   "glamour_wht_gl": "White high gloss",
   "glamour_wht_mtl": "Whith high gloss metallic",
-  "laim2": "Lime high gloss meallic",
+  "glamour_laim2": "Lime high gloss meallic",
 
+  
 
-
-  "_1_12_l": "Blue metallic",
-  "_1_14_l": "Brown supermat",
-  "_1_15_l": "Olive supermat",
-  "_2_01_l": "Orange supermat",
-  "_2_05_l": "Murena supermat",
-  "_4_05_l": "Pink metallic",
-  "_4_08_l": "Antarktika supermat",
-  "_4_09_l": "Titan white, titan black",
+  "elite_1_12_l": "Blue metallic",
+  "elite_1_14_l": "Brown supermat",
+  "elite_1_15_l": "Olive supermat",
+  "elite_2_01_l": "Orange supermat",
+  "elite_2_05_l": "Murena supermat",
+  "elite_4_05_l": "Pink metallic",
+  "elite_4_08_l": "Antarktika supermat",
+  "elite_4_09_l": "Titan white, titan black",
   "elite_antr_sm": "Antarktika supermat",
   "elite_blc_mtl": "Black gloss pearl",
   "elite_brn_sm": "Brown supermat",
@@ -485,16 +467,16 @@
   "elite_ttn_blc": "Titan black",
   "elite_ttn_wt": "Titan white",
 
-  "_1_01_l": "Ash pearl",
-  "_1_02_l": "Oak sonoma dark",
-  "_1_03_l": "Plum louise",
-  "_1_04_l": "White tree",
-  "_1_05_l": "Kedr luxe",
-  "_1_06_l": "Apple dark embossed",
-  "_1_07_l": "Vanilla supermat",
-  "_2_08_l": "Oak sonoma light",
-  "_2_10_l": "Apple light",
-  "_2_12_l": "Walnut dark",
+  "quadris_1_01_l": "Ash pearl",
+  "quadris_1_02_l": "Oak sonoma dark",
+  "quadris_1_03_l": "Plum louise",
+  "quadris_1_04_l": "White tree",
+  "quadris_1_05_l": "Kedr luxe",
+  "quadris_1_06_l": "Apple dark embossed",
+  "quadris_1_07_l": "Vanilla supermat",
+  "quadris_2_08_l": "Oak sonoma light",
+  "quadris_2_10_l": "Apple light",
+  "quadris_2_12_l": "Walnut dark",
   "quadris_ald": "Alder dark",
   "quadris_apd": "Apple dark embossed",
   "quadris_apl": "Apple light",
@@ -510,9 +492,9 @@
   "quadris_wnl": "Vanilla supermat",
   "quadris_wtw": "White tree",
 
-  "_1_20_l": "Wenge dark, Oak milky",
-  "_1_21_l": "Oak milky, oak milky",
-  "_2_18_l": "Walnut bologhna dark",
+  "contour_1_20_l": "Wenge dark, Oak milky",
+  "contour_1_21_l": "Oak milky, oak milky",
+  "contour_2_18_l": "Walnut bologhna dark",
   "contour_ald_ald": "Alder mountian dark, alder mountian dark",
   "contour_apl_apl": "Apple locarno dark, Apple locarno dark",
   "contour_apl_mlk": "Apple locarno dark, oak milky",
@@ -520,12 +502,12 @@
   "contour_nut_nut": "Walnut bologhna dark",
   "contour_wng_mlk": "Wenge dark, Oak milky",
 
-  "_1_17_l": "Oak sonoma",
-  "_1_18_l": "Walnut select",
-  "_1_19_l": "Apple locarno dark",
-  "_2_15_l": "Wenge dark",
-  "_2_16_l": "Oak milky",
-  "_2_17_l": "Oak sonoma truffle",
+  "modest_1_17_l": "Oak sonoma",
+  "modest_1_18_l": "Walnut select",
+  "modest_1_19_l": "Apple locarno dark",
+  "modest_2_15_l": "Wenge dark",
+  "modest_2_16_l": "Oak milky",
+  "modest_2_17_l": "Oak sonoma truffle",
   "modest_apd": "Apple locarno dark",
   "modest_gry": "Grey unicolor",
   "modest_mlk": "Oak milky",
@@ -535,15 +517,15 @@
   "modest_wht": "White unicolor",
   "modest_wng": "Wenge dark",
 
-  "_1_22_l": "Walnut pacific",
-  "_2_13_l": "Carpathian fir",
-  "_2_14_l": "Kedr luxe",
-  "_3_01_l": "Patina radial 38",
-  "_3_02_l": "Bleached oak",
-  "_3_03_l": "Ash gold",
-  "_3_04_l": "White structure in silver",
-  "_3_05_l": "Vanilla supermat",
-  "_3_06_l": "Sonoma dark",
+  "platinum_1_22_l": "Walnut pacific",
+  "platinum_2_13_l": "Carpathian fir",
+  "platinum_2_14_l": "Kedr luxe",
+  "platinum_3_01_l": "Patina radial 38",
+  "platinum_3_02_l": "Bleached oak",
+  "platinum_3_03_l": "Ash gold",
+  "platinum_3_04_l": "White structure in silver",
+  "platinum_3_05_l": "Vanilla supermat",
+  "platinum_3_06_l": "Sonoma dark",
   "platinum_04_05": "Carpathian fir",
   "platinum_06_07": "White structure in silver",
   "platinum_08_09": "Sonoma dark",
@@ -556,156 +538,14 @@
   "platinum_24_25": "Bleached oak",
   "platinum_26_27": "Cherry forema",
 
-  "_1_08_l": "Oak sonoma light",
-  "_1_09_l": "Wenge dark",
-  "_2_06_l": "Vanilla supermat",
-  "_2_07_l": "Oak sonoma dark",
-  "_2_11_l": "Wenge dark",
+  "sunrise_1_08_l": "Oak sonoma light",
+  "sunrise_1_09_l": "Wenge dark",
+  "sunrise_2_06_l": "Vanilla supermat",
+  "sunrise_2_07_l": "Oak sonoma dark",
+  "sunrise_2_11_l": "Wenge dark",
   "sunrise_ald": "Alder dark",
   "sunrise_apd": "Apple locarno dark",
   "sunrise_apl": "Apple light",
   "sunrise_ash": "Ash pearl"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
