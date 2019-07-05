@@ -568,6 +568,49 @@
   "sunrise_ald": "Alder dark",
   "sunrise_apd": "Apple locarno dark",
   "sunrise_apl": "Apple light",
-  "sunrise_ash": "Ash pearl"
+  "sunrise_ash": "Ash pearl",
+
+  "f_vintage_rigoleto_l": "Rigoletto light",
+  "f_vintage_bordo": "Bordeaux,",
+  "f_vintage_grafit": "Graphite",
+  "f_vintage_drakar": "Drakar",
+  "f_vintage_oak_pl": "Oak platinum",
+  "f_vintage_oak_indust": "Industrial",
+  "f_vintage_oak_clonedike": "Oak clondike",
+  "f_vintage_oak_lavanda": "Lavander",
+  "f_vintage_oak_late": "Latte",
+  "f_vintage_rigolet": "Rigoletto dark",
+
+  "f_viton_1": "Ivory, White",
+  "f_viton_2": "Oak milky, oak milky",
+  "f_viton_3": "Oak nortland, oak milky",
+  "f_viton_4": "Oak sonoma grey, ash snow",
+  "f_viton_5": "Mont blanc brown",
+  "f_viton_6": "Oak sonoma, oak sonoma",
+
+  "f_glam_1": "Oak English",
+  "f_glam_2": "Oak royal",
+  "f_glam_3": "Oak polar",
+  "f_glam_4": "Oak snow",
+
+  "f_horizon_1": "Turquoise",
+  "f_horizon_2": "Walnut swiss",
+  "f_horizon_3": "Oak ship",
+  "f_horizon_4": "Oak tacho",
+  "f_horizon_5": "Indigo",
+  "f_horizon_6": "Indian ebony",
+  "f_horizon_7": "Cream",
+  "f_horizon_8": "Lime",
+  "f_horizon_9": "Chamonix light",
+  "f_horizon_10": "Chamonix dark",
+  "f_horizon_11": "Ash snow",
+
+  "f_elite_1": "White soft",
+  "f_elite_2": "Gothic",
+  "f_elite_3": "Graphite soft",
+  "f_elite_4": "Lori blue",
+  "f_elite_5": "Nepal",
+  "f_elite_6": "Chablis"
+
 
 }

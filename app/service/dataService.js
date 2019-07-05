@@ -394,378 +394,421 @@
         };
 
         this.kitchenfacades = {
-            "platinum": {
-                0: {
+            "platinum": [
+                 {
                     name: "platinum_n1",
                      url: "/images/common/kitchens/platinum/facades/1.jpg",
                  },
-                1:{
+                {
                     name: "platinum_n2",
                     url: "/images/common/kitchens/platinum/facades/2.jpg",
                 },
-                2: {
+                {
                     name: "platinum_n3",
                       url: "/images/common/kitchens/platinum/facades/3.jpg",
                   },
-                3: {
+                {
                     name: "platinum_n4",
                       url: "/images/common/kitchens/platinum/facades/4.jpg",
                   },
-                 4: {
+                {
                      name: "platinum_n5",
                       url: "/images/common/kitchens/platinum/facades/5.jpg",
                   },
-                  5:{
+                  {
                       name: "platinum_n6",
                       url: "/images/common/kitchens/platinum/facades/6.jpg",
                   },
-                  6:{
+                  {
                       name: "platinum_n7",
                       url: "/images/common/kitchens/platinum/facades/7.jpg",
                   },
-                  7:{
+                  {
                       name: "platinum_n8",
                       url: "/images/common/kitchens/platinum/facades/8.jpg",
                   },
-                  8:{
+                  {
                       name: "platinum_n9",
                       url: "/images/common/kitchens/platinum/facades/9.jpg",
                   },
-                  9:{
+                  {
                       name: "platinum_n10",
                       url: "/images/common/kitchens/platinum/facades/10.jpg",
                   },
-                  10:{
+                  {
                       name: "platinum_n11",
                       url: "/images/common/kitchens/platinum/facades/11.jpg",
                   },
-                  11:{
+                  {
                       name: "platinum_n12",
                       url: "/images/common/kitchens/platinum/facades/12.jpg",
-                  },
-        },
-            "quadris": {
-                  0:{
+                  }
+        ],
+            "quadris": [
+                  {
                       name: "quadris_n1",
                       url: "/images/common/kitchens/quadris/facades/1.jpg",
                   },
-                  1:{
+                  {
                       name: "quadris_n2",
                       url: "/images/common/kitchens/quadris/facades/2.jpg",
                   },
-                  2:{
+                  {
                       name: "quadris_n3",
                       url: "/images/common/kitchens/quadris/facades/3.jpg",
                   },
-                  3:{
+                  {
                       name: "quadris_n4",
                       url: "/images/common/kitchens/quadris/facades/4.jpg",
                   },
-                  4:{
+                  {
                       name: "quadris_n5",
                       url: "/images/common/kitchens/quadris/facades/5.jpg",
                   },
-                  5: {
+                  {
                       name: "quadris_n6",
                       url: "/images/common/kitchens/quadris/facades/6.jpg",
                   },
-                  6:{
+                  {
                       name: "quadris_n7",
                       url: "/images/common/kitchens/quadris/facades/7.jpg",
                   },
-                  7:{
+                  {
                       name: "quadris_n8",
                       url: "/images/common/kitchens/quadris/facades/8.jpg",
                   },
-                  8:{
+                  {
                       name: "quadris_n9",
                       url: "/images/common/kitchens/quadris/facades/9.jpg",
                   },
-                  9:{
+                  {
                       name: "quadris_n10",
                       url: "/images/common/kitchens/quadris/facades/10.jpg",
                   },
-                  10: {
+                  {
                       name: "quadris_n11",
                       url: "/images/common/kitchens/quadris/facades/11.jpg",
                   },
-                  11:{
+                  {
                       name: "quadris_n12",
                       url: "/images/common/kitchens/quadris/facades/12.jpg",
                   },
-                  12:{
+                  {
                       name: "quadris_n13",
                       url: "/images/common/kitchens/quadris/facades/13.jpg",
                   },
-                  13: {
+                  {
                       name: "quadris_n14",
                       url: "/images/common/kitchens/quadris/facades/14.jpg",
                   },
-                  14:{
+                  {
                       name: "quadris_n15",
                       url: "/images/common/kitchens/quadris/facades/15.jpg",
-                  },
-            },
-            "sunrise": {
-                  0:{
+                  }
+            ],
+            "sunrise": [
+                  {
                       name: "sunrise_n1",
                       url: "/images/common/kitchens/sunrise/facades/1.jpg",
                   },
-                  1:{
+                  {
                       name: "sunrise_n2",
                       url: "/images/common/kitchens/sunrise/facades/2.jpg",
                   },
-                  2:{
+                  {
                       name: "sunrise_n3",
                       url: "/images/common/kitchens/sunrise/facades/3.jpg",
                   },
-                  3:{
+                  {
                       name: "sunrise_n4",
                       url: "/images/common/kitchens/sunrise/facades/4.jpg",
                   },
-                  4:{
+                  {
                       name: "sunrise_n5",
                       url: "/images/common/kitchens/sunrise/facades/5.jpg",
                   },
-                  5:{
+                  {
                       name: "sunrise_n6",
                       url: "/images/common/kitchens/sunrise/facades/6.jpg",
                   },
-                  6:{
+                  {
                       name: "sunrise_n7",
                       url: "/images/common/kitchens/sunrise/facades/7.jpg",
                   },
-                  7:{
+                  {
                       name: "sunrise_n8",
                       url: "/images/common/kitchens/sunrise/facades/8.jpg",
                   },
-                  8:{
+                  {
                       name: "sunrise_n9",
                       url: "/images/common/kitchens/sunrise/facades/9.jpg",
                   },
-                  9:{
+                  {
                       name: "sunrise_n10",
                       url: "/images/common/kitchens/sunrise/facades/10.jpg",
                   },
-                  10:{
+                  {
                       name: "sunrise_n11",
                       url: "/images/common/kitchens/sunrise/facades/11.jpg",
                   },
-                  11:{
+                  {
                       name: "sunrise_n12",
                       url: "/images/common/kitchens/sunrise/facades/12.jpg",
                   },
-                  12:{
+                  {
                       name: "sunrise_n13",
                       url: "/images/common/kitchens/sunrise/facades/13.jpg",
                   },
-                  13:{
+                  {
                       name: "sunrise_n14",
                       url: "/images/common/kitchens/sunrise/facades/14.jpg",
                   },
-                  14:{
+                  {
                       name: "sunrise_n15",
                       url: "/images/common/kitchens/sunrise/facades/15.jpg",
-                  },
-
-            },
-            "elite": {
-                  0:{
+                  }
+            ],
+            "elite": [
+                  {
                       name: "elite_n1",
                       url: "/images/common/kitchens/elite/facades/1.jpg",
                   },
-                  1:{
+                  {
                       name: "elite_n2",
                       url: "/images/common/kitchens/elite/facades/2.jpg",
                   },
-                  2:{
+                  {
                       name: "elite_n3",
                       url: "/images/common/kitchens/elite/facades/3.jpg",
                   },
-                  3:{
+                  {
                       name: "elite_n4",
                       url: "/images/common/kitchens/elite/facades/4.jpg",
                   },
-                  4:{
+                  {
                       name: "elite_n5",
                       url: "/images/common/kitchens/elite/facades/5.jpg",
                   },
-                  5:{
+                  {
                       name: "elite_n6",
                       url: "/images/common/kitchens/elite/facades/6.jpg",
                   },
-                  6:{
+                  {
                       name: "elite_n7",
                       url: "/images/common/kitchens/elite/facades/7.jpg",
                   },
-                  7:{
+                  {
                       name: "elite_n8",
                       url: "/images/common/kitchens/elite/facades/8.jpg",
                   },
-                  8:{
+                  {
                       name: "elite_n9",
                       url: "/images/common/kitchens/elite/facades/9.jpg",
                   },
-                  9:{
+                  {
                       name: "elite_n10",
                       url: "/images/common/kitchens/elite/facades/10.jpg",
                   },
-                  10:{
+                  {
                       name: "elite_n11",
                       url: "/images/common/kitchens/elite/facades/11.jpg",
                   },
-                  11:{
+                  {
                       name: "elite_n12",
                       url: "/images/common/kitchens/elite/facades/12.jpg",
                   },
-                  12:{
+                  {
                       name: "elite_n13",
                       url: "/images/common/kitchens/elite/facades/13.jpg",
-                  },
-            },
-            "frame": {
-                0:{
+                   },
+                { name: "f_elite_1", url: "/images/common/kitchens/elite/facades/f_elite_1.jpg" },
+                { name: "f_elite_2", url: "/images/common/kitchens/elite/facades/f_elite_2.jpg" },
+                { name: "f_elite_3", url: "/images/common/kitchens/elite/facades/f_elite_3.jpg" },
+                { name: "f_elite_4", url: "/images/common/kitchens/elite/facades/f_elite_4.jpg" },
+                { name: "f_elite_5", url: "/images/common/kitchens/elite/facades/f_elite_5.jpg" },
+                { name: "f_elite_6", url: "/images/common/kitchens/elite/facades/f_elite_6.jpg" }
+
+            ],
+            "frame": [
+                {
                     name: "frame_n1",
                       url: "/images/common/kitchens/frame/facades/1.jpg",
-                  },
-                1:{
+                },
+                {
                     name: "frame_n2",
                       url: "/images/common/kitchens/frame/facades/2.jpg",
-                  },
-                2:{
+                },
+                {
                     name: "frame_n3",
                       url: "/images/common/kitchens/frame/facades/3.jpg",
-                  },
-                3:{
+                },
+                {
                     name: "frame_n4",
                       url: "/images/common/kitchens/frame/facades/4.jpg",
-                  },
-                4:{
+                },
+                {
                     name: "frame_n5",
                       url: "/images/common/kitchens/frame/facades/5.jpg",
-                  },
-                5:{
+                },
+                {
                     name: "frame_n6",
                      url: "/images/common/kitchens/frame/facades/6.jpg",
-                  },
-            },
-            "glamor": {
-                0:{
+                }
+            ],
+            "glamor": [
+                {
                     name: "glamor_n1",
                       url: "/images/common/kitchens/glamor/facades/1.jpg",
-                  },
-                1:{
+                },
+                {
                     name: "glamor_n2",
                       url: "/images/common/kitchens/glamor/facades/2.jpg",
                   },
-                2:{
+                {
                     name: "glamor_n3",
                       url: "/images/common/kitchens/glamor/facades/3.jpg",
                   },
-                3:{
+                {
                     name: "glamor_n4",
                       url: "/images/common/kitchens/glamor/facades/4.jpg",
                   },
-                4:{
+                {
                     name: "glamor_n5",
                       url: "/images/common/kitchens/glamor/facades/5.jpg",
                   },
-                5:{
+                {
                     name: "glamor_n6",
                       url: "/images/common/kitchens/glamor/facades/6.jpg",
                   },
-                6:{
+                {
                     name: "glamor_n7",
                       url: "/images/common/kitchens/glamor/facades/7.jpg",
                   },
-                7:{
+                {
                     name: "glamor_n8",
                       url: "/images/common/kitchens/glamor/facades/8.jpg",
                   },
-                8:{
+                {
                     name: "glamor_n9",
                       url: "/images/common/kitchens/glamor/facades/9.jpg",
                   },
-                9:{
+                {
                     name: "glamor_n10",
                       url: "/images/common/kitchens/glamor/facades/10.jpg",
                   },
-                10:{
+                {
                     name: "glamor_n11",
                       url: "/images/common/kitchens/glamor/facades/11.jpg",
                   },
-                11:{
+                {
                     name: "glamor_n12",
                       url: "/images/common/kitchens/glamor/facades/12.jpg",
                   },
-                12:{
+                {
                     name: "glamor_n13",
                       url: "/images/common/kitchens/glamor/facades/13.jpg",
-                  },
-
-            },
-            "contour": {
-                0:{
-                    name: "contour_n1",
-                      url: "/images/common/kitchens/contour/facades/1.jpg",
-                  },
-                1: {
-                    name: "contour_n2",
-                       url: "/images/common/kitchens/contour/facades/2.jpg",
-                   },
-                2:  {
-                    name: "contour_n3",
-                        url: "/images/common/kitchens/contour/facades/3.jpg",
+                },
+                { name: "f_glam_1", url: "/images/common/kitchens/glamor/facades/f_glam_1.jpg" },
+                { name: "f_glam_2", url: "/images/common/kitchens/glamor/facades/f_glam_2.jpg" },
+                { name: "f_glam_3", url: "/images/common/kitchens/glamor/facades/f_glam_3.jpg" },
+                { name: "f_glam_4", url: "/images/common/kitchens/glamor/facades/f_glam_4.jpg" }
+            ],
+            "contour": [
+                {
+                name: "contour_n1",
+                    url: "/images/common/kitchens/contour/facades/1.jpg",
+                },
+                {
+                name: "contour_n2",
+                    url: "/images/common/kitchens/contour/facades/2.jpg",
+                },
+                {
+                name: "contour_n3",
+                    url: "/images/common/kitchens/contour/facades/3.jpg",
+                },
+                {
+                name: "contour_n4",
+                        url: "/images/common/kitchens/contour/facades/4.jpg",
                     },
-                3:   {
-                    name: "contour_n4",
-                         url: "/images/common/kitchens/contour/facades/4.jpg",
-                     },
-                4:    {
-                    name: "contour_n5",
-                          url: "/images/common/kitchens/contour/facades/5.jpg",
-                      },
-                5:     {
-                    name: "contour_n6",
-                           url: "/images/common/kitchens/contour/facades/6.jpg",
-                       },
-            },
-            "modest": {
-                0: {
+                {
+                name: "contour_n5",
+                        url: "/images/common/kitchens/contour/facades/5.jpg",
+                },
+                {
+                name: "contour_n6",
+                        url: "/images/common/kitchens/contour/facades/6.jpg",
+                },
+            ],
+            "modest": [
+               {
                     name: "modest_n1",
-                       url: "/images/common/kitchens/modest/facades/1.jpg",
-                   },
-                1:{
+                    url: "/images/common/kitchens/modest/facades/1.jpg",
+                },
+                {
                     name: "modest_n2",
-                      url: "/images/common/kitchens/modest/facades/2.jpg",
-                  },
-                2:{
+                    url: "/images/common/kitchens/modest/facades/2.jpg",
+                },
+                {
                     name: "modest_n3",
-                      url: "/images/common/kitchens/modest/facades/3.jpg",
-                  },
-                3:{
+                    url: "/images/common/kitchens/modest/facades/3.jpg",
+                },
+                {
                     name: "modest_n4",
-                      url: "/images/common/kitchens/modest/facades/4.jpg",
-                  },
-                4:{
+                    url: "/images/common/kitchens/modest/facades/4.jpg",
+                },
+                {
                     name: "modest_n5",
-                      url: "/images/common/kitchens/modest/facades/5.jpg",
-                  },
-                5:{
+                    url: "/images/common/kitchens/modest/facades/5.jpg",
+                },
+                {
                     name: "modest_n6",
-                      url: "/images/common/kitchens/modest/facades/6.jpg",
-                  },
-                6:{
+                    url: "/images/common/kitchens/modest/facades/6.jpg",
+                },
+                {
                     name: "modest_n7",
-                      url: "/images/common/kitchens/modest/facades/7.jpg",
-                  },
-                7: {
+                    url: "/images/common/kitchens/modest/facades/7.jpg",
+                },
+                {
                     name: "modest_n8",
-                      url: "/images/common/kitchens/modest/facades/8.jpg",
-                  }
+                    url: "/images/common/kitchens/modest/facades/8.jpg",
+                }
 
-            }
+            ],
+            "vintage": [
+                { name: "f_vintage_rigoleto_l", url: "/images/common/kitchens/vintage/facades/f_vintage_rigoleto_l.jpg" },
+                { name: "f_vintage_bordo", url: "/images/common/kitchens/vintage/facades/f_vintage_bordo.jpg" },
+                { name: "f_vintage_grafit", url: "/images/common/kitchens/vintage/facades/f_vintage_grafit.jpg" },
+                { name: "f_vintage_drakar", url: "/images/common/kitchens/vintage/facades/f_vintage_drakar.jpg" },
+                { name: "f_vintage_oak_pl", url: "/images/common/kitchens/vintage/facades/f_vintage_oak_pl.jpg" },
+                { name: "f_vintage_oak_indust", url: "/images/common/kitchens/vintage/facades/f_vintage_oak_indust.jpg" },
+                { name: "f_vintage_oak_clonedike", url: "/images/common/kitchens/vintage/facades/f_vintage_oak_clonedike.jpg" },
+                { name: "f_vintage_oak_lavanda", url: "/images/common/kitchens/vintage/facades/f_vintage_oak_lavanda.jpg" },
+                { name: "f_vintage_oak_late", url: "/images/common/kitchens/vintage/facades/f_vintage_oak_late.jpg" },
+                { name: "f_vintage_rigolet", url: "/images/common/kitchens/vintage/facades/f_vintage_rigolet.jpg" }
+            ],
+            "horizon": [
+                { name: "f_horizon_1", url: "/images/common/kitchens/horizon/facades/f_horizon_1.jpg" },
+                { name: "f_horizon_2", url: "/images/common/kitchens/horizon/facades/f_horizon_2.jpg" },
+                { name: "f_horizon_3", url: "/images/common/kitchens/horizon/facades/f_horizon_3.jpg" },
+                { name: "f_horizon_4", url: "/images/common/kitchens/horizon/facades/f_horizon_4.jpg" },
+                { name: "f_horizon_5", url: "/images/common/kitchens/horizon/facades/f_horizon_5.jpg" },
+                { name: "f_horizon_6", url: "/images/common/kitchens/horizon/facades/f_horizon_6.jpg" },
+                { name: "f_horizon_7", url: "/images/common/kitchens/horizon/facades/f_horizon_7.jpg" },
+                { name: "f_horizon_8", url: "/images/common/kitchens/horizon/facades/f_horizon_8.jpg" },
+                { name: "f_horizon_9", url: "/images/common/kitchens/horizon/facades/f_horizon_9.jpg" },
+                { name: "f_horizon_10", url: "/images/common/kitchens/horizon/facades/f_horizon_10.jpg" },
+                { name: "f_horizon_11", url: "/images/common/kitchens/horizon/facades/f_horizon_11.jpg" }
 
+            ],
+            "viton": [
+                { name: "f_viton_1", url: "/images/common/kitchens/viton/facades/f_viton_1.jpg" },
+                { name: "f_viton_2", url: "/images/common/kitchens/viton/facades/f_viton_2.jpg" },
+                { name: "f_viton_3", url: "/images/common/kitchens/viton/facades/f_viton_3.jpg" },
+                { name: "f_viton_4", url: "/images/common/kitchens/viton/facades/f_viton_4.jpg" },
+                { name: "f_viton_5", url: "/images/common/kitchens/viton/facades/f_viton_5.jpg" },
+                { name: "f_viton_6", url: "/images/common/kitchens/viton/facades/f_viton_6.jpg" }
+            ],
+            "techblock": []
         };
 
         this.kitchenCommons = {

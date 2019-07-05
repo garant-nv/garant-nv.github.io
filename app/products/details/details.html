@@ -200,11 +200,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row general-common-titles" ng-if="type!='horizon' && type!='vintage' && type!='techblock'">
+            <div class="row general-common-titles" ng-if="facades.length>0">
                 {{'ex_facade_kitch_l'|translate}}
             </div>
             <hr />
-            <div class="row" ng-if="type!='horizon' && type!='vintage' && type!='techblock'">
+            <div class="row" ng-if="facades.length>0">
                 <div class="x-commons-wrap">
                     <div class="x-commons" ng-repeat="c in facades" title="{{c.name | translate}}">
                         <label class="x-commons-label">{{c.name | translate}}</label>
@@ -218,11 +218,11 @@
                 </div>
             </div>
 
-            <div class="row general-common-titles" ng-if="type!='techblock' && kitchenCommons.length>0">
+            <div class="row general-common-titles" ng-if="kitchenCommons.length>0">
                 {{'ex_modules_kitch_l'|translate}}
             </div>
             <hr />
-            <div class="row" ng-if="type!='techblock' && kitchenCommons.length>0">
+            <div class="row" ng-if="kitchenCommons.length>0">
                 <div class="x-commons-wrap">
                     <div class="x-commons" ng-repeat="c in kitchenCommons" title="{{c.name | translate}}">
                         <label class="x-commons-label">{{c.name | translate}}</label>
