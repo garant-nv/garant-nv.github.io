@@ -344,12 +344,19 @@
   "elite_n11": "Murena supermat  ",
   "elite_n12": "Oliva supermat",
   "elite_n13": "Orange supermat",
+  "elite_n_1": "Northern light high gloss",
+  "elite_n_2": "White soft, graphite soft",
+  "elite_n_3": "Nepal, lori blue",
+  "elite_n_4": "Chablis, gothic",
+
+
   "frame_n1": "Orange gloss, aluminum profile",
   "frame_n2": "Black gloss, aluminum profile",
   "frame_n3": "Bordo gloss, aluminum profile",
   "frame_n4": "Green lime gloss, aluminum profile",
   "frame_n5": "Vanilla gloss, aluminum profile",
   "frame_n6": "Aluminium, MDF profile with glass",
+
   "glamor_n1": "Black gloss",
   "glamor_n2": "Red gloss",
   "glamor_n3": "Ivory light Gloss",
@@ -363,6 +370,11 @@
   "glamor_n11": "White Metallic ",
   "glamor_n12": "Aquamarine metallic",
   "glamor_n13": "Sakura metallic",
+  "glamour_n_1": "Oak snow, oak english",
+  "glamour_n_2": "Oak polar, oak royal",
+  "p_86_glam": "Bordeaux 140, grey metallic",
+
+
   "contour_n1": "Profile oak milky,oak milky insert",
   "contour_n2": "Profile wenge,oak milky insert",
   "contour_n3": "Profile Alder mountain dark, Alder mountain dark insert",
@@ -396,17 +408,27 @@
   "horizont_indigo": "Indigo",
   "horizont_lime": "Lime",
   "horizont_turku": "Turquoise",
+  "horizont_01": "Turquoise",
+  "horizont_02": "Chamonix light, chamonix dark",
+  "horizont_03": "Ash snow, walnut swiss",
+  "horizont_04": "Lime, indigo",
+  "horizont_05": "Oak tahoe",
+  "horizont_06": "Indian ebony",
+  "horizont_07": "Oak ship",
+  "horizont_08": "Cream",
+
+
   "vintage": "Vintage",
-  "vintage_pltn": "Platinum Oak",
-  "vintage_idstr": "Industrial",
-  "vintage_clnd": "Clondike Oak",
-  "vintage_drkr": "Dracara",
-  "vintage_brd": "Bordeaux",
-  "vintage_grft": "Graphite",
-  "vintage_ltt": "Latte",
-  "vintage_lvnd": "Lavender",
-  "vintage_rglt_l": "Rigoletto light",
-  "vintage_rglt_d": "Rigoletto dark",
+
+  "vintage_1": "Oak clondike",
+  "vintage_2": "Bordeaux, graphite",
+  "vintage_3": "Rigoletto light, rigoletto dark",
+  "vintage_4": "Oak platinum",
+  "vintage_5": "Industrial",
+  "vintage_6": "Latte, lavander",
+  "vintage_7": "Drakar",
+
+
   "sofas": "Sofas",
   "Alex3": "Grand",
   "Alex4": "Royal",
@@ -444,7 +466,7 @@
   "glamour_wht_mtl": "Whith high gloss metallic",
   "glamour_laim2": "Lime high gloss meallic",
 
-  
+
 
   "elite_1_12_l": "Blue metallic",
   "elite_1_14_l": "Brown supermat",
